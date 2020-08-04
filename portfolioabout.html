@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angel Francis</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" id="css1" href="portfolio.css">
+		<link rel="stylesheet" type="text/css" id="css2" href="portfolioabout.css">
+		<link rel="icon"  href="wings.png">
+		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+	<!-- <meta http-equiv="refresh" content="3"> -->
+</head>
+<body>
+			<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+			
+
+
+			<!-- basic -->
+		<div id="menu" class="link">
+			<!-- <div id="back"></div> -->
+<div id="underline"></div>
+<a id="home" href="index.html">Home</a>
+<a  id="about" href="#">About</a>
+<a id="works" href="portfolioworks.html">Works</a>
+<span id="contact" >Contact</span>
+<table>
+		<tr id="email" class="con"><td><img src="email.png" title="Email" onclick="window.location.href='mailto: angelfrancis1111@example.com'" width="30"></td></tr>
+		<tr id="linkedin" class="con"><td><img src="linkedin.png" onclick="window.location.href='https://www.linkedin.com/in/angel-francis-267906171/'" width="30"></td></tr>
+		<tr id="studymonk" class="con"><td><img src="studymonk.png" onclick="window.location.href='https://student.studymonk.in/#/u/angelfrancis'	;" width="30"></td></tr>
+		<tr id="git" class="con"><td><img src="git.png" onclick="window.location.href='https://github.com/DevelopedByAngel/'	;" width="30"></td></tr>
+</table>
+</div><br><br><br><br>
+<!--  -->
+
+<div class="text" id="text1">I am an undergraduate of Bachelor of Engineering in the stream of Computer Science graduating in 2022.</div><br><br><br><br>
+<div class="text" id="text2"> I am a beginner in Web development and working up on my skills.Learning some advanced Python skills. I am a good learner and enjoy debugging codes.</div>
+<br><br><br><br>
+<p><h1 onclick="var subject='s';var body='b';window.open('mailto:angelfrancis1111@example.com?subject=subject&body=body');">I have Knowledge on</h1></p>
+ <div id="skills" class='2'><p class="control" onclick="previous();"><</p><img src="s\1.png" id="1" ><img src="s\2.png" id="2" ><img src="s\3.png" id="3"><img src="s\4.png" id="4"><img src="s\5.png" id="5"><img src="s\6.png" id="6"><img src="s\7.png" id="7"><img src="s\8.png" id="8"><img src="s\9.png" id="9"><img src="s\10.png" id="10"><p class="control"onclick="next();">></p></div>
+<form style="padding-left: 25%;padding-right: 25%;color: white; padding-top:10%;background-image: linear-gradient(to bottom,transparent,rgba(0,0,0,0.5),rgba(0,0,0,0.5));" action="https://angelfrancis.pythonanywhere.com/portfolio" method="post">
+  <div class="form-group" align="left">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="name" aria-describedby="emailHelp" >
+  </div>
+  <div class="form-group" align="left">
+    <label for="exampleInputPassword1">Message</label>
+    <input type="text" name="mess" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-primary">Connect</button>
+</form> 
+<svg id="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="50" height="50"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg>
+ <div id="paper1" class="res" onmouseover="paperin();" onmouseout="paperout();"></div><!-- for background since resume overlapping -->
+<p id="p" class="res"><img src="resumetext.png" id="resumetext"width="51"></p>
+<div id="paper2" class="res"></div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script type="text/javascript" src="portfolio.js"></script>
+<script type="text/javascript" src="portfolioabout.js"></script>
+</body>
+</html>
