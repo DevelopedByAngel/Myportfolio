@@ -5,3 +5,7 @@
 	border:none;
 	outline:none;
 }
+.section
+{
+	display:flex;
+}
