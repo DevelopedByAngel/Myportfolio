@@ -7,9 +7,10 @@
 }
 .section
 {
-	display:flex;
+	width
+	display:flex;display
 	flex-direction:row;
 	justify-content:space-evenly;
 	align-items:center;
-	
+
 }
