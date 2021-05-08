@@ -12,12 +12,18 @@
 		<noscript>You need to enable JavaScript to view this website</noscript>
 		<div id="main" class="main">
 			<div id="section1" class="section intro-section">
-				<div id="pic" class="image">
-					<img src="portfolio.png" alt="Angel" />
+				<div
+					id="pic"
+					class="image"
+					onmousemove="imageEnter(event);"
+					onmouseleave="imageLeave(event);"
+				>
+					<img src="portfolio.png" id="pic-img" alt="Angel" />
 				</div>
 				<div id="head" class="heading">
-					<span class="name">Angel</span>
+					<span class="name">Angel F</span>
 					<span class="description">Full Stack developer</span>
+					<button class="about-btn">About me </button>
 				</div>
 			</div>
 			<div id="section2" class="section about-section">
@@ -43,5 +49,7 @@
 			<div id="section5" class="section works-section"></div>
 			<div id="section6" class="section contact-section"></div>
 		</div>
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="index2.js"></script>
 	</body>
 </html>

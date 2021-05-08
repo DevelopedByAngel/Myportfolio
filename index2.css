@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Nunito:ital,wght@1,300&display=swap");
 :root {
 	--light: grey;
 }
@@ -6,7 +7,7 @@
 	margin: 0px;
 	border: none;
 	outline: none;
-	border: 1px solid black;
+	/*border: 1px solid rgba(0, 0, 0, 0.2);*/
 }
 .section {
 	width: 100%;
@@ -17,11 +18,16 @@
 	align-items: center;
 }
 #section1 .image {
+	position: relative;
 	margin: 0px 3rem;
 	background: rgba(0, 0, 0, 0.8);
 }
 #section1 .image img {
 	height: 75vh;
+	width: 70vh;
+}
+#section1 .image #pic-img {
+	border: 1px solid black;
 }
 #section1 #head {
 	width: 70%;
@@ -30,6 +36,14 @@
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
+}
+#section1 #head .name {
+	font-family: "Domine";
+	font-size: 3.5rem;
+}
+#section1 #head .description {
+	font-family: Nunito;
+	font-size: 1.2rem;
 }
 #section1 .intro {
 	color: var(--light);
