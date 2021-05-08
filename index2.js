@@ -14,7 +14,7 @@ function imageEnter(event) {
 	else y = 0.5 - y;
 	$("#section1 #pic-img").css(
 		"transform",
-		"rotateX(" + 50 * x + "deg) rotateY(" + 50 * y + "deg) scale(1.12)"
+		"rotateX(" + 60 * x + "deg) rotateY(" + 60 * y + "deg) scale(1.12)"
 	);
 }
 function imageLeave(event) {
