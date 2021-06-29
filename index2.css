@@ -107,6 +107,7 @@
 	font-family: Calistoga;
 	border-left: 2px solid var(--dark);
 	color: var(--dark);
+	line-height: 1.75rem;
 	padding-left: 2vw;
 }
 #section2 .aboutme {
