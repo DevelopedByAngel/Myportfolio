@@ -136,6 +136,12 @@
 #section3 .content .date {
 	border-bottom: 2px solid white;
 }
+#section3 .content .circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background: white;
+}
 #section3 .content .edu-content {
 	margin-right: 1rem;
 }
