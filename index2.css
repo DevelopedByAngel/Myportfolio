@@ -130,4 +130,6 @@
 	align-items: flex-start;
 }
 #section3 .content {
+	display: flex;
+	flex-direction: row;
 }
