@@ -103,6 +103,7 @@
 #section2 .heading {
 	width: 30vw;
 	font-size: 5rem;
+	font-weight: bold;
 	border-left: 2px solid var(--dark);
 	color: var(--dark);
 	padding-left: 2vw;
