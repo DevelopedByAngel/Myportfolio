@@ -33,9 +33,16 @@
 #section1 .image img {
 	height: 75vh;
 	width: 70vh;
+	transform-style: preserve-3d;
 }
 #section1 .image #pic-img {
 	border: 1px solid black;
+	transform: translateZ(20px);
+}
+#section1 .image #pic-parallax {
+	position: fixed;
+	top: 9vh;
+	left: 8vh;
 }
 #section1 #head {
 	width: 70%;
