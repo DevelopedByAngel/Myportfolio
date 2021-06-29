@@ -113,5 +113,6 @@
 	width: 60vw;
 	margin: 0px 2vw;
 	font-family: Nunito;
+	font-size: 1.5rem;
 	color: var(--font);
 }
