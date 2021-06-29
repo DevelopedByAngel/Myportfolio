@@ -155,6 +155,13 @@
 	display: block;
 	border-right: 10px solid transparent;
 }
+#section3 .content .edu-content:nth-child(even) .before {
+	border-top: 10px solid white;
+	width: 0px;
+	border-left: 10px solid transparent;
+	display: block;
+	border-right: 10px solid transparent;
+}
 #section3 .content .edu-content .place {
 	padding: 0rem 1rem;
 	display: block;
