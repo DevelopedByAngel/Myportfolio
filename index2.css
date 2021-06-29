@@ -92,3 +92,6 @@
 #section1 .intro {
 	color: var(--light);
 }
+#section2 {
+	background: var(--dark);
+}
