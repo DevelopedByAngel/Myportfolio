@@ -105,9 +105,9 @@
 	font-size: 5rem;
 	/*font-weight: bold;*/
 	font-family: Calistoga;
-	/*border-left: 2px solid;*/
-	padding-left: 0px;
+	border-left: 2px solid var(--dark);
 	color: var(--dark);
+	padding-left: 2vw;
 }
 #section2 .aboutme {
 	width: 60vw;
@@ -116,8 +116,6 @@
 	font-size: 1.2rem;
 	line-height: 1.75rem;
 	color: var(--font);
-	border-right: 2px solid var(--dark);
-	padding-right: 5vw;
 }
 #section2 .aboutme .content span {
 	margin-bottom: 10px;
