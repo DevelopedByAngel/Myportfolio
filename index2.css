@@ -164,6 +164,7 @@
 	background: white;
 	color: var(--dark);
 	border-radius: 0.5rem;
+	position: absolute;
 }
 #section3 .content .edu-content:hover .place {
 	transform: scale(1.2);
