@@ -119,4 +119,5 @@
 }
 #section2 .aboutme .content span {
 	text-indent: 3rem;
+	white-space: nowrap;
 }
