@@ -98,7 +98,8 @@
 	z-index: 2;
 	display: flex;
 	flex-direction: row-reverse;
-	justify-content: space-between;ma}
+	justify-content: space-between;
+}
 
 #section2 .aboutme {
 	width: 60vw;
