@@ -142,7 +142,7 @@
 	height: 10px;
 	border-radius: 10px;
 	background: white;
-	transform: translate(10px, 10px, 0px);
+	transform: translateX(10px, 10px, 0px);
 }
 #section3 .content .edu-content {
 	margin-right: 1rem;
