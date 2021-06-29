@@ -188,7 +188,7 @@
 }
 #section3 .content .edu-content:nth-child(odd) .place {
 	left: 0px;
-	bottom: 0px;
+	bottom: 10px;
 }
 #section3 .content .edu-content:nth-child(even) .place {
 	left: 0px;
