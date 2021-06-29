@@ -199,5 +199,5 @@
 	border-bottom: 2px dotted white;
 }
 #section3 .content .edu:nth-child(even) .date {
-	border-bottom: 2px dotted white;
+	border-top: 2px dotted white;
 }
