@@ -38,11 +38,11 @@
 #section1 .image #pic-img {
 	border: 1px solid black;
 	transform: translateZ(20px);
-}
-#section1 .image #pic-parallax {
 	position: fixed;
 	top: 9vh;
 	left: 8vh;
+}
+#section1 .image #pic-parallax {
 	z-index: -1;
 }
 #section1 #head {
