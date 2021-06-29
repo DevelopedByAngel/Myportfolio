@@ -166,7 +166,7 @@
 	vertical-align: middle;
 	background: white;
 	color: var(--dark);
-	border-radius: 1rem;
+	border-radius: 0.5rem;
 }
 #section3 .content .edu-content:hover .place {
 	transform: scale(1.2);
