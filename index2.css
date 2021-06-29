@@ -160,6 +160,7 @@
 	padding: 0rem 1rem;
 	display: block;
 	height: 3rem;
+	vertical-align: middle;
 }
 #section3 .content .edu-content:hover .place {
 	transform: scale(1.2);
