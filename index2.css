@@ -201,5 +201,5 @@
 	border-top: 2px dotted white;
 }
 #section3 .content .edu:nth-child(odd) {
-	transform: translateY(10px);
+	transform: translateY(-x);
 }
