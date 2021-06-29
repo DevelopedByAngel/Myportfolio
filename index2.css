@@ -165,3 +165,6 @@
 #section3 .content .edu-content:hover .place {
 	transform: scale(1.2);
 }
+#section3 .content .edu-content:hover .before {
+	transform: scale(0.7);
+}
