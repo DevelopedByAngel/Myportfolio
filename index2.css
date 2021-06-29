@@ -161,5 +161,5 @@
 	display: block;
 }
 #section3 .content .edu-content:hover .place {
-	transform: scale(2);
+	transform: scale(1.2);
 }
