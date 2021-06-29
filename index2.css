@@ -43,7 +43,7 @@
 	position: fixed;
 	top: 9vh;
 	left: 8vh;
-	-indez
+	z-index: -1;
 }
 #section1 #head {
 	width: 70%;
