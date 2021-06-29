@@ -155,12 +155,7 @@
 	display: block;
 	border-right: 10px solid transparent;
 }
-#section3 .content .edu-content:nth-child(odd) .before {
-	border-top: 10px solid white;
-}
-#section3 .content .edu-content:nth-child(even) .before {
-	border-bottom: 10px solid white;
-}
+
 #section3 .content .edu-content .place {
 	padding: 0rem 1rem;
 	display: block;
@@ -175,4 +170,13 @@
 }
 #section3 .content .edu-content:hover .before {
 	transform: scale(0);
+}
+#section3 .content .edu-content:nth-child(odd) .before {
+	border-top: 10px solid white;
+}
+#section3 .content .edu-content:nth-child(even) .before {
+	border-bottom: 10px solid white;
+}
+#section3 .content .edu-content:nth-child(odd) .place {
+	border-top-left-radius: 0rem;
 }
