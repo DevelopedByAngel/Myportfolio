@@ -203,6 +203,6 @@
 #section3 .content .edu:nth-child(odd) {
 	transform: translateY(-1rem);
 }
-#section3 .content .edu:nth-child(odd) .circle {
-	transform: translateX(5px) translateY(0px);
+#section3 .content .edu::nth-child(odd) .circle {
+	transform: translateX(5px) translateY(-5px);
 }
