@@ -136,8 +136,7 @@
 #section3 .content .date {
 	border-bottom: 2px solid white;
 }
-
-#section3 .content .edu-content .before {
+#section #section3 .content .edu-content .before {
 	border-bottom: 10px solid white;
 	width: 0px;
 	border-left: 10px solid transparent;
