@@ -160,4 +160,5 @@
 	padding: 0rem 1rem;
 }
 #section3 .content .edu-content:hover {
+	transform: scale(1.2);
 }
