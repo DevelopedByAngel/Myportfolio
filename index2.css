@@ -177,6 +177,9 @@
 #section3 .content .edu-content:nth-child(even) .before {
 	border-bottom: 10px solid white;
 }
-#section3 .content .edu-content:nth-child(odd) .place {
+#section3 .content .edu-content:nth-child(even) .place {
+	border-top-left-radius: 0rem;
+}
+#section3 .content .edu-content:nth-child(even) .place {
 	border-top-left-radius: 0rem;
 }
