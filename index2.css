@@ -122,4 +122,6 @@
 }
 #section3 {
 	background: var(--dark);
+	position: relative;
+	z-index: 2;
 }
