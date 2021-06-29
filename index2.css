@@ -43,6 +43,7 @@
 	left: 8vh;
 }
 #section1 .image #pic-parallax {
+	position: relative;
 	z-index: -1;
 }
 #section1 #head {
