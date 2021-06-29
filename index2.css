@@ -93,7 +93,7 @@
 	color: var(--light);
 }
 #section2 {
-	background: var(--secondary);
+	background: var(--light);
 	position: relative;
 	z-index: 2;
 	display: flex;
