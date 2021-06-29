@@ -100,5 +100,6 @@
 	flex-direction: row-reverse;
 }
 
-#section2 .aboutme
-{;
+#section2 .aboutme {
+	width: 60vw;
+}
