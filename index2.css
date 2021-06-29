@@ -116,7 +116,7 @@
 	line-height: 1.75rem;
 	color: var(--font);
 	border-right: 2px solid var(--dark);
-	padding-left: 2vw;
+	padding-: 2vw;
 }
 #section2 .aboutme .content span {
 	margin-bottom: 10px;
