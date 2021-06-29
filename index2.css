@@ -117,6 +117,6 @@
 	line-height: 1.75rem;
 	color: var(--font);
 }
-#section2 .aboutme .content span {
-	text-indent: 3rem;
+#section2 .aboutme .content span:first-letter {
+	padding-left: 3rem;
 }
