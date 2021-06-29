@@ -193,5 +193,5 @@
 }
 #section3 .content .edu-content:nth-child(even) .place {
 	left: 0px;
-	top: 0px;
+	top: 10px;
 }
