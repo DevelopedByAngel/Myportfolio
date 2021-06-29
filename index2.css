@@ -136,3 +136,10 @@
 #section3 .content .edu .edu-content {
 	border-top: 2px solid white;
 }
+
+#section3 .contetn .edu-content .before {
+	width: 10px;
+	height: 10px;
+	border-top: 10px solid white;
+	background: red;
+}
