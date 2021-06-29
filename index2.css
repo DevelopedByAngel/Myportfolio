@@ -101,6 +101,8 @@
 	justify-content: space-between;
 	padding: 0px 5vw;
 }
-#section2 .heading #section2 .aboutme {
+#section2 .heading {
+}
+#section2 .aboutme {
 	width: 60vw;
 }
