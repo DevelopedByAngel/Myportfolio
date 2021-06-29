@@ -99,7 +99,8 @@
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
-padd}
+	padding: 0px 5vw;
+}
 
 #section2 .aboutme {
 	width: 60vw;
