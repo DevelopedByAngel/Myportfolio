@@ -200,4 +200,6 @@
 #section3 .content .edu:nth-child(even) .date {
 	border-top: 2px dotted white;
 }
-.etion3 #sec;
+#section3 .content .edu:nth-child(odd) {
+	transform: translateY(10px);
+}
