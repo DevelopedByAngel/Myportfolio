@@ -134,7 +134,7 @@
 	flex-direction: row;
 }
 #section3 .content .date {
-	border-bottom: 2px solid white;
+	border-bottom: 2px dotted white;
 }
 #section3 .content .circle {
 	display: block;
