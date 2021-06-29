@@ -186,4 +186,9 @@
 #section3 .content .edu-content:nth-child(even) .place {
 	border-top-left-radius: 0rem;
 }
-#section3 .content .edu-content:nth-chi .place;
+#section3 .content .edu-content:nth-child(odd) .place {
+	left: 0px;
+	top: 0px;
+}
+#section3 .content .edu-content:nth-child(even) .place {
+}
