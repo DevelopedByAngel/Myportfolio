@@ -135,7 +135,6 @@
 	flex-direction: row;
 }
 #section3 .content .date {
-	border-bottom: 2px dotted white;
 	width: 10rem;
 	display: block;
 }
