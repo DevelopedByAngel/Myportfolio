@@ -195,5 +195,9 @@
 	left: 0px;
 	top: 10px;
 }
-#section3 .content .date {
+#section3 .content .edu:nth-child(odd) .date {
+	border-top: 2px dotted white;
+}
+#section3 .content .edu:nth-child(even) .date {
 	border-bottom: 2px dotted white;
+}
