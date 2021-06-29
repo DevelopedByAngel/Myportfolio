@@ -112,9 +112,11 @@
 #section2 .aboutme {
 	width: 60vw;
 	margin: 0px 2vw;
-	text-indent: 1rem;
 	font-family: Nunito;
 	font-size: 1.2rem;
 	line-height: 1.75rem;
 	color: var(--font);
+}
+#section2 .aboutme .content span {
+	text-indent: 3rem;
 }
