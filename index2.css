@@ -116,6 +116,7 @@
 	font-size: 1.2rem;
 	line-height: 1.75rem;
 	color: var(--font);
+	border-right: 2px solid;
 }
 #section2 .aboutme .content span {
 	margin-bottom: 10px;
