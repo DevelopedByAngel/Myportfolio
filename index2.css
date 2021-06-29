@@ -103,6 +103,7 @@
 #section2 .heading {
 	width: 30vw;
 	font-size: 5rem;
+	border-left: 2px solid;
 }
 #section2 .aboutme {
 	width: 60vw;
