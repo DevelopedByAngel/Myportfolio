@@ -178,7 +178,7 @@
 	border-bottom: 10px solid white;
 }
 #section3 .content .edu-content:nth-child(odd) .place {
-	border-top-left-radius: 0rem;
+	border-bottom-left-radius: 0rem;
 }
 #section3 .content .edu-content:nth-child(even) .place {
 	border-top-left-radius: 0rem;
