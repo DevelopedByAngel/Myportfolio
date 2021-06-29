@@ -150,11 +150,13 @@
 	margin-top: 0.25rem;
 }
 #section3 .content .edu-content .before {
-	border-top: 10px solid white;
 	width: 0px;
 	border-left: 10px solid transparent;
 	display: block;
 	border-right: 10px solid transparent;
+}
+#section3 .content .edu-content:nth-child(odd) .before {
+	border-top: 10px solid white;
 }
 #section3 .content .edu-content:nth-child(even) .before {
 	border-bottom: 10px solid white;
