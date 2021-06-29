@@ -39,8 +39,6 @@
 	border: 1px solid black;
 	transform: translateZ(20px);
 	position: fixed;
-	top: 9vh;
-	left: 8vh;
 	z-index: 1;
 }
 #section1 .image #pic-parallax {
