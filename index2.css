@@ -210,7 +210,7 @@
 #section3 .content {
 	display: flex;
 wi
-	flex-direction: column;
+	dflex-direction: column;
 }
 #section3 .content .edu {
 	align-self: flex-end;
