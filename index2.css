@@ -212,5 +212,5 @@
 	flex-direction: column;
 }
 #section3 .content .edu {
-	align-self: flex-e;
+	align-self: flex-end;
 }
