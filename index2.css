@@ -227,6 +227,9 @@
 #section3 .content .edu .edu-content {
 	margin-left: 10px;
 }
+#section3 .content .edu .edu-content {
+	margin-left: 10px;
+}
 #section3 .content .edu:nth-child(even) .edu-content,
 #section3 .content .edu:nth-child(odd) .date {
 	display: flex;
