@@ -241,3 +241,6 @@
 #section3 .content .edu-content:nth-child(even) .before {
 	border-right: 10px solid white;
 }
+#section3 .content .edu .place {
+	width: 40%;
+}
