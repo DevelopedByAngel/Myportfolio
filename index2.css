@@ -215,4 +215,6 @@
 #section3 .content .edu {
 	align-self: flex-start;
 }
-#section3 .con;
+#section3 .content .edu:nth-child(even) {
+	align-self: flex-end;
+}
