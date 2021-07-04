@@ -266,5 +266,5 @@
 }
 
 #section3 .content .edu:nth-child(even) .circle {
-	transform: translateX(-5px) translateY(5px);
+	transform: translateX(-6px) translateY(5px);
 }
