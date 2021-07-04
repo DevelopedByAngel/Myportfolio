@@ -148,7 +148,7 @@
 }
 #section3 .content .edu-content {
 	margin-right: 1rem;
-	margin-top: 0.25rem;
+	margin-top: 0.125rem;
 	position: relative;
 }
 #section3 .content .edu-content .before {
@@ -203,6 +203,6 @@
 #section3 .content .edu:nth-child(odd) {
 	transform: translateY(-1rem);
 }
-#section3 .content .edu:nth-child(odd) .date .circle {
+#section3 .content .edu:nth-child(even) .date .circle {
 	transform: translateX(5px) translateY(-5px);
 }
