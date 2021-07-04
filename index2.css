@@ -131,7 +131,7 @@
 }
 #section3 .content {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 #section3 .content .date {
 	width: 10rem;
