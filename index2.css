@@ -217,7 +217,7 @@
 	flex-direction: row;
 	width: 100%;
 	justify-content: center;
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 }
 #section3 .content .edu .edu-content,
 #section3 .content .edu .date {
@@ -234,7 +234,6 @@
 	border-bottom: 10px solid transparent;
 	display: block;
 	border-top: 10px solid transparent;
-	position: ;
 }
 #section3 .content .edu-content:nth-child(odd) .before {
 	border-left: 10px solid white;
