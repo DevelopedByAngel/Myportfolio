@@ -224,7 +224,7 @@
 	width: 50%;
 }
 #section3 .content .edu:nth-child(odd) .edu-content,
-#section3 .content .edu:nth-child(even) .date {
+#section3 .content .edu:nth-child(odd) .date {
 	display: flex;
 	justify-content: flex-end;
 }
