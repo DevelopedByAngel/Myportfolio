@@ -265,7 +265,7 @@
 	background: white;
 	transform: translateX(6px) translateY(2px);
 	border: 3px dashed black;
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 
 #section3 .content .edu:nth-child(even) .circle {
