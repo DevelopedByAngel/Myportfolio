@@ -262,7 +262,7 @@
 	height: 10px;
 	border-radius: 10px;
 	background: white;
-	transform: translateX(6px) translateY(4px);
+	transform: translateX(6px) translateY(3px);
 }
 
 #section3 .content .edu:nth-child(even) .circle {
