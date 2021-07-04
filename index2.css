@@ -256,3 +256,11 @@
 }
 #section3 .content .date {
 }
+#section3 .content .circle {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background: white;
+	transform: translateX(5px) translateY(5px);
+}
