@@ -223,7 +223,7 @@
 #section3 .content .edu .date {
 	width: 50%;
 	height: 5rem;
-	padding: 0px;
+	padding: 0;
 }
 #section3 .content .edu:nth-child(even) .edu-content,
 #section3 .content .edu:nth-child(odd) .date {
