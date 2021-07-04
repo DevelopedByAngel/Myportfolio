@@ -265,6 +265,6 @@
 	transform: translateX(5px) translateY(5px);
 }
 
-#section3 .content .edu:nth-child(odd) .circle {
+#section3 .content .edu:nth-child(even) .circle {
 	transform: translateX(-5px) translateY(5px);
 }
