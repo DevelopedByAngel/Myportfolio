@@ -217,6 +217,3 @@
 	width: 10rem;
 	border: 2px solid white;
 }
-#section3 .content .edu:nth-child(even) {
-	align-self: flex-end;
-}
