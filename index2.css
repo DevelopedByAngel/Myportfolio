@@ -240,7 +240,7 @@
 	height: 0px;
 	border-bottom: 7px solid transparent;
 	display: block;
-	border-top: 7px solid transparent;
+	border-top: 7px solid transparentmarg;
 }
 #section3 .content .edu-content:nth-child(odd) .before {
 	border-left: 15px solid white;
