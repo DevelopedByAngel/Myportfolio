@@ -244,6 +244,7 @@
 }
 #section3 .content .edu-content:nth-child(odd) .before {
 	border-left: 15px solid white;
+	margin-left: 10px;
 }
 #section3 .content .edu-content:nth-child(even) .before {
 	border-right: 15px solid white;
