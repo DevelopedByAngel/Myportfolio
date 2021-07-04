@@ -206,3 +206,8 @@
 	transform: translateX(5px) translateY(-5px);
 }
 */
+
+#section3 .content {
+	display: flex;
+	flex-direction: column;
+}
