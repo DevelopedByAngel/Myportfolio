@@ -219,3 +219,7 @@
 	justify-content: center;
 	border: 2px solid white;
 }
+#section3 .content .edu .edu-content,
+#section3 .content .edu .date {
+	width: 50%;
+}
