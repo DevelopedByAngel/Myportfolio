@@ -238,15 +238,15 @@
 #section3 .content .edu-content .before {
 	width: 0px;
 	height: 0px;
-	border-bottom: 20px solid transparent;
+	border-bottom: 10px solid transparent;
 	display: block;
-	border-top: 20px solid transparent;
+	border-top: 10px solid transparent;
 }
 #section3 .content .edu-content:nth-child(odd) .before {
 	border-left: 10px solid white;
 }
 #section3 .content .edu-content:nth-child(even) .before {
-	border-right: 10px solid white;
+	border-right: 20px solid white;
 }
 #section3 .content .edu .place {
 	width: 40%;
