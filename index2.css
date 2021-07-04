@@ -213,7 +213,8 @@
 	flex-direction: column;
 }
 #section3 .content .edu {
-	align-self: flex-start;
-	width: 20rem;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
 	border: 2px solid white;
 }
