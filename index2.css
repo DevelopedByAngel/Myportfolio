@@ -209,7 +209,7 @@
 
 #section3 .content {
 	display: flex;
-	width: 100%;
+	width: 60%;
 	flex-direction: column;
 }
 #section3 .content .edu {
