@@ -235,3 +235,9 @@
 	display: block;
 	border-top: 10px solid transparent;
 }
+#section3 .content .edu-content:nth-child(odd) .before {
+	border-right: 10px solid white;
+}
+#section3 .content .edu-content:nth-child(even) .before {
+	border-bottom: 10px solid white;
+}
