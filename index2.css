@@ -229,6 +229,7 @@
 }
 #section3 .content .edu:nth-child(even) .edu-content {
 	padding-right: 10px;
+	margin-right: 10px;
 }
 #section3 .content .edu:nth-child(even) .edu-content,
 #section3 .content .edu:nth-child(odd) .date {
