@@ -211,4 +211,6 @@
 	display: flex;
 	flex-direction: column;
 }
-#section3 .content .edu ali}
+#section3 .content .edu {
+	align-self: flex-start;
+}
