@@ -227,5 +227,5 @@
 #section3 .content .edu:nth-child(odd) .date {
 	display: flex;
 	justify-content: flex-end;
-	border: 2px dotted white;
+	border-left: 2px dotted white;
 }
