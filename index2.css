@@ -244,7 +244,7 @@
 }
 #section3 .content .edu-content:nth-child(odd) .before {
 	border-left: 15px solid white;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 #section3 .content .edu-content:nth-child(even) .before {
 	border-right: 15px solid white;
@@ -266,5 +266,5 @@
 }
 
 #section3 .content .edu:nth-child(even) .circle {
-	transform: translateX(-6px) translateY(4px);
+	transform: translateX(-6px) translateY(2px);
 }
