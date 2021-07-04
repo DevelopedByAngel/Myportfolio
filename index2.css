@@ -264,3 +264,7 @@
 	background: white;
 	transform: translateX(5px) translateY(5px);
 }
+
+#section3 .content .edu:nth-child(odd) .circle {
+	transform: translateX(-5px) translateY(5px);
+}
