@@ -225,7 +225,7 @@
 	height: 5rem;
 }
 #section3 .content .edu .edu-content {
-	margin: 0px 10px;
+	margin-left: 10px;
 }
 #section3 .content .edu:nth-child(even) .edu-content,
 #section3 .content .edu:nth-child(odd) .date {
