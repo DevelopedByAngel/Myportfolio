@@ -224,7 +224,7 @@
 	width: 50%;
 	height: 5rem;
 }
-#section3 .content .edu .edu-content {
+#section3 .content .edu:nth-child(odd) .edu-content {
 	margin-left: 10px;
 }
 #section3.content .edu:nth-child(even) .edu-content {
