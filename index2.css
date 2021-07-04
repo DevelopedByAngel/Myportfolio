@@ -236,8 +236,8 @@
 	border-top: 10px solid transparent;
 }
 #section3 .content .edu-content:nth-child(odd) .before {
-	border-right: 10px solid white;
+	border-left: 10px solid white;
 }
 #section3 .content .edu-content:nth-child(even) .before {
-	border-left: 10px solid white;
+	border-right: : 10px solid white;
 }
