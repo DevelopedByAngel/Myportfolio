@@ -232,7 +232,7 @@
 #section3 .content .edu-content .before {
 	width: 0px;
 	border-bottom: 10px solid transparent;
-	display: in;
+	display: inline;
 	border-top: 10px solid transparent;
 }
 #section3 .content .edu-content:nth-child(odd) .before {
