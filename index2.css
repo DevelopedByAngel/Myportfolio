@@ -222,6 +222,7 @@
 #section3 .content .edu .edu-content,
 #section3 .content .edu .date {
 	width: 50%;
+	transition: all 0.25s ease-in-out;
 	padding: 10px 0px;
 }
 #section3 .content .edu:nth-child(even) .edu-content,
@@ -270,5 +271,6 @@
 #section3 .content .edu:nth-child(even) .circle {
 	transform: translateX(-6px) translateY(2px);
 }
-#section3 .content .edu:hover .edu-content heo {
+#section3 .content .edu:hover .edu-content {
+	height: 5rem;
 }
