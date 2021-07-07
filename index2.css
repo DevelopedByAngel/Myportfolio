@@ -274,7 +274,7 @@
 #section3 .content .edu:hover .edu-content {
 	height: 5rem;
 }
-#section3 .content .edu-content {
+#section3 .content .edu-content .place {
 	background: white;
 	color: black;
 }
