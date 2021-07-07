@@ -277,6 +277,6 @@
 #section3 .content .edu-content .place {
 	background: white;
 	color: black;
-	box-
-	strokeborder-left: 2px solid black;
+	box-sizing: border;
+	border-left: 2px solid black;
 }
