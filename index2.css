@@ -227,10 +227,11 @@
 }
 #section3 .content .edu .edu-content
 {
-	
+
 	height: 1.5rem;
 	overflow:hidden;
 }
+
 #section3 .content .edu:nth-child(even) .edu-content,
 #section3 .content .edu:nth-child(odd) .date {
 	display: flex;
