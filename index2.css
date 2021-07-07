@@ -222,7 +222,7 @@
 #section3 .content .edu .edu-content,
 #section3 .content .edu .date {
 	width: 50%;
-	transition: all 0.25s ease-out;
+	transition: all 1s cubic-bezier(0.8, 0.5, 0.2, 1.4);
 	padding: 10px 0px;
 }
 #section3 .content .edu:nth-child(even) .edu-content,
