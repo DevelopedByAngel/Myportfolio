@@ -234,6 +234,7 @@
 #section3 .content .edu .edu-content .lead-desc
 {
 	height: 0rem;
+	overflow: hidden;
 }
 #section3 .content .edu:nth-child(even) .edu-content,
 #section3 .content .edu:nth-child(odd) .date {
