@@ -270,5 +270,5 @@
 #section3 .content .edu:nth-child(even) .circle {
 	transform: translateX(-6px) translateY(2px);
 }
-#section3 .content .edu:hover .edu-content {
+#section3 .content .edu:hover .edu-content heo {
 }
