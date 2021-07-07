@@ -231,6 +231,10 @@
 	/*height: 1.5rem;*/
 	overflow:hidden;
 }
+#section3 .content .edu .edu-content .lead
+{
+	font-size: 2rem;
+}
 #section3 .content .edu .edu-content .lead-desc
 {
 	height: 0rem;
