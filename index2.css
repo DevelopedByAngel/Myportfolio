@@ -310,7 +310,8 @@
 #section3 .content .edu:hover .edu-content .lead-desc{
 	
 	height: 5rem;
-	background: white
+	background: white;
+	color: black;
 }
 #section3 .content .edu-content .place {
 }
