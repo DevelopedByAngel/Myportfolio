@@ -283,7 +283,8 @@
 	transform: translateX(-6px) translateY(2px);
 }
 #section3 .content .edu:hover .edu-content .lead-desc{
-	height: 5rem;
+	
+	
 }
 #section3 .content .edu-content .place {
 }
