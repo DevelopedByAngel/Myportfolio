@@ -224,6 +224,7 @@
 	width: 50%;
 	transition: all 2s cubic-bezier(1, 0.27, 0.2, 1.4);
 	padding: 10px 0px;
+	height: 1rem
 }
 #section3 .content .edu:nth-child(even) .edu-content,
 #section3 .content .edu:nth-child(odd) .date {
