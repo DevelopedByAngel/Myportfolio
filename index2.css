@@ -280,6 +280,7 @@
 	width: 90%;
 	border: 1px solid white;
 	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 #section3 .content .date {
 }
