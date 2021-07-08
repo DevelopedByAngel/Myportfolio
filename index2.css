@@ -129,87 +129,9 @@
 	flex-direction: column;
 	align-items: flex-start;
 }
-/*#section3 .content {
-	display: flex;
-	flex-direction: row;
-}
-#section3 .content .date {
-	width: 10rem;
-	display: block;
-}
-#section3 .content .circle {
-	display: block;
-	width: 10px;
-	height: 10px;
-	border-radius: 10px;
-	background: white;
-	transform: translateX(5px) translateY(5px);
-}
-#section3 .content .edu-content {
-	margin-right: 1rem;
-	margin-top: 0.125rem;
-	position: relative;
-}
-#section3 .content .edu-content .before {
-	width: 0px;
-	border-left: 10px solid transparent;
-	display: block;
-	border-right: 10px solid transparent;
-}
-
-#section3 .content .edu-content .place {
-	padding: 0rem 1rem;
-	display: block;
-	height: 3rem;
-	vertical-align: middle;
-	background: white;
-	color: var(--dark);
-	border-radius: 0.5rem;
-	position: absolute;
-}
-#section3 .content .edu-content:hover .place {
-	transform: scale(1.2);
-}
-#section3 .content .edu-content:hover .before {
-	transform: scale(0);
-}
-#section3 .content .edu-content:nth-child(odd) .before {
-	border-top: 10px solid white;
-}
-#section3 .content .edu-content:nth-child(even) .before {
-	border-bottom: 10px solid white;
-}
-#section3 .content .edu-content:nth-child(odd) .place {
-	border-bottom-left-radius: 0rem;
-}
-#section3 .content .edu-content:nth-child(even) .place {
-	border-top-left-radius: 0rem;
-}
-#section3 .content .edu-content:nth-child(odd) .place {
-	left: 0px;
-	bottom: 10px;
-}
-#section3 .content .edu-content:nth-child(even) .place {
-	left: 0px;
-	top: 10px;
-}
-#section3 .content .edu:nth-child(odd) .date {
-	border-bottom: 2px dotted white;
-}
-#section3 .content .edu:nth-child(even) .date {
-	border-top: 2px dotted white;
-}
-#section3 .content .edu:nth-child(odd) {
-	transform: translateY(-1rem);
-}
-#section3 .content .edu:nth-child(even) .date .circle {
-	transform: translateX(5px) translateY(-5px);
-}
-*/
-
 #section3 .content {
 	display: flex;
-	width: 60%;
+	width: 80%;
 	flex-direction: column;
 }
 #section3 .content .edu {
@@ -217,7 +139,6 @@
 	flex-direction: row;
 	width: 100%;
 	justify-content: center;
-	/*border: 2px solid white;*/
 }
 #section3 .content .edu .edu-content,
 #section3 .content .edu .date {
