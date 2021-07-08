@@ -289,7 +289,6 @@
 }
 #section3 .content .edu-content:nth-child(even) .place .lead-desc
 {
-	border-top-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
 #section3 .content .edu-content:nth-child(odd) .place .lead-desc
