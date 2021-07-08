@@ -254,7 +254,7 @@
 }
 #section3 .timeline-image image
 {
-	width: 100%;
+	width: 100vh;
 	height: 100vh;
 
 }
