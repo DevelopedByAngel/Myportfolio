@@ -245,6 +245,12 @@
 	color: black;
 	padding: 10px;
 }
+#section3 #section3-content
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
 #section3 .timeline-image
 {
 	width: 20%;
