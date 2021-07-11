@@ -242,8 +242,7 @@
 	width: 30vw;
 	font-size: 2rem;
 	font-family: Calistoga;
-	border-left: 2px solid var(--light);
-	color: var(--dark);
+	color: var(--light);
 	padding-left: 2vw;
 }
 #section3 #section3-content
