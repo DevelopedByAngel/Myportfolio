@@ -184,8 +184,9 @@
 	display: flex;
 	justify-content: flex-start;
 }
-#section3 .content .edu:nth-child(odd) .edu-content,
+#section3 .content .edu:nth-child(odd) .edu-content{
 	margin:1.5rem 0px;
+
 }
 #section3 .content .edu-content .before {
 	width: 0px;
