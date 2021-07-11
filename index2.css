@@ -273,4 +273,5 @@
 {
 	display: grid;
 	grid-row-gap: 1rem; 
+	grid-auto-columns: 1px;
 }
