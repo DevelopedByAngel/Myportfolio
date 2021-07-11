@@ -7,6 +7,10 @@
 	--font: black;
 	--secondary: #919191;
 }
+html
+{
+	scroll-behavior: smooth;
+}
 * {
 	padding: 0px;
 	margin: 0px;
