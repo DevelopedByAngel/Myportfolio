@@ -257,11 +257,10 @@
 }
 #section3 .timeline-image
 {
-	width: 30%;
 	overflow: hidden;
 }
 #section3 .timeline-image img
 {
-	width: 100%;
+	width: 80%;
 
 }
