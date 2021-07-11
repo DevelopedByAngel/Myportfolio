@@ -238,7 +238,7 @@
 }
 #section3 .content .edu:hover .edu-content .lead-desc{
 	
-	height: 5rem;
+	height: unset;
 	/*border: 1px solid var(--dark);*/
 	background: white;
 	color: black;
