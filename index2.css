@@ -240,9 +240,9 @@
 }
 #section3 .heading {
 	width: 30vw;
-	font-size: 5rem;
+	font-size: 2rem;
 	font-family: Calistoga;
-	border-left: 2px solid var(--dark);
+	border-left: 2px solid var(--light);
 	color: var(--dark);
 	line-height: 7rem;
 	padding-left: 2vw;
