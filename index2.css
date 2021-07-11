@@ -243,8 +243,8 @@
 	height: 10vh;
 	font-size: 2rem;
 	font-family: Calistoga;
-	color: var(--light);
-	padding-left: 2vw;
+	color: white;
+		padding-left: 2vw;
 }
 #section3 #section3-content
 {
