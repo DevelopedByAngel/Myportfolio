@@ -269,3 +269,7 @@
 	width: 100%;
 
 }
+#section3 .content
+{
+	display: grid;
+}
