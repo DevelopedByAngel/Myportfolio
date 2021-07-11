@@ -247,10 +247,10 @@
 }
 #section3 .timeline-image
 {
-	width: 50%;
+	/*width: 50%;
 	display: inline;
 	overflow: hidden;
-	height: 100%;
+	height: 100%;*/
 }
 #section3 .timeline-image img
 {
