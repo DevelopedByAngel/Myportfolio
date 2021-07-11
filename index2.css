@@ -240,6 +240,7 @@
 	padding: 10px;
 }
 #section3 .heading {
+	height: 10vh;
 	font-size: 2rem;
 	font-family: Calistoga;
 	color: var(--light);
