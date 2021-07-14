@@ -27,6 +27,7 @@ function imageLeave(event) {
 $('.pre').on('click',()=>{
 	var matrix=$('.carousel').css('transform');
 	const values = matrix.split('(')[1].split(')')[0].split(',');
+	console.log(values)
     const a = values[0];
     const b = values[1];
     angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
