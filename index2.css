@@ -285,13 +285,6 @@ a
 
 
 
-body {
-  margin: 0;
-  background: lightgray;
-  text-align: center;
-  font-family: sans-serif;
-  color: #fefefe;
-}
 .container {
   position: relative;
   width: 320px;
