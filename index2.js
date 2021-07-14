@@ -25,5 +25,5 @@ function imageLeave(event) {
 	);
 }
 $('.pre').on('click',()=>{
-	$('.carousel').css('transform')
+	$('.carousel').css('transform','ro')
 })
