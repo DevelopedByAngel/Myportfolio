@@ -32,7 +32,7 @@ const cells = carousel.querySelectorAll('.carousel__cell');
 const cellWidth = carousel.offsetWidth;
 const cellHeight = carousel.offsetHeight;
 const cellSize = cellHeight;
-const cellCount = 100;
+const cellCount = 3;
 
 const radius = Math.round((cellSize / 2) / Math.tan(Math.PI / cellCount));
 const theta = 360 / cellCount;
