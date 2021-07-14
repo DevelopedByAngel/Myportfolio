@@ -25,6 +25,6 @@ function imageLeave(event) {
 	);
 }
 $('.pre').on('click',()=>{
-	
+	con
 	// $('.carousel').css('transform','rotateY('++'deg)')
 })
