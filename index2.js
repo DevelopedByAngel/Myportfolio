@@ -25,7 +25,7 @@ function imageLeave(event) {
 	);
 }
 $('.pre').on('click',()=>{
-	var matrix=$('.carousel').css('transform').split(',');
+	var matrix=$('.carousel').css('transform');
 	const values = matrix.split('(')[1].split(')')[0].split(',');
     const a = values[0];
     const b = values[1];
