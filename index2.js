@@ -41,7 +41,7 @@ var selectedIndex = 0;
 
 function rotateCarousel() {
     const angle = theta * selectedIndex * -1;
-    carousel.style.transform = 'translateZ(' + -radius + 'px) ' + 'rotateX(' + -angle + 'deg)';
+    carousel.style.transform = 'translateY(' + -radius + 'px) ' + 'rotateY(' + -angle + 'deg)';
     
     const cellIndex = selectedIndex < 0 ? (cellCount - ((selectedIndex * -1) % cellCount)) : (selectedIndex % cellCount);
     
