@@ -35,6 +35,6 @@ $('.pre').on('click',()=>{
 	// $('.carousel').css('transform','rotateY('+angle+50+'deg)');
 	// console.log($('.carousel').css('transform'))
 	var carousel=document.getElementsByClassName('carousel')[0];
-	var st = window.getComputedStyle(el, null);
+	var st = window.getComputedStyle(carousel, null);
 	console.log(st.getPropertyValue("transform") );
 })
