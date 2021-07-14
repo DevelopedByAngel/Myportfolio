@@ -32,5 +32,6 @@ $('.pre').on('click',()=>{
     const b = values[1];
     var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
     console.log(angle)
-	$('.carousel').css('transform','rotateY('+angle+50+'deg)')
+	$('.carousel').css('transform','rotateY('+angle+50+'deg)');
+	console.log($('.carousel').css('transform'))
 })
