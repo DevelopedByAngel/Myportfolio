@@ -28,10 +28,8 @@ var angle=0
 $('.pre').on('click',()=>{
 	$('.carousel').css('transform','rotateY('+angle+'deg)');
 	angle=angle+40;
-	console.log(angle);
 })
 $('.next').on('click',()=>{
 	$('.carousel').css('transform','rotateY('+angle+'deg)');
 	angle=angle-40;
-	console.log(angle);
 })
