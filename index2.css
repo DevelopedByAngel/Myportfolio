@@ -336,13 +336,3 @@ span {
 .carousel__face:nth-child(9) {
   transform: rotateY(320deg) translateZ(430px); }
 
-
-
-@keyframes rotate360 {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(-360deg);
-  }
-}
