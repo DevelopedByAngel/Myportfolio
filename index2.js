@@ -79,7 +79,7 @@ function initCarousel() {
     for(let i = 0; i < cells.length; i++) {
         const cell = cells[i];
         const cellAngle = theta * i;
-        cell.style.transform = 'rotateX(' + -cellAngle + 'deg) translateZ(' + radius + 'px)';
+        cell.style.transform = 'rotateY(' + -cellAngle + 'deg) translateY(' + radius + 'px)';
     }
 
     rotateCarousel();
