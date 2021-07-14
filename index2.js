@@ -27,10 +27,12 @@ function imageLeave(event) {
 var angle=0
 $('.carousel').css('transform','rotateY('+angle+'deg)');
 $('.pre').on('click',()=>{
-	$('.carousel').css('transform','rotateY('+angle+'deg)');
 	angle=angle+40;
+		$('.carousel').css('transform','rotateY('+angle+'deg)');
+
 })
 $('.next').on('click',()=>{
-	$('.carousel').css('transform','rotateY('+angle+'deg)');
 	angle=angle-40;
+		$('.carousel').css('transform','rotateY('+angle+'deg)');
+
 })
