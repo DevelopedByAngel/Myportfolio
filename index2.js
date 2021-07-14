@@ -25,6 +25,10 @@ function imageLeave(event) {
 	);
 }
 $('.pre').on('click',()=>{
-	console.log($('.carousel').css('transform').split(','))
-	$('.carousel').css('transform','rotateY('+10+'deg)')
+	var matrix=$('.carousel').css('transform').split(',');
+	const values = matrix.split('(')[1].split(')')[0].split(',');
+    const a = values[0];
+    const b = values[1];
+    angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
+	$('.carousel').css('transform','rotateY('+angle+10+'deg)')
 })
