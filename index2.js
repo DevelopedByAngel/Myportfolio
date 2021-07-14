@@ -24,3 +24,6 @@ function imageLeave(event) {
 		"rotateX(0deg) rotateY(0deg) scale(1)"
 	);
 }
+$('.pre').on('click',()=>{
+	
+})
