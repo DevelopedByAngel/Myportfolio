@@ -36,5 +36,5 @@ $('.pre').on('click',()=>{
 	// console.log($('.carousel').css('transform'))
 	var carousel=document.getElementsByClassName('carousel')[0];
 	var st = window.getComputedStyle(el, null);
-	console.log(st.getPropertyValue("-transform") );
+	console.log(st.getPropertyValue("transform") );
 })
