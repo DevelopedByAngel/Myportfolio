@@ -25,5 +25,5 @@ function imageLeave(event) {
 	);
 }
 $('.pre').on('click',()=>{
-	$('.carousel').css('transform','ro')
+	$('.carousel').css('transform','rotateY(0deg)')
 })
