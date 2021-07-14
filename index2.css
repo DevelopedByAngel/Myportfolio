@@ -298,7 +298,7 @@ a
   height: 100%;
   transform-style: preserve-3d; 
   transition: all 0.25s linear;
-  transform:rotateY(0deg);
+  transform:rotateY(30deg);
   animation: rotate360 60s infinite forwards linear;
 }
 .carousel__face { 
