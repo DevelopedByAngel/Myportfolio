@@ -36,6 +36,7 @@ $('.pre').on('click',()=>{
 	// console.log($('.carousel').css('transform'))
 	var carousel=document.getElementsByClassName('carousel')[0];
 	var st = window.getComputedStyle(carousel, null);
+	var tr = st.getPropertyValue("transform")
 	var values = tr.split('(')[1];
       values = values.split(')')[0];
       values = values.split(',');
@@ -52,5 +53,5 @@ $('.pre').on('click',()=>{
     var angle = Math.round(Math.asin(sin) * (180/Math.PI));
     /*/
     var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
-	console.log(st.getPropertyValue("transform") );
+	console.log(st.getPropertyValue("transform") ,angle);
 })
