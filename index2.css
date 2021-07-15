@@ -307,6 +307,7 @@ a
   transform-style: preserve-3d; 
   transition: all 0.25s linear;
   transform:rotateY(0deg);
+  transform-origin: 00;
 }
 .carousel__face { 
   position: absolute;
@@ -345,7 +346,6 @@ a
   transform: rotateY(252deg) translateZ(430px); }
 .carousel__face:nth-child(9) {
   transform: rotateY(288deg) translateZ(430px); }
-
 .carousel__face:nth-child(10) {
   transform: rotateY(324deg) translateZ(430px); }
 
