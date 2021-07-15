@@ -28,11 +28,11 @@ var angle=0
 $('.carousel').css('transform','rotateY('+angle+'deg)');
 $('.pre').on('click',()=>{
 	angle=angle-36;
-		$('.carousel').css('transform','rotateY('+angle+'deg)');
+		$('.spinner').css('transform','rotateY('+angle+'deg)');
 
 })
 $('.next').on('click',()=>{
 	angle=angle+36;
-		$('.carousel').css('transform','rotateY('+angle+'deg)');
+		$('.spinner').css('transform','rotateY('+angle+'deg)');
 
 })
