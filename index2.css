@@ -295,7 +295,7 @@ a
 {
 	position: relative;
 	width: 100vw;
-	perspective:5rem;
+	perspective:100px;
 }
 .spinner
 {
