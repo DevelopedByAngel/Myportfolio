@@ -322,9 +322,9 @@ a
 .carousel__face:nth-child(1) {
   transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
-    transform: rotateY( 40deg) translateZ(430px); }
+    transform: rotateY( 36deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
-  transform: rotateY( 80deg) translateZ(430px); }
+  transform: rotateY( 72deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
   transform: rotateY(120deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
@@ -337,6 +337,4 @@ a
   transform: rotateY(280deg) translateZ(430px); }
 .carousel__face:nth-child(9) {
   transform: rotateY(320deg) translateZ(430px); }
-.carousel__face:nth-child(10) {
-  transform: rotateY(360deg) translateZ(430px); }
 
