@@ -317,6 +317,10 @@ a
 	left: 10px;
 	right: 10px;
 }
+.skill img
+{
+	width: 100%;
+}
 
 .container {
   position: relative;
