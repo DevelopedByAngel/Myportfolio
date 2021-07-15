@@ -302,8 +302,8 @@ a
 }
 .carousel__face { 
   position: absolute;
-  width: 150px;
-  height: 180px;
+  width: 300px;
+  height: 100px;
   top: 20px;
   left: 10px;
   right: 10px;
