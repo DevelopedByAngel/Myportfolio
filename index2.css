@@ -287,6 +287,13 @@ a
 #section4
 {
 	background: var(--light)
+	position: relative;
+	z-index: 2;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 100vh;
 }
 
 
