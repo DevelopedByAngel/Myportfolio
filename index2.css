@@ -336,5 +336,8 @@ a
 .carousel__face:nth-child(8) {
   transform: rotateY(252deg) translateZ(430px); }
 .carousel__face:nth-child(9) {
-  transform: rotateY(deg) translateZ(430px); }
+  transform: rotateY(324deg) translateZ(430px); }
+
+.carousel__face:nth-child(10) {
+  transform: rotateY(324deg) translateZ(430px); }
 
