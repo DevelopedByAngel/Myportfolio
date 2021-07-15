@@ -331,7 +331,7 @@ a
   perspective: 1000px;
 }
 
-.carousel {
+#section4 .carousel {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -340,7 +340,7 @@ a
   transform:rotateY(0deg);
   transform-origin: center center;
 }
-.carousel__face { 
+#section4 .carousel__face { 
   position: absolute;
   width: 200px;
   height: 100px;
@@ -353,7 +353,7 @@ a
   justify-content: center;
 }
 
-.carousel__face img
+#section4 .carousel__face img
 {
 	width: auto;
 	height: 100%;
