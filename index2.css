@@ -349,3 +349,19 @@ a
 .carousel__face:nth-child(10) {
   transform: rotateY(324deg) translateZ(430px); }
 
+
+.pre,.next
+{
+	position: absolute;
+    bottom: 8rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.pre
+{
+	left: 0px;
+}
+.next
+{
+	right: 0px;
+}
