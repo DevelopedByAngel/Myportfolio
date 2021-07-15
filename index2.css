@@ -307,7 +307,7 @@ a
   transform-style: preserve-3d; 
   transition: all 0.25s linear;
   transform:rotateY(0deg);
-  transform-origin: left top;
+  transform-origin: center center;
 }
 .carousel__face { 
   position: absolute;
