@@ -349,7 +349,7 @@ a
 	width: auto;
 	height: 100%;
 }
-
+/*
 .carousel__face:nth-child(1) {
   transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
@@ -369,7 +369,7 @@ a
 .carousel__face:nth-child(9) {
   transform: rotateY(288deg) translateZ(430px); }
 .carousel__face:nth-child(10) {
-  transform: rotateY(324deg) translateZ(430px); }
+  transform: rotateY(324deg) translateZ(430px); }*/
 
 
 .pre,.next
