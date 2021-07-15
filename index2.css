@@ -321,7 +321,10 @@ a
 {
 	height: 100%;
 }
-
+.skill:nth-child(1)
+{
+	transform: rotateY(0deg) translateZ(430px);
+}
 .container {
   position: relative;
   width: 320px;
