@@ -308,6 +308,7 @@ a
 	transform-style: preserve-3d;/*children will be set as per 3d*/
 	position: absolute;
 	left: 40vw;
+	top: 0px;
 }
 #section4 .skill
 {
