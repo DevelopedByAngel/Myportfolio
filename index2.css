@@ -323,7 +323,7 @@ a
 }
 .skill:nth-child(1)
 {
-	transform: rotateY(190deg) translateZ(100px);
+	transform: rotateY(190deg) translateZ(500px);
 }
 .container {
   position: relative;
