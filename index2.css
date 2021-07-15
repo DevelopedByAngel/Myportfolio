@@ -323,6 +323,7 @@ a
 }
 .skill:nth-child(1)
 {
+	transform-origin: center;
 	transform: rotateY(190deg) translateZ(430px);
 }
 .container {
