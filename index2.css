@@ -288,8 +288,8 @@ a
 .container {
   position: relative;
   width: 320px;
-  /*margin: 100px auto 0 auto;*/
-  perspective: 1000px;
+  margin: 100px auto 0 auto;
+  perspective: 100px;
 }
 
 .carousel {
