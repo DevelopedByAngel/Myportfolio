@@ -291,6 +291,11 @@ a
 	z-index: 2;
 	color: white;
 }
+.cover
+{
+	position: relative;
+	width: 100vw;
+}
 
 
 .container {
