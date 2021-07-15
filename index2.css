@@ -313,7 +313,11 @@ a
   justify-content: center;
 }
 
-
+.carousel__face img
+{
+	width: auto;
+	height: 100%;
+}
 
 .carousel__face:nth-child(1) {
   transform: rotateY(  0deg) translateZ(430px); }
