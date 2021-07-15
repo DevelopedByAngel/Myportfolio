@@ -299,7 +299,7 @@ a
 }
 #section4 .spinner
 {
-	width: 100vw;
+	width: 10vw;
 	height: 5vh;
 	background: rgba(255,0,0,0.3);
 	transform-origin: left;
