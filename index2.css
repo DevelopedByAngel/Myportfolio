@@ -299,8 +299,8 @@ a
 }
 #section4 .spinner
 {
-	width: 0vw;
-	height: 0vh;
+	width: 1vw;
+	height: 10vh;
 	background: rgba(255,0,0,0.3);
 	transform-origin: left;
 	transition:all 0.25s linear;
