@@ -326,15 +326,15 @@ a
 .carousel__face:nth-child(3) {
   transform: rotateY( 72deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
-  transform: rotateY(deg) translateZ(430px); }
+  transform: rotateY(108deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
- transform: rotateY(160deg) translateZ(430px); }
+ transform: rotateY(144deg) translateZ(430px); }
 .carousel__face:nth-child(6) { 
- transform: rotateY(200deg) translateZ(430px); }
+ transform: rotateY(180deg) translateZ(430px); }
 .carousel__face:nth-child(7) { 
- transform: rotateY(240deg) translateZ(430px); }
+ transform: rotateY(216deg) translateZ(430px); }
 .carousel__face:nth-child(8) {
-  transform: rotateY(280deg) translateZ(430px); }
+  transform: rotateY(252deg) translateZ(430px); }
 .carousel__face:nth-child(9) {
-  transform: rotateY(320deg) translateZ(430px); }
+  transform: rotateY(deg) translateZ(430px); }
 
