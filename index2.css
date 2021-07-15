@@ -297,6 +297,13 @@ a
 	width: 100vw;
 	perspective:5rem;
 }
+.spinner
+{
+	width: 100vw;
+	height: 50vh;
+	transition:all 0.25s linear;
+	transform: rotateY(0deg);
+}
 
 
 .container {
