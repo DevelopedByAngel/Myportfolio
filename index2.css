@@ -316,7 +316,7 @@ a
 
 
 .carousel__face:nth-child(1) {
-  transform: rotateY(  0deg) translateZ(30px); }
+  transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
     transform: rotateY( 40deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
