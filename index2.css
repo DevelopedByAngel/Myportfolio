@@ -329,7 +329,7 @@ a
 {
 	height: 100%;
 }
-#section4 .skill:nth-child(1)
+/*#section4 .skill:nth-child(1)
 {
 	transform: rotateY(0deg) translateZ(430px);
 }
@@ -350,7 +350,7 @@ a
 #section4 .skill:nth-child(9) {
   transform: rotateY(288deg) translateZ(430px); }
 #section4 .skill:nth-child(10) {
-  transform: rotateY(324deg) translateZ(430px); }
+  transform: rotateY(324deg) translateZ(430px); }*/
 #section4 .container {
   position: relative;
   width: 320px;
