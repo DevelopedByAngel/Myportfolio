@@ -300,7 +300,7 @@ a
 #section4 .spinner
 {
 	width: 100vw;
-	height: 50vh;
+	height: 5vh;
 	background: rgba(255,0,0,0.3);
 	transform-origin: left;
 	transition:all 0.25s linear;
