@@ -291,13 +291,13 @@ a
 	z-index: 2;
 	color: white;
 }
-.cover
+#section4 .cover
 {
 	position: relative;
 	width: 100vw;
 	perspective:100rem;
 }
-.spinner
+#section4 .spinner
 {
 	width: 100vw;
 	height: 50vh;
@@ -305,7 +305,7 @@ a
 	transform: rotateY(0deg);
 	transform-style: preserve-3d;/*children will be set as per 3d*/
 }
-.skill
+#section4 .skill
 {
 	height: 100px;
 	width: 200px;
@@ -317,11 +317,11 @@ a
 	left: 10px;
 	right: 10px;
 }
-.skill img
+#section4 .skill img
 {
 	height: 100%;
 }
-.skill:nth-child(1)
+#section4 .skill:nth-child(1)
 {
 	transform: rotateY(0deg) translateZ(430px);
 }
