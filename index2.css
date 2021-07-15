@@ -308,7 +308,7 @@ a
 .skill
 {
 	height: 100px;
-	width: 200px
+	width: 200px;
 	display: flex;
 	justify-content: center;
 	position: absolute;
