@@ -286,7 +286,7 @@ a
 
 #section4
 {
-	background: var(--light)
+	background: var(--light);
 	position: relative;
 	z-index: 2;
 	color: white;
