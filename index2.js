@@ -25,7 +25,6 @@ function imageLeave(event) {
 	);
 }
 var angle=0
-$('.carousel').css('transform','rotateY('+angle+'deg)');
 $('.pre').on('click',()=>{
 	angle=angle-36;
 		$('.spinner').css('transform','rotateY('+angle+'deg)');
