@@ -302,7 +302,10 @@ a
 	font-size: 2rem;
 	font-family: Calistoga;
 	color: white;
-		padding-left: 2vw;
+	padding-left: 2vw;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 #section4 .cover
 {
