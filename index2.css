@@ -435,7 +435,7 @@ a
 }
 .pre::selection,.next::selection
 {
-	background: none
+	background: none;
 }
 .pre
 {
