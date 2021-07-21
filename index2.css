@@ -23,7 +23,7 @@ html
 }
 *::selection
 {
-	background: none
+	background: red;
 }
 a
 {
