@@ -415,6 +415,7 @@ a
 	position: absolute;
     bottom: 20rem;
     font-size: 3rem;
+    cursor: pointer
     font-weight: bolder;
 }
 .pre
