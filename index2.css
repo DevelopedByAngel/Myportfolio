@@ -413,7 +413,7 @@ a
 .pre,.next
 {
 	position: absolute;
-    bottom: 8rem;
+    bottom: 5rem;
     font-size: 3rem;
     font-weight: bolder;
 }
