@@ -297,13 +297,12 @@ a
 	color: white;
 }
 #section4 .heading {
-	width: 30vw;
-	font-size: 5rem;
+	margin:10px 0px;
+	height: 10vh;
+	font-size: 2rem;
 	font-family: Calistoga;
-	border-left: 2px solid var(--dark);
-	color: var(--dark);
-	line-height: 7rem;
-	padding-left: 2vw;
+	color: white;
+		padding-left: 2vw;
 }
 #section4 .cover
 {
