@@ -21,6 +21,10 @@ html
 	font-family: Nunito;
 	/*border: 1px solid rgba(0, 0, 0, 0.2);*/
 }
+*:selection
+{
+	background: none
+}
 a
 {
 	text-decoration: none;
