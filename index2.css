@@ -433,6 +433,10 @@ a
     cursor: pointer;
     font-weight: bolder;
 }
+.pre::selection,.next::selection
+{
+	background: none
+}
 .pre
 {
 	left: 1rem;
