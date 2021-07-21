@@ -305,7 +305,7 @@ a
 #section4 .spinner
 {
 	width: 0px;
-	border-left:5px  white;
+	border-left:5px dotted white;
 	height: 50vh;
 	background: rgba(255,0,0,0.3);
 	transform-origin: left;
