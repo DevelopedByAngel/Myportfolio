@@ -428,6 +428,7 @@ a
 .pre,.next
 {
 	position: absolute;
+	top: 0px;
     bottom: 20rem;
     font-size: 3rem;
     cursor: pointer;
