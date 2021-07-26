@@ -310,7 +310,7 @@ a
 #section4 .cover
 {
 	position: absolute;
-	top: 0px;
+	top: 5rem;
 	left: 0px;
 	display: flex;
 	justify-content: center;
