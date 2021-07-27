@@ -451,5 +451,6 @@ a
 #section5
 {
 	background: 	var(--dark	);
+	position: relative;
 	z-index: 2;
 }
