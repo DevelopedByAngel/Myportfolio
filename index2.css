@@ -52,10 +52,12 @@ a
 	transform-style: preserve-3d;
 }
 #section1 .image #pic-img {
-	border: 1px solid black;
 	transform: translateZ(20px);
 	position: fixed;
 	z-index: 1;
+}
+#section1 .image #pic-img ::hover {
+	border: 1px solid black;
 }
 #section1 .image #pic-parallax {
 	position: relative;
