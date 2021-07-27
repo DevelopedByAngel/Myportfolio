@@ -303,7 +303,7 @@ a
 	height: 10vh;
 	font-size: 3rem;
 	font-family: Calistoga;
-	color: white;
+	color: black;
 	padding-left: 2vw;
 	position: absolute;
 	left: 0px;
@@ -453,4 +453,15 @@ a
 	background: 	var(--dark	);
 	position: relative;
 	z-index: 2;
+}
+#section5 .heading {
+	margin:10px 0px;
+	height: 10vh;
+	font-size: 3rem;
+	font-family: Calistoga;
+	color: white;
+	padding-left: 2vw;
+	position: absolute;
+	left: 0px;
+	top: 1rem;
 }
