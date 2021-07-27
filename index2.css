@@ -56,7 +56,7 @@ a
 	position: fixed;
 	z-index: 1;
 }
-#section1 .image #pic-img :hover {
+#section1 .image #pic-img:hover {
 	border: 1px solid black;
 }
 #section1 .image #pic-parallax {
