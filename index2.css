@@ -469,6 +469,7 @@ a
 #section5 .work
 {
 	display:flex;
+	width: 
 	flex-direction:column;
 }
 #section5 .work .content
