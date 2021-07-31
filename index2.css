@@ -480,6 +480,7 @@ a
 	width: 70vw;
 	margin:1rem;
 	background: white;
+	padding:1rem;
 	flex-direction:column;
 }
 #section5 .work .content
