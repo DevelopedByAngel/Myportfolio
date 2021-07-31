@@ -479,6 +479,7 @@ a
 	display:flex;
 	width: 70vw;
 	margin:1rem;
+	background: white;
 	flex-direction:column;
 }
 #section5 .work .content
