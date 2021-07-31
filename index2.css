@@ -488,6 +488,8 @@ a
 #section5 .work .content
 {
 	display: flex;
+	height: 60vh;
+	overflow:hidden;
 	flex-direction: row;
 }
 #section5 .work-img-div
