@@ -469,7 +469,8 @@ a
 #section5 .work
 {
 	display:flex;
-	width: 70bv
+	width: 70vw;
+	margin:10px;
 	flex-direction:column;
 }
 #section5 .work .content
