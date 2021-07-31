@@ -462,7 +462,7 @@ a
 {
 	width: 8rem;
     height: 70vh;
-    background: red;
+    background: white;
     transform: rotateZ(6deg) translate(-20px, -5px);
 }
 #section5 .heading {
