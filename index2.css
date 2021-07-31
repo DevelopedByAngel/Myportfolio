@@ -456,7 +456,7 @@ a
 	position: relative;
 	z-index: 2;
 	display: flex;
-	justify-content: flex-start;
+	align-items: : flex-start;
 	flex-direction: column;
 	height: auto;
 }
@@ -469,13 +469,12 @@ a
     transition: all 0.25s ease;
 }
 #section5 .heading {
-	margin:10px 0px;
+	margin:0px 50%;
 	height: 10vh;
 	font-size: 3rem;
 	font-family: Calistoga;
 	color: white;
 	padding-left: 2vw;
-	position: absolute;
 	top: 1rem;
 }
 #section5 .work
