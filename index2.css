@@ -460,8 +460,10 @@ a
 }
 #section5 .rotate
 {
-	width: 3rem;
-	background: red;
+	width: 8rem;
+    height: 70vh;
+    background: red;
+    transform: rotateZ(6deg) translate(-20px, -5px);
 }
 #section5 .heading {
 	margin:10px 0px;
