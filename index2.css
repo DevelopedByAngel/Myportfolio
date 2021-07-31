@@ -470,7 +470,7 @@ a
 {
 	filter: contrast(70%);
 }
-#Section5 .work:hover .work-img
+#section5 .work:hover .work-img
 {
 	filter:contrast(100%);
 }
