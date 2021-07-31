@@ -458,6 +458,11 @@ a
 	display: flex;
 	justify-content: flex-start;
 }
+#section5 .rotate
+{
+	width: 100px;
+	background: red;
+}
 #section5 .heading {
 	margin:10px 0px;
 	height: 10vh;
