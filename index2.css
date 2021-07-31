@@ -481,6 +481,8 @@ a
 	margin:1rem;
 	background: white;
 	padding:1rem;
+	border:0px;
+	border-radius: 1rem;
 	flex-direction:column;
 }
 #section5 .work .content
