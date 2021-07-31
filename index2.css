@@ -466,3 +466,11 @@ a
 	position: absolute;
 	top: 1rem;
 }
+#section5 .work-img
+{
+	filter: contrast(70%);
+}
+#Section5 .work:hover .work-img
+{
+	filter:contrast(100%);
+}
