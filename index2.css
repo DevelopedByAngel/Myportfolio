@@ -488,7 +488,7 @@ a
 }
 #section5 .work-img
 {
-	width: 10vw;
+	height: 60vh;
 	filter: contrast(70%);
 	transition:all 0.25s linear;
 }
