@@ -517,5 +517,5 @@ a
 }
 #section5 .work:hover .work-img-div .work-img
 {
-	
+	transform: scale(1.1);
 }
