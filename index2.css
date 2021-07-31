@@ -457,6 +457,7 @@ a
 	z-index: 2;
 	display: flex;
 	justify-content: flex-start;
+	flex-direction: row;
 }
 #section5 .rotate
 {
