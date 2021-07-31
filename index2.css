@@ -461,6 +461,7 @@ a
 #section5 .rotate
 {
 	width: 100px;
+	height: 100%;
 	background: red;
 }
 #section5 .heading {
