@@ -486,6 +486,11 @@ a
 	display: flex;
 	flex-direction: row;
 }
+#section5 .work-img-div
+{
+	height: 60vh;
+	width: 20vw;
+}
 #section5 .work-img
 {
 	height: 60vh;
