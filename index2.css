@@ -468,7 +468,7 @@ a
 }
 #section5 .work-img
 {
-	width: 10vw
+	width: 10vw;
 	filter: contrast(70%);
 }
 #section5 .work:hover .work-img
