@@ -480,8 +480,7 @@ a
 	width: 70vw;
 	margin:1rem;
 	background: white;
-	padding:1rem;
-	padding-left: 0px;
+	padding-right: 1rem;
 	border:0px;
 	border-radius: 1rem;
 	flex-direction:column;
