@@ -455,6 +455,8 @@ a
 	background: 	var(--dark	);
 	position: relative;
 	z-index: 2;
+	display: flex;
+	justify-content: flex-start;
 }
 #section5 .heading {
 	margin:10px 0px;
