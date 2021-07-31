@@ -469,7 +469,12 @@ a
 #section5 .work
 {
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
+}
+#section5 .work .content
+{
+	display: flex;
+	flex-direction: row;
 }
 #section5 .work-img
 {
