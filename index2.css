@@ -513,6 +513,7 @@ a
 }
 #section5 .work:hover .rotate
 {
+	width: 5rem;
 	transform: rotateZ(0deg);
 }
 #section5 .work:hover .work-img-div .work-img
