@@ -457,7 +457,7 @@ a
 	z-index: 2;
 	display: flex;
 	justify-content: flex-start;
-	flex-direction: row;
+	flex-direction: column;
 	height: auto;
 }
 #section5 .rotate
