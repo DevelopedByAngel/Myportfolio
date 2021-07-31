@@ -466,6 +466,11 @@ a
 	position: absolute;
 	top: 1rem;
 }
+#section5 .work
+{
+	display:flex;
+	flex-direction:row;
+}
 #section5 .work-img
 {
 	width: 10vw;
