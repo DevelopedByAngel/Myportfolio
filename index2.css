@@ -470,7 +470,7 @@ a
 {
 	width: 10vw;
 	filter: contrast(70%);
-	transition:all 0.25s linear
+	transition:all 0.25s linear;
 }
 #section5 .work:hover .work-img
 {
