@@ -494,8 +494,7 @@ a
 {
 	height: 60vh;
 	width: 20vw;
-	overflow-x: visible;
-	overflow-y:hidden;
+	overflow-y:revert;
 }
 #section5 .work-img
 {
