@@ -481,6 +481,7 @@ a
 	margin:1rem;
 	background: white;
 	padding-right: 1rem;
+	overflow:hidden;
 	border:0px;
 	border-radius: 1rem;
 	flex-direction:column;
