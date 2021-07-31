@@ -490,6 +490,7 @@ a
 {
 	height: 60vh;
 	width: 20vw;
+	overflow:hidden;
 }
 #section5 .work-img
 {
