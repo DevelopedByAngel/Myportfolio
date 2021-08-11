@@ -522,6 +522,10 @@ a
 	filter: contrast(70%);
 	transition:all 0.25s linear;
 }
+#section5 .work-row .work:nth-child(even) .work-img
+{
+	    clip-path: polygon(0% 0%, 40% 100%, 100% 100%,100% 0%);
+}
 #section5 .work:hover .work-img
 {
 	filter:contrast(100%);
