@@ -468,6 +468,11 @@ a
     transform: rotateZ(7deg) translate(-25px, -5px);
     transition: all 0.25s ease;
 }
+#section5 .rotate:nth-child(even)
+{
+    z-index: 2;
+    transform: rotateZ(-7deg) translate(25px, -5px);
+}
 #section5 .heading {
 	margin:0px 50%;
 	height: 10vh;
