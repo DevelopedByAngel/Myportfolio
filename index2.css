@@ -534,6 +534,7 @@ a
 #section5 .work:hover .work-img
 {
 	filter:contrast(100%);
+	clip-path: polygon(0% 0%, 0% 100%, 100% 100%,100% 0%);
 }
 #section5 .work:hover .rotate
 {
