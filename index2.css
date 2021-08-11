@@ -462,7 +462,7 @@ a
 }
 #section5 .rotate
 {
-	    width: 40vw;
+	    width: 30vw;
     height: 70vh;
     background: white;
     transition: all 0.25s ease;
@@ -507,13 +507,13 @@ a
 #section5 .work-img-div
 {
 	height: 60vh;
-	width: 20vw;
+	width: 15vw;
 	overflow-y:revert;
 }
 #section5 .work-img
 {
 	height: 60vh;
-	width: 20vw;
+	width: 15vw;
 	filter: contrast(70%);
 	transition:all 0.25s linear;
 }
