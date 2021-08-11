@@ -546,3 +546,7 @@ a
 	transform: scale(1.1);
 	clip-path: polygon(0% 0%, 0% 100%, 100% 100%,100% 0%);
 }
+#section5 .work .desc
+{
+	padding: 1rem;
+}
