@@ -465,8 +465,12 @@ a
 	    width: 10rem;
     height: 70vh;
     background: white;
-    transform: rotateZ(7deg) translate(-25px, -5px);
     transition: all 0.25s ease;
+}
+#section5 .rotate:nth-child(odd)
+{
+	    transform: rotateZ(7deg) translate(-25px, -5px);
+
 }
 #section5 .rotate:nth-child(even)
 {
