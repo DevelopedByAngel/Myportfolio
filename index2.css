@@ -456,7 +456,6 @@ a
 	position: relative;
 	z-index: 2;
 	display: flex;
-	align-items: flex-start;
 	flex-direction: column;
 	height: auto;
 }
