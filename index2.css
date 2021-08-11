@@ -481,7 +481,7 @@ a {
 	border: 0px;
 	border-radius: 1rem;
 	flex-direction: column;
-	border: 0.2rem double black;
+	border: 0.2rem double white;
 }
 #section5 .work .content {
 	display: flex;
