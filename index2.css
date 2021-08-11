@@ -488,7 +488,7 @@ a
 }
 #section5 .work-row
 {
-	
+	flex-direction: column;
 }
 #section5 .work
 {
