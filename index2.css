@@ -467,12 +467,12 @@ a
     background: white;
     transition: all 0.25s ease;
 }
-#section5 .work:nth-child(odd) .rotate
+#section5 .work:nth-child(even) .rotate
 {
 	    transform: rotateZ(7deg) translate(-25px, -5px);
 
 }
-#section5 .work:nth-child(even) .rotate
+#section5 .work:nth-child(odd) .rotate
 {
     z-index: 2;
     transform: rotateZ(-7deg) translate(25px, -5px);
