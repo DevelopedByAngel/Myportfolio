@@ -519,3 +519,7 @@ a {
 #section5 .work .desc {
 	padding: 1rem;
 }
+#section5 .work .desc .title
+{
+	font-weight: bolder;
+}
