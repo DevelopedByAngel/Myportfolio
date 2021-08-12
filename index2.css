@@ -530,3 +530,9 @@ a {
 	margin-bottom:1rem;
 	text-decoration: underline;
 }
+#section5 .work .date
+{
+	margin:1rem 0rem;
+	color:black;
+	font-weight: bolder;
+}
