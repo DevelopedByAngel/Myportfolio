@@ -82,10 +82,6 @@ a {
 {
 	display: flex;
 }
-#section1 #head button
-{
-	margin:0px 1rem;
-}
 #section1 #head .about-btn {
 	display: flex;
 	flex-direction: row;
