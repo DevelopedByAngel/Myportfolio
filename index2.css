@@ -559,4 +559,8 @@ a {
 	display: flex;
 	flex-direction: row;
 }
-#section6 .form
+#section6 .form .details
+{
+	display: flex;
+	flex-direction: column;
+}
