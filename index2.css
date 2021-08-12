@@ -558,6 +558,7 @@ a {
 {
 	display: flex;
 	flex-direction: row;
+	width: 70vw;
 }
 #section6 .form .details
 {
