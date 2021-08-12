@@ -544,3 +544,13 @@ a {
 	font-weight: bolder;
 	font-size: 0.8rem;
 }
+
+
+
+
+#section6
+{
+	z-index: 2;
+	position: relative;
+	background: var(--light);
+}
