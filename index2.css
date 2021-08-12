@@ -571,6 +571,7 @@ a {
 #section6 .form .message-div
 {
 	display: flex;
+	margin:1rem;
 	width: 40%;
 	flex-direction: column;
 }
