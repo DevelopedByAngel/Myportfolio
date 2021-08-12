@@ -405,10 +405,12 @@
 			<div id="section6" class="section contact-section">
 				<div class="contact-form">
 					<form class="form">
-						<label class="name-label label">Name</label>
-						<input type="text" name="name" class="name" />
-						<label class="email-label label">Email</label>
+						<label class="name-label label">Name<span class="required">*</span></label>
+						<input type="text" name="name" class="name" required />
+						<label class="email-label label" required>Email<span class="required">*</span></label>
 						<input type="email" name="email" class="email">
+						<label class="mobile-label label" required>Contact Number<span class="required">*</span></label>
+						<input type="number" name="mobile">
 						<label class="message-label label">Message</label>
 						<textarea class="message"></textarea>
 					</form>
