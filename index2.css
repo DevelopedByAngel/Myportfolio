@@ -592,5 +592,6 @@ a {
 	background: transparent;
 	border: none;
 	outline: none;
-	border-bottom:1px solid  
+	border-bottom:1px solid;
+	border-radius: 0px;  
 }
