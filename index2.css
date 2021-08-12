@@ -553,6 +553,7 @@ a {
 	z-index: 2;
 	position: relative;
 	background: var(--light);
+	height: 50vh;
 }
 #section6 .form
 {
