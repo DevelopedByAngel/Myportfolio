@@ -563,7 +563,7 @@ a {
 }
 #section6 .form .details
 {
-	width: 40%;
+	width: 50%;
 	margin:1rem;
 	display: flex;
 	flex-direction: column;
@@ -572,7 +572,7 @@ a {
 {
 	display: flex;
 	margin:1rem;
-	width: 40%;
+	width: 50%;
 	flex-direction: column;
 }
 #section6 .form input
