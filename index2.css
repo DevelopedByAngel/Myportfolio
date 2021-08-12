@@ -571,4 +571,7 @@ a {
 	display: flex;
 	flex-direction: column;
 }
-#section6 .form input 
+#section6 .form input
+{
+	width: 100%;
+}
