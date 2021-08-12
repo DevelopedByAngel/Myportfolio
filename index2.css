@@ -497,7 +497,6 @@ a {
 }
 #section5 .work-img {
 	height: 60vh;
-	width: 15vw;
 	filter: contrast(70%);
 	transition: all 0.25s linear;
 }
