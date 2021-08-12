@@ -563,7 +563,7 @@ a {
 }
 #section6 .form .details
 {
-	width: 90%;
+	width: %;
 	display: flex;
 	flex-direction: column;
 }
