@@ -564,6 +564,7 @@ a {
 #section6 .form .details
 {
 	width: 40%;
+	margin:1rem;
 	display: flex;
 	flex-direction: column;
 }
