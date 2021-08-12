@@ -559,7 +559,7 @@ a {
 	display: flex;
 	flex-direction: row;
 	width: 70vw;
-	justify-content: 
+	justify-content: space-between;
 }
 #section6 .form .details
 {
