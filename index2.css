@@ -570,6 +570,7 @@ a {
 #section6 .form .message-div
 {
 	display: flex;
+	width: 60%;
 	flex-direction: column;
 }
 #section6 .form input
