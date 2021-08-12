@@ -554,3 +554,8 @@ a {
 	position: relative;
 	background: var(--light);
 }
+#section6 .form
+{
+	display: flex;
+	flex-direction: column;
+}
