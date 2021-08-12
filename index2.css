@@ -97,6 +97,11 @@ a {
 	color: var(--font);
 	transition: all 0.25s linear;
 }
+
+#section1 #head button
+{
+	margin:0px 1rem;
+}
 #section1 #head ion-icon {
 	padding: 0px 0rem 0px 0.4rem;
 }
