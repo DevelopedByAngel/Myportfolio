@@ -557,5 +557,5 @@ a {
 #section6 .form
 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
