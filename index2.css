@@ -557,6 +557,16 @@ a {
 	display: flex;
     flex-direction: column;
 }
+#section6 .heading
+{
+	margin: 0px 50%;
+	height: 10vh;
+	font-size: 3rem;
+	font-family: Calistoga;
+	color: white;
+	padding-left: 2vw;
+	top: 1rem;
+}
 #section6 .form
 {
 	display: flex;
