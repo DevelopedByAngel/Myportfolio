@@ -597,3 +597,7 @@ a {
 	border-bottom:1px solid;
 	border-radius: 0px;  
 }
+#section6 .form textarea
+{
+	height: 100%;
+}
