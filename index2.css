@@ -610,3 +610,9 @@ a {
 {
 	height: 100%;
 }
+
+
+#nav span {
+    margin: 1rem 1rem;
+    font-size: 1.2rem;
+}
