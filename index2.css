@@ -815,7 +815,7 @@ a {
 	{
 		flex-direction: column;
 	}
-	#section5 .work-img
+	#section5 .wpr .work-img
 	{
 		height: 100vh;
     clip-path: none;
