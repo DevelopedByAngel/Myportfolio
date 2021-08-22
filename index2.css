@@ -741,7 +741,7 @@ a {
 	#section2
 	{
 		flex-direction: column;
-		justify-content: space-evenly;
+		justify-content: space-around;
 	}
 	#section2 .heading
 	{
