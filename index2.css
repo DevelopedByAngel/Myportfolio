@@ -18,6 +18,8 @@ html {
 	border: none;
 	outline: none;
 	font-family: Nunito;
+	transition: all 0.0.25s linear;
+	
 	/*border: 1px solid rgba(0, 0, 0, 0.2);*/
 }
 *::selection {
@@ -666,7 +668,6 @@ a {
 #section6 .icons .fa
 {
 	color:var(--font);
-	transition: all 0.0.25s linear;
 }
 #section6 .icons .fa:hover
 {
