@@ -828,11 +828,11 @@ a {
 	}
 	#section5 .work-row .work:nth-child(odd) .work-img
 	{
-		clip-path: polygon(0% 40%, 0% 100%, 100% 100%, 100% 20%);
+		clip-path: polygon(0% 40%, 0% 100%, 100% 100%, 100% 25%);
 	}
 	#section5 .work-row .work:nth-child(even) .work-img
 	{
-		clip-path: polygon(0% 40%, 0% 100%, 100% 100%, 100% 20%);
+		clip-path: polygon(0% 40%, 0% 100%, 100% 100%, 100% 25%);
 	}
 	.section6
 	{
