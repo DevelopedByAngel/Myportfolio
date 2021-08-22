@@ -734,6 +734,10 @@ a {
 		height: 88vw;
 		width: 85vw;
 	}
+	#section2
+	{
+		flex-direction: column;
+	}
 	.section6
 	{
 		height:auto;
