@@ -314,7 +314,7 @@ a {
 	height: 10vh;
 	font-size: 3rem;
 	font-family: Calistoga;
-	color: black;
+	color: var(--font);
 	padding-left: 2vw;
 	position: absolute;
 	left: 0px;
