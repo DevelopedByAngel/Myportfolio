@@ -709,7 +709,7 @@ a {
 	}
 	#nav .close
 	{
-		display: block;
+		display: flex;
 		position: absolute;
 		top: 0px;
 		left: 0px;
