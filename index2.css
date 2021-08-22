@@ -799,10 +799,16 @@ a {
 	{
 		height: 20vh;
 	}
+	#section4
+	{
+		display: flex;
+    justify-content: center;
+    align-items: center;
+	}
 	.pre,.next
 	{
 		position: relative;
-		bottom: -3rem;
+		bottom: -10rem;
 	}
 	.pre
 	{
