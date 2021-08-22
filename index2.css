@@ -612,17 +612,9 @@ a {
 }
 
 
-#nav>span {
+#nav span {
     margin: 1rem 1rem;
     font-size: 1.2rem;
-    display: flex;
-    flex-direction: column;
-}
-#nav>span>span
-{
-	width: 0%;
-	height: 1rem;
-	background: white;
 }
 #nav
 {
@@ -637,7 +629,8 @@ a {
     z-index: 5;
     height: 3rem;
 }
-#nav>span:hover span
+#nav span:hover
 {
-	width:100%;
+	font-weight: bolder;
+	text-decoration: underline;
 }
