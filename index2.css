@@ -723,6 +723,10 @@ a {
 	{
 		flex-direction: column-reverse;
 	}
+	#section1 #head
+	{
+		width: 100%;
+	}
 	#section1 .image img 
 	{
 		height: 88vw;
