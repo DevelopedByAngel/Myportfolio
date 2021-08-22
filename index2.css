@@ -804,7 +804,7 @@ a {
 	}
 	#section5 .work-row
 	{
-		flex-direction: column-reverse;
+		flex-direction: column;
 	}
 	.section6
 	{
