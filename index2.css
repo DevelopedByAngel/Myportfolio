@@ -771,6 +771,10 @@ a {
 	{
 		width: 90vw;
 	}
+	#section3 .content
+	{
+		white-space: 90%;
+	}
 	#section3 .timeline-image
 	{
 		display: none;
