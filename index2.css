@@ -643,3 +643,18 @@ a {
 	font-size:2rem;
 	margin:1rem;
 }
+#section6 input[type='submit']
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	margin: 1.5rem 1rem 1.5rem 0rem;
+	font-size: 1.25rem;
+	box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5),
+		-3px -3px 8px rgba(255, 255, 255, 0.8);
+	border: 1px solid white;
+	background: var(--light);
+	color: var(--font);
+	transition: all 0.25s linear;
+}
