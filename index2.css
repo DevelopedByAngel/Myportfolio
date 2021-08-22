@@ -841,12 +841,12 @@ a {
 	#section5 .work-row .work:nth-child(odd):hover .work-img
 	{
 		transform: scale(1);
-		clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 10%);
+		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
 	}
 	#section5 .work-row .work:nth-child(even):hover .work-img
 	{	
 		transform: scale(1);
-		clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 10%);
+		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
 	}
 	#section6 .form {
 	    display: flex;
