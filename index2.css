@@ -612,28 +612,6 @@ a {
 }
 
 
-#nav span {
-    margin: 1rem 1rem;
-    font-size: 1.2rem;
-}
-#nav
-{
-	position: sticky;
-    left: 0px;
-    top: 0px;
-    color: white;
-    display: flex;
-    background: var(--dark);
-    flex-direction: row;
-    justify-content: flex-end;
-    z-index: 5;
-    height: 3rem;
-}
-#nav span:hover
-{
-	font-weight: bolder;
-	text-decoration: underline;
-}
 #section6 .icons
 {
 	margin-top:1rem;
