@@ -692,6 +692,12 @@ a {
 		justify-content: center;
 		height: 100vh;
 	}
+	#nav .close
+	{
+		position: absolute;
+		top: 0px;
+		left: 0px
+	}
 	.section6
 	{
 		height:auto;
