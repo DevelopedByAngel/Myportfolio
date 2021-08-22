@@ -790,6 +790,10 @@ a {
 	{
 		height: 20vh;
 	}
+	.pre,.next
+	{
+		bottom: 17vh;
+	}
 	.section6
 	{
 		height:auto;
