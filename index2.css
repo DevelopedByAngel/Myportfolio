@@ -629,3 +629,7 @@ a {
     z-index: 5;
     height: 3rem;
 }
+#nav span:hover
+{
+	font-weight: bolder;
+}
