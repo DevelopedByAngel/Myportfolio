@@ -677,5 +677,9 @@ a {
 }
 @media (max-width: 768px)
 {
-	
+	.section6
+	{
+		height:auto;
+		width:100%;
+	}
 }
