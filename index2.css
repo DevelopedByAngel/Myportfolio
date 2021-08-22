@@ -835,7 +835,7 @@ a {
 	}
 	#section5 .work-row .work:nth-child(odd):hover .work-img
 	{
-		clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+		clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%);
 	}
 	#section5 .work-row .work:nth-child(even):hover .work-img
 	{
