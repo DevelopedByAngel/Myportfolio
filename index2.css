@@ -6,7 +6,7 @@
 	--secondary:#007090;
 	--light:#a3bac3;
 	--font:#003559;
-	--white:#eaebed;
+	--white:white;
 }
 html {
 	scroll-behavior: smooth;
