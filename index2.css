@@ -659,3 +659,7 @@ a {
 	color: var(--font);
 	transition: all 0.25s linear;
 }
+#section6 textarea
+{
+	padding:5px;
+}
