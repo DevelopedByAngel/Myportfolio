@@ -38,6 +38,6 @@ $('.next').on('click',()=>{
 $('.menu .fa').on('click',()=>{
 	$('#nav').css('width','15rem');
 })
-$('.menu .fa').on('click',()=>{
+$('#nav .close').on('click',()=>{
 	$('#nav').css('width','0rem');
 })
