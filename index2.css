@@ -695,7 +695,7 @@ a {
 	}
 	.section
 	{
-		min-height: 75vh;
+		min-height: 100vh;
 		height: auto;
 		padding: 1rem 0rem;
 	}
