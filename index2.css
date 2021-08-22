@@ -842,6 +842,13 @@ a {
 	{
 		clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 	}
+	#section6 .form {
+	    display: flex;
+	    flex-direction: column;
+	    width: 100vw;
+	    justify-content: center;
+	    align-items: center;
+	}
 	.section6
 	{
 		height:auto;
