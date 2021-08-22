@@ -37,7 +37,7 @@ a {
 	position: sticky;
     left: 0px;
     top: 0px;
-    color: white;
+    color: var(--white);
     display: flex;
     background: var(--dark);
     flex-direction: row;
@@ -115,7 +115,7 @@ a {
 	font-size: 1.25rem;
 	box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5),
 		-3px -3px 8px rgba(255, 255, 255, 0.8);
-	border: 1px solid white;
+	border: 1px solid var(--white);
 	border-radius: 1rem;
 	background: var(--light);
 	color: var(--font);
@@ -170,7 +170,7 @@ a {
 	background: var(--dark);
 	position: relative;
 	z-index: 2;
-	color: white;
+	color: var(--white);
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -197,7 +197,7 @@ a {
 	font-size: 1.3rem;
 }
 #section3 .content .edu .date .cover span {
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid var(--white);
 }
 #section3 .content .edu .edu-content {
 	/*height: 1.5rem;*/
@@ -216,7 +216,7 @@ a {
 #section3 .content .edu:nth-child(odd) .date {
 	display: flex;
 	justify-content: flex-end;
-	border-right: 2px dotted white;
+	border-right: 2px dotted var(--white);
 }
 #section3 .content .edu:nth-child(odd) .edu-content,
 #section3 .content .edu:nth-child(even) .date {
@@ -235,17 +235,17 @@ a {
 	border-top: 7px solid transparent;
 }
 #section3 .content .edu-content:nth-child(odd) .before {
-	border-left: 15px solid white;
+	border-left: 15px solid var(--white);
 	margin-right: 5px;
 }
 #section3 .content .edu-content:nth-child(even) .before {
-	border-right: 15px solid white;
+	border-right: 15px solid var(--white);
 	margin-left: 5px;
 }
 #section3 .content .edu .place {
 	width: 90%;
 	overflow: hidden;
-	border: 2px solid white;
+	border: 2px solid var(--white);
 }
 #section3 .content .edu-content:nth-child(odd) .place {
 	border-top-left-radius: 10px;
@@ -263,7 +263,7 @@ a {
 	width: 10px;
 	height: 10px;
 	border-radius: 10px;
-	background: white;
+	background: var(--white);
 	transform: translateX(6px) translateY(2px);
 	border: 3px double var(--dark);
 	box-sizing: border-box;
@@ -274,7 +274,7 @@ a {
 }
 #section3 .content .edu:hover .edu-content .lead-desc {
 	height: 5rem;
-	background: white;
+	background: var(--white);
 	color: black;
 	padding: 10px;
 }
@@ -283,7 +283,7 @@ a {
 	height: 10vh;
 	font-size: 2rem;
 	font-family: Calistoga;
-	color: white;
+	color: var(--white);
 	padding-left: 2vw;
 }
 #section3 #section3-content {
@@ -307,7 +307,7 @@ a {
 	background: var(--light);
 	position: relative;
 	z-index: 2;
-	color: white;
+	color: var(--white);
 }
 #section4 .heading {
 	margin: 10px 0px;
