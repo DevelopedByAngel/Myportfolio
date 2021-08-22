@@ -701,9 +701,13 @@ a {
 		font-size: 2rem;
 		margin: 1rem;
 	}
-	.menu
+	.menu .fa
 	{
-		
+		font-size: 2rem;
+		margin: 1rem;
+		position: fixed;
+		left: 0px;
+		top: 0px;
 	}
 	.section6
 	{
