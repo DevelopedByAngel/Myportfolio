@@ -834,6 +834,14 @@ a {
 	{
 		clip-path: polygon(0% 20%, 0% 100%, 100% 100%, 100% 40%);
 	}
+	#section5 .work-row .work:nth-child(odd):hover .work-img
+	{
+		clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+	}
+	#section5 .work-row .work:nth-child(even):hover .work-img
+	{
+		clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+	}
 	.section6
 	{
 		height:auto;
