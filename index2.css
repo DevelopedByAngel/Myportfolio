@@ -654,7 +654,7 @@ a {
 	margin: 0.5rem 0rem 0rem 0rem;
 	font-size: 1.25rem;
 	box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
-		border: 1px solid white;
+		border: 1px solid var(--white);
 	background: var(--light);
 	color: var(--font);
 	transition: all 0.25s linear;
