@@ -23,7 +23,7 @@ html {
 	/*border: 1px solid rgba(0, 0, 0, 0.2);*/
 }
 *::selection {
-	background: yellow;
+	background: var(--secondary);
 }
 a {
 	text-decoration: none;
