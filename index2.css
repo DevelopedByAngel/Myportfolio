@@ -675,3 +675,10 @@ a {
 	filter:drop-shadow(0px 0px 5px white);
 
 }
+@media (max-width: 768px)
+{
+	:root
+	{
+		--white:black;
+	}
+}
