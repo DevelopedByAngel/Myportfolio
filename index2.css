@@ -679,7 +679,8 @@ a {
 {
 	.nav
 	{
-		
+		width: 5rem;
+		height: 100vh;
 	}
 	.section6
 	{
