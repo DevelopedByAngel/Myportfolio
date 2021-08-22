@@ -148,6 +148,10 @@ a {
 	flex-direction: row-reverse;
 	justify-content: space-between;
 }
+#section2 .heading-mob
+{
+	display: none;
+}
 #section2 .heading {
 	width: 30vw;
 	font-size: 5rem;
@@ -737,6 +741,18 @@ a {
 	#section2
 	{
 		flex-direction: column;
+	}
+	#section2 .heading
+	{
+		display: none;
+	}
+	#section2 .heading-mob
+	{
+		font-size: 2rem;
+		font-family: Calistoga;
+		border-left: 2px solid var(--dark);
+		color: var(--dark);
+		padding-left: 2vw;
 	}
 	#section2 .aboutme
 	{
