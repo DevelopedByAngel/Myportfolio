@@ -825,7 +825,7 @@ a {
 	#section5 .work .work-img
 	{
 		position: relative;
-		top: 45vh;
+		top: 40;
 		height: 100vh;
     clip-path: none;
 	}
