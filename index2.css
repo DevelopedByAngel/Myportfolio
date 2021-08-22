@@ -153,6 +153,7 @@ a {
 	display: none;
 }
 #section2 .heading {
+	display: block;
 	width: 30vw;
 	font-size: 5rem;
 	font-family: Calistoga;
