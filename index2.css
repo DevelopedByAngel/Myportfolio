@@ -706,7 +706,7 @@ a {
 	{
 		font-size: 2rem;
 		margin: 1rem;
-		position: fixed;
+		position: sticky;
 		left: 0px;
 		top: 0px;
 		color:white;
