@@ -820,7 +820,14 @@ a {
 		height: 100vh;
     clip-path: none;
 	}
-	
+	#section5 .work-row .work:nth-child(odd) .work-img
+	{
+		clip-path: none;
+	}
+	#section5 .work-row .work:nth-child(even) .work-img
+	{
+		clip-path: none;
+	}
 	.section6
 	{
 		height:auto;
