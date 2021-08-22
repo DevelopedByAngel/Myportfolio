@@ -710,7 +710,10 @@ a {
 		left: 0px;
 		top: 0px;
 		color:white;
-		ba
+	}
+	.menu
+	{
+		background: red;
 	}
 	.section6
 	{
