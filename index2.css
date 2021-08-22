@@ -779,7 +779,10 @@ a {
 	{
 		display: none;
 	}
-	#section3 
+	#section3 .edu-content
+	{
+		justify-content: center;
+	}
 	#section3 .content .edu:hover .edu-content .lead-desc {
 		height: 10rem;
 	}
