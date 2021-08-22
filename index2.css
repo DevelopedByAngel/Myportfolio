@@ -677,7 +677,7 @@ a {
 }
 @media (max-width: 768px)
 {
-	.nav
+	#nav
 	{
 		width: 5rem;
 		height: 100vh;
