@@ -637,7 +637,7 @@ a {
     z-index: 5;
     height: 3rem;
 }
-#na>>span:hover span
+#na>>span:hover>span
 {
 	width:100%;
 }
