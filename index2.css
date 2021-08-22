@@ -706,15 +706,15 @@ a {
 	{
 		font-size: 2rem;
 		margin: 1rem;
-		position: sticky;
-		left: 0px;
-		top: 0px;
 		color:white;
-		z-index: 5;
 	}
 	.menu
 	{
 		background: red;
+		z-index: 5;
+		position: sticky;
+		left: 0px;
+		top: 0px;
 	}
 	.section6
 	{
