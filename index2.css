@@ -800,7 +800,8 @@ a {
 	}
 	.pre,.next
 	{
-		bottom: 17rem;
+		position: relative;
+		bottom: 7rem;
 	}
 	.pre
 	{
