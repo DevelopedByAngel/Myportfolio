@@ -682,7 +682,7 @@ a {
 		width: 15rem;
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: space-a;
 		height: 100vh;
 	}
 	.section6
