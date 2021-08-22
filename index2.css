@@ -148,6 +148,11 @@ a {
 	flex-direction: row-reverse;
 	justify-content: space-between;
 }
+.menu
+{
+	display: none;e;
+	
+}
 #section2 .heading-mob
 {
 	display: none;
