@@ -828,6 +828,7 @@ a {
 	}
 	#section5 .work .work-img
 	{
+		
 		height: 100vh;
 	}
 	#section5 .work-row .work:nth-child(odd) .work-img
