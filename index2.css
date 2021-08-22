@@ -818,7 +818,7 @@ a {
 	#section5 .work .work-img-div
 	{
 		height: 60vh;
-     width: auto; 
+     width: 100%; 
     overflow: hidden;
     position: absolute;
 	}
