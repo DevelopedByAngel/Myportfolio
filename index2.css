@@ -697,8 +697,9 @@ a {
 	{
 		min-height: 75vh;
 		height: auto;
-		padding-bottom: 3rem;
-	}
+		padding-bottom: 1rem;
+		margin-bottom:1rem;
+			}
 	#nav
 	{
 		position: fixed;
