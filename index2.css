@@ -832,7 +832,7 @@ a {
 	}
 	#section5 .work-row .work:nth-child(even) .work-img
 	{
-		clip-path: polygon(0% 25%, 0% 100%, 100% 100%, 100% 40%);
+		clip-path: polygon(0% 20%, 0% 100%, 100% 100%, 100% 40%);
 	}
 	.section6
 	{
