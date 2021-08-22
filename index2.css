@@ -710,7 +710,7 @@ a {
 	}
 	.menu
 	{
-		background: red;
+		background: var(--light);
 		z-index: 5;
 		position: fixed;
 		border-bottom-right-radius: 50%;
