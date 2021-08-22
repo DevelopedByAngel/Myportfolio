@@ -786,6 +786,10 @@ a {
 	#section3 .content .edu:hover .edu-content .lead-desc {
 		height: 10rem;
 	}
+	#section4 .spinner
+	{
+		height: 20vh;
+	}
 	.section6
 	{
 		height:auto;
