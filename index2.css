@@ -748,6 +748,7 @@ a {
 	}
 	#section2 .heading-mob
 	{
+		display: block;
 		font-size: 2rem;
 		font-family: Calistoga;
 		color: var(--dark);
