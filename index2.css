@@ -677,6 +677,10 @@ a {
 }
 @media (max-width: 768px)
 {
+	.nav
+	{
+		
+	}
 	.section6
 	{
 		height:auto;
