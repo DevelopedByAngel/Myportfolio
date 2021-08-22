@@ -815,6 +815,13 @@ a {
 	{
 		flex-direction: column;
 	}
+	#section5 .work .work-img-div
+	{
+		height: 60vh;
+    /* width: 15vw; */
+    overflow: hidden;
+    position: absolute;
+	}
 	#section5 .work .work-img
 	{
 		height: 100vh;
