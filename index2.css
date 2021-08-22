@@ -719,6 +719,15 @@ a {
 		left: 0px;
 		top: 0px;
 	}
+	#section1
+	{
+		flex-direction: column-reverse;
+	}
+	#section1 .image img 
+	{
+		height: 80vw;
+		width: 85vw;
+	}
 	.section6
 	{
 		height:auto;
