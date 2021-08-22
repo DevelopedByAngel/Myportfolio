@@ -586,7 +586,7 @@ a {
 	height: 10vh;
 	font-size: 2.5rem;
 	font-family: Calistoga;
-	color: var(--white);
+	color: var(--font);
 	padding-left: 2vw;
 	top: 1rem;
 }
