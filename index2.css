@@ -821,6 +821,11 @@ a {
     overflow: hidden;
     position: absolute;
 	}
+	#section5 .work .title
+	{
+		z-index: 4;
+		position: relative;
+	}
 	#section5 .work .work-img
 	{
 		height: 100vh;
