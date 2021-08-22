@@ -697,7 +697,7 @@ a {
 	{
 		min-height: 75vh;
 		height: auto;
-		padding-bottom: 1rem;
+		padding: 1rem 0rem;
 	}
 	#nav
 	{
