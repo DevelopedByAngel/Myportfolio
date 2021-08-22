@@ -632,5 +632,5 @@ a {
 #nav span:hover
 {
 	font-weight: bolder;
-	text-decoration: 
+	text-decoration: underline;
 }
