@@ -724,6 +724,7 @@ a {
 	}
 	.menu
 	{
+		display: block;
 		background: var(--primary);
 		z-index: 5;
 		position: fixed;
