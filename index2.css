@@ -615,8 +615,6 @@ a {
 #nav span {
     margin: 1rem 1rem;
     font-size: 1.2rem;
-    width:auto;
-    border:1px solid white;
 }
 #nav
 {
@@ -634,6 +632,4 @@ a {
 #nav span:hover
 {
 	font-weight: bolder;
-	width:0px;
-	border:1px solid white;
 }
