@@ -701,10 +701,7 @@ a {
 		font-size: 2rem;
 		margin: 1rem;
 	}
-	#nav .close:active #nav
-	{
-		display: none;
-	}
+	#nav .close:active 
 	.section6
 	{
 		height:auto;
