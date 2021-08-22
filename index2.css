@@ -665,5 +665,5 @@ a {
 }
 #section6 .icons .fa
 {
-	color:;
+	color:var(--font);
 }
