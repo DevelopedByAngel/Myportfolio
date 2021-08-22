@@ -733,6 +733,10 @@ a {
 		left: 0px;
 		top: 0px;
 	}
+	#section1 #head .about-btn
+	{
+		font-size: 1rem;
+	}
 	#section1
 	{
 		flex-direction: column-reverse;
