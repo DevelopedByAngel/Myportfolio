@@ -41,3 +41,6 @@ $('.menu .fa').on('click',()=>{
 $('#nav .close').on('click',()=>{
 	$('#nav').css('width','0rem');
 })
+$('#nav>span a').on('click',()=>{
+	$('#nav').css('width','0rem');
+})
