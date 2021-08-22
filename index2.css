@@ -801,7 +801,7 @@ a {
 	.pre,.next
 	{
 		position: relative;
-		bottom: 7rem;
+		bottom: -3rem;
 	}
 	.pre
 	{
