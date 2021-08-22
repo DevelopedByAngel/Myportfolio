@@ -701,7 +701,10 @@ a {
 		font-size: 2rem;
 		margin: 1rem;
 	}
-	#nav .close:active 
+	#nav .close:active <#nav
+	{
+		background: red;
+	}
 	.section6
 	{
 		height:auto;
