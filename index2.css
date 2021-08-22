@@ -634,6 +634,10 @@ a {
 	font-weight: bolder;
 	text-decoration: underline;
 }
+#section6 .icons
+{
+	margin-top:1rem;
+}
 #section6 .fa
 {
 	font-size:2rem;
