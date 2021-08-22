@@ -750,7 +750,6 @@ a {
 	{
 		font-size: 2rem;
 		font-family: Calistoga;
-		border-left: 2px solid var(--dark);
 		color: var(--dark);
 		padding-left: 2vw;
 	}
