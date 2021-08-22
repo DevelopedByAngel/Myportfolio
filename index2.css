@@ -853,6 +853,12 @@ a {
 	{
 		width: 75%;
 	}
+	#section6 .form .message-div {
+    display: flex;
+    margin: 1rem;
+    width: 50%;
+    flex-direction: column;
+	}
 	.section6
 	{
 		height:auto;
