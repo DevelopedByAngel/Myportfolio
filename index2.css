@@ -811,6 +811,15 @@ a {
 		width: 98vw;
 		flex-direction: column;
 	}
+	#section5 .work .content
+	{
+		flex-direction: column;
+	}
+	#section5 .work-img
+	{
+		height: 100vh;
+    clip-path: none;
+	}
 	.section6
 	{
 		height:auto;
