@@ -722,6 +722,8 @@ a {
 	#section1
 	{
 		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
 	}
 	#section1 #head
 	{
