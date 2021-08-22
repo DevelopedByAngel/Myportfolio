@@ -771,6 +771,10 @@ a {
 	{
 		width: 90vw;
 	}
+	#section3 .timeline-image img
+	{
+		display: none;
+	}
 	.section6
 	{
 		height:auto;
