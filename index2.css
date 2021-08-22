@@ -58,7 +58,7 @@ a {
 	align-items: center;
 }
 #section1 {
-	background: rgba(0, 0, 0, 0.2);
+	background: var(--light);
 }
 #section1 .image {
 	position: relative;
