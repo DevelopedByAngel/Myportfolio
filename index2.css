@@ -791,8 +791,9 @@ a {
 		justify-content: center;
 	}
 	#section3 .content .edu:hover .edu-content .lead-desc {
-		height: 10rem;
+		height: auto;
 	}
+
 	#section4 .spinner
 	{
 		height: 20vh;
