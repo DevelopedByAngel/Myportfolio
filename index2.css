@@ -849,6 +849,10 @@ a {
 	    justify-content: center;
 	    align-items: center;
 	}
+	#section6 .form .detials
+	{
+		width: 75%;
+	}
 	.section6
 	{
 		height:auto;
