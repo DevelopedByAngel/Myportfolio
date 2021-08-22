@@ -23,7 +23,7 @@ html {
 	/*border: 1px solid rgba(0, 0, 0, 0.2);*/
 }
 *::selection {
-	background: var(--secondary);
+	background: var(--primary);
 }
 a {
 	text-decoration: none;
