@@ -40,7 +40,8 @@ $("#nav .close").on("click", () => {
 	$("#nav").css("width", "0rem");
 });
 $("#nav>span a").on("click", () => {
-	if ($("#nav .close").css("display") == "none" ){
+	console.log($(window).height())
+	if ($(window).width()<768){
 		$("#nav").css("width", "0rem");
 	}
 });
