@@ -24,26 +24,23 @@ function imageLeave(event) {
 		"rotateX(0deg) rotateY(0deg) scale(1)"
 	);
 }
-var angle=0
-$('.pre').on('click',()=>{
-	angle=angle-36;
-		$('.spinner').css('transform','rotateY('+angle+'deg)');
-
-})
-$('.next').on('click',()=>{
-	angle=angle+36;
-		$('.spinner').css('transform','rotateY('+angle+'deg)');
-
-})
-$('.menu .fa').on('click',()=>{
-	$('#nav').css('width','15rem');
-})
-$('#nav .close').on('click',()=>{
-	$('#nav').css('width','0rem');
-})
-$('#nav>span a').on('click',()=>{
-	if($('#nav').css('width','15rem'))
-	{
-		$('#nav').css('width','0rem');
+var angle = 0;
+$(".pre").on("click", () => {
+	angle = angle - 36;
+	$(".spinner").css("transform", "rotateY(" + angle + "deg)");
+});
+$(".next").on("click", () => {
+	angle = angle + 36;
+	$(".spinner").css("transform", "rotateY(" + angle + "deg)");
+});
+$(".menu .fa").on("click", () => {
+	$("#nav").css("width", "15rem");
+});
+$("#nav .close").on("click", () => {
+	$("#nav").css("width", "0rem");
+});
+$("#nav>span a").on("click", () => {
+	if ($("#nav").css("width", "15rem")) {
+		$("#nav").css("width", "0rem");
 	}
-})
+});
