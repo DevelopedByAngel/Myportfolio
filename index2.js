@@ -40,7 +40,7 @@ $("#nav .close").on("click", () => {
 	$("#nav").css("width", "0rem");
 });
 $("#nav>span a").on("click", () => {
-	console.log($(window).height())
+	console.log($(window).width())
 	if ($(window).width()<768){
 		$("#nav").css("width", "0rem");
 	}
