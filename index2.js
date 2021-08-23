@@ -40,7 +40,7 @@ $("#nav .close").on("click", () => {
 	$("#nav").css("width", "0rem");
 });
 $("#nav>span a").on("click", () => {
-	if ($("#nav").css("width")==='15rem') {
+	if ($("#nav .close").css("display") == "none" ){
 		$("#nav").css("width", "0rem");
 	}
 });
