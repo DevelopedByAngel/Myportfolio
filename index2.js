@@ -42,5 +42,9 @@ $('#nav .close').on('click',()=>{
 	$('#nav').css('width','0rem');
 })
 $('#nav>span a').on('click',()=>{
+	if($('#nav').css('width','15rem'))
+	{
 	$('#nav').css('width','0rem');
+		
+	}
 })
