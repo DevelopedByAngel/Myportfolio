@@ -791,6 +791,7 @@ a {
 	#section3 #section3-content
 	{
 		justify-content: center;
+		align-items: 	center;	
 	}
 	#section3 .content .edu:hover .edu-content .lead-desc {
 		height: 12rem;
