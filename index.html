@@ -50,7 +50,7 @@
 			<span><a href="#section5">Works</a></span>
 			<span><a href="#section6">Contact me</a></span>
 		</div>
-		<div id="main" class="main">
+		<div id="main" class="main" itemscope itemtype="http://schema.org/Person">
 			<div id="section1" class="section intro-section">
 				<div
 					id="pic"
@@ -59,15 +59,16 @@
 					onmouseleave="imageLeave(event);"
 				>
 					<img
+					itemprop="image"
 						src="portfolio.png"
 						data-tilt
 						id="pic-img"
 						alt="Angel"
 					/>
 				</div>
-				<div id="head" class="heading">
-					<span class="name">Angel F</span>
-					<span class="description">Web developer</span>
+				<div id="head" class="heading" >
+					<span class="name" itemprop="name">Angel F</span>
+					<span class="description" itemprop="description">Web developer</span>
 
 					<div class="buttons">
 						<button
