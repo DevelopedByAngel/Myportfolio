@@ -10,9 +10,7 @@
 		<link rel="icon" href="wings.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
 		<meta charset="UTF-8" />
-
 		<meta name="keywords" content="Angel Francis Portfolio" />
 		<meta name="author" content="Angel. F" />
 		<meta name="title" content="Angel Francis's Portfolio" />
@@ -37,9 +35,8 @@
 		<meta property="og:image:height" content="256" />
 		<meta property="og:image:alt" content="Angel Francis" />
 	</head>
-	<body>
+	<body itemscope itemtype="http://schema.org/Person">
 		<noscript>You need to enable JavaScript to view this website</noscript>
-
 		<div class="menu"><i class="fa fa-bars"></i></div>
 		<div id="nav">
 			<i class="fa fa-times close"></i>
@@ -59,16 +56,16 @@
 					onmouseleave="imageLeave(event);"
 				>
 					<img
+                    itemprop="image"
 						src="portfolio.png"
 						data-tilt
 						id="pic-img"
 						alt="Angel"
 					/>
 				</div>
-				<div id="head" class="heading" itemscope itemtype="http://schema.org/Person">
+				<div id="head" class="heading" >
 					<span class="name" itemprop="name">Angel F</span>
 					<span class="description" itemprop="jobTitle">Web developer</span>
-
 					<div class="buttons">
 						<button
 							class="about-btn"
@@ -86,7 +83,7 @@
 				<span class="heading">About <br />me</span>
 				<span class="heading-mob">About me</span>
 				<div class="aboutme">
-					<span class="content">
+					<span class="content" itemprop="description">
 						<span>
 							I am an undergraduate of Bachelor of Engineering in
 							the stream of Computer Science graduating in the
@@ -99,7 +96,7 @@
 						</span>
 						<br />
 						<br />
-						<span>
+						<span itemprop="description">
 							I am a passionate full-stack web developer. I have
 							created websites with HTML, CSS and JavaScript. Also
 							developed web application with React JS for frontend
@@ -330,7 +327,6 @@
 						<div class="work" id="work4">
 							<div class="content">
 								
-
 								<div class="desc">
 									<div class="title">
 										Smart Star
@@ -408,13 +404,11 @@
 							</div>
 						</div>
 						
-
 						<div class="work" id="work2">
 							<div class="content">
 								<div class="work-img-div">
 									<img class="work-img" src="works/2.jpg" />
 								</div>
-
 								<div class="desc">
 									<div class="title">
 										Remainder<a
@@ -522,21 +516,22 @@
 				</div>
 				<div class="icons">
 					<a
+                    	itemprop="sameAs"
 						href="https://www.linkedin.com/in/angel-francis-267906171/"
 						target="_blank"
 					>
 						<i class="fa fa-linkedin"></i
 					></a>
-					<a href="mailto:angelfrancis1111@gmail.com" target="_blank">
+					<a itemprop="sameAs email	" href="mailto:angelfrancis1111@gmail.com" target="_blank">
 						<i class="fa fa-envelope"></i
 					></a>
-					<a
+					<a itemprop="sameAs"
 						href="https://github.com/DevelopedByAngel"
 						target="_blank"
 					>
 						<i class="fa fa-github"></i
 					></a>
-					<a
+					<a itemprop="sameAs"
 						href="https://student.studymonk.in/u/angelfrancis"
 						target="_blank"
 					>
