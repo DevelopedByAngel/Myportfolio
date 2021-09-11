@@ -349,7 +349,7 @@ button
 }
 #section4 .spinner {
 	width: 0px;
-	border-left: 5px dotted var(--white);
+	/*border-left: 5px dotted var(--white);*/
 	box-sizing: content-box;
 	height: 50vh;
 	background: rgba(255, 0, 0, 0);
