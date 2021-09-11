@@ -687,6 +687,7 @@ button
 {
 	position: relative;
 	top: 5px;
+	transform: scale(0.9);
 }
 #section6 textarea
 {
