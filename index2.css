@@ -683,7 +683,7 @@ button
 	position: relative;
 	top: 2px;
 }
-#section6 input[type='submit']:hover
+#section6 input[type='submit']:acti
 {
 	position: relative;
 	top: 2px;
