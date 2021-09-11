@@ -665,6 +665,7 @@ button
 }
 #section6 input[type='submit']
 {
+	cursor: pointer;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
