@@ -686,7 +686,7 @@ button
 #section6 input[type='submit']:active
 {
 	position: relative;
-	top: 2px;
+	top: 5px;
 }
 #section6 textarea
 {
