@@ -678,6 +678,11 @@ button
 	color: var(--font);
 	transition: all 0.25s linear;
 }
+#section6 input[type='submit']:hover
+{
+	position: relative;
+	top: 2px;
+}
 #section6 textarea
 {
 	padding:5px;
