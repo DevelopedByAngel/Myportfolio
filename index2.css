@@ -48,7 +48,7 @@ button
     top: 0px;
     color: var(--white);
     display: flex;
-    background: var(--dark);
+    background: var(--dark)+10;
     flex-direction: row;
     justify-content: flex-end;
     z-index: 5;
