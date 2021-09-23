@@ -8,7 +8,16 @@
 	--font:#003559;
 	--white:white;
     --linearDark: #ffb300;
-    --linearLight: #ffdd7a;}
+    --linearLight: #ffdd7a;
+        --dark: #9deb44;
+    --primary: #3da1bf;
+    --secondary: #007090;
+    --light: #e9ffd1;
+    --font: #003559;
+    --white: white;
+    --linearDark: #00bcd4;
+    --linearLight: #b2ebf2;
+}
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
