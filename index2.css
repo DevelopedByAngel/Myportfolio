@@ -7,6 +7,8 @@
 	--light:#a3bac3;
 	--font:#003559;
 	--white:white;
+	--linearDark:;
+	--linearLight:#d6f0fa;
 }
 html {
 	scroll-behavior: smooth;
