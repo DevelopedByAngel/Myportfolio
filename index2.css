@@ -9,8 +9,8 @@
 	--white:white;
 	--linearDark:#99ff33;
 	--linearLight:#4dd0e1;
-	--linearDark: #7602a7;
-    --linearLight: #ffc107;
+	--linearDark: #ffc02d;
+    --linearLight: #ffeebc;
 }
 html {
 	scroll-behavior: smooth;
