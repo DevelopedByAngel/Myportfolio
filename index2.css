@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Nunito:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
 :root {
-	--dark:#006989;
+/*	--dark:#006989;
 	--primary:#3da1bf;
 	--secondary:#007090;
 	--light:#a3bac3;
 	--font:#003559;
 	--white:white;
+*/
+--dark: #60d5bf;
+    --primary: #19e7c0;
+    --secondary: #049a7e;
+    --light: #ddfff9;
+    --font: #000000;
+    --white: white;
 }
 html {
 	scroll-behavior: smooth;
