@@ -7,11 +7,8 @@
 	--light:#ffeebc;
 	--font:#003559;
 	--white:white;
-	--linearDark:#99ff33;
-	--linearLight:#4dd0e1;
-	--linearDark: #ffc02d;
-    --linearLight: #ffeebc;
-}
+    --linearDark: #ffb300;
+    --linearLight: #ffdd7a;}
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
