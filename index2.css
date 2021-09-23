@@ -71,7 +71,7 @@ button
 }
 #section1 {
 	/*background: var(--light);*/
-	background-image:linear-gradient(45deg,var(--linearDark) 50%,var(--linearLight 1% ,var(--linearDark) 50%);
+	background-image:linear-gradient(45deg,var(--linearDark) 50%,var(--linearLight) 1% ,var(--linearDark) 50%);
 }
 #section1 .image {
 	position: relative;
