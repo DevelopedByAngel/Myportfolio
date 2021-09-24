@@ -80,7 +80,7 @@ button
 #section1 .image {
 	position: relative;
 	margin: 0px 3rem;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.2);
 }
 #section1 .image img {
 	height: 75vh;
