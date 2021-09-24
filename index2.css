@@ -133,6 +133,9 @@ button {
 	background: var(--light);
 	color: var(--font);
 	transition: all 0.25s linear;
+	background-image: linear-gradient(
+30deg
+,#60d5bf,#60d5bf,#60d5bf, #79f0da,#60d5bf,#60d5bf);
 }
 
 #section1 #head button {
