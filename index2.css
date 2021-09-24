@@ -75,7 +75,7 @@ button
 	align-items: center;
 }
 #section1 {
-	background: var(--light);
+	background: var(--dark);
 }
 #section1 .image {
 	position: relative;
