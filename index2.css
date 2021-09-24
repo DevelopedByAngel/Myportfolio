@@ -8,9 +8,9 @@
 	--font:#003559;
 	--white:white;
 */
-	--dark: #60d5bf;
+	--dark: #89e7d5;
 	--primary: #19e7c0;
-	--secondary: #049a7e;
+	--secondary: #03cda7;
 	--light: #ddfff9;
 	--font: #000000;
 	--white: white;
@@ -121,21 +121,28 @@ button {
 }
 #section1 #head .about-btn {
 	display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    margin: 1.5rem 1rem 1.5rem 0rem;
-    font-size: 1.25rem;
-    box-shadow: 3px 3px 8px rgb(4 154 126 / 50%), -3px -3px 8px rgb(221 255 249 / 80%);
-    border: 1px solid var(--white);
-    border-radius: 1rem;
-    background: var(--light);
-    color: var(--light);
-    transition: all 0.25s linear;
-    background-image: linear-gradient( 
-30deg
-, #60d5bf, #60d5bf, #60d5bf, #79f0da, #60d5bf, #60d5bf );
-    font-weight: bold;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	margin: 1.5rem 1rem 1.5rem 0rem;
+	font-size: 1.25rem;
+	box-shadow: 3px 3px 8px rgb(4 154 126 / 50%),
+		-3px -3px 8px rgb(221 255 249 / 80%);
+	border: 1px solid var(--white);
+	border-radius: 1rem;
+	background: var(--light);
+	color: var(--light);
+	transition: all 0.25s linear;
+	background-image: linear-gradient(
+		30deg,
+		#60d5bf,
+		#60d5bf,
+		#60d5bf,
+		#79f0da,
+		#60d5bf,
+		#60d5bf
+	);
+	font-weight: bold;
 }
 
 #section1 #head button {
@@ -480,7 +487,7 @@ button {
 	font-size: 3rem;
 	cursor: pointer;
 	font-weight: bolder;
-	color:var(--font);
+	color: var(--font);
 }
 .pre::selection,
 .next::selection {
@@ -675,8 +682,8 @@ button {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	width:40%;
-	align-self:center;
+	width: 40%;
+	align-self: center;
 	padding: 0.5rem 1rem;
 	margin: 0.5rem 0rem 0rem 0rem;
 	font-size: 1.25rem;
@@ -685,9 +692,9 @@ button {
 	background: var(--light);
 	color: var(--font);
 	transition: all 0.25s linear;
-	color:var(--light);
-	background:var(--dark);
-    font-weight: bold;
+	color: var(--light);
+	background: var(--dark);
+	font-weight: bold;
 }
 #section6 input[type="submit"]:hover {
 	position: relative;
@@ -700,7 +707,6 @@ button {
 }
 #section6 textarea {
 	padding: 5px;
-
 }
 #section6 .icons .fa {
 	color: var(--font);
