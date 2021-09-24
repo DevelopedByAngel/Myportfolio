@@ -649,6 +649,14 @@ button {
 #section6 .icons {
 	margin-top: 1rem;
 }
+#section6 .icons a i
+{
+	    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    
+}
 #section6 .fa {
 	font-size: 2rem;
 	margin: 1rem;
