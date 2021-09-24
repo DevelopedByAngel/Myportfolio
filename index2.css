@@ -181,6 +181,7 @@ button {
 	font-size: 1.2rem;
 	line-height: 1.75rem;
 	color: var(--font);
+	text-align:justify;
 }
 #section2 .aboutme .content span {
 	margin-bottom: 10px;
