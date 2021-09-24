@@ -486,6 +486,7 @@ button {
 	font-size: 3rem;
 	cursor: pointer;
 	font-weight: bolder;
+	background:red;
 }
 .pre::selection,
 .next::selection {
