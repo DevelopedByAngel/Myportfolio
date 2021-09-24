@@ -686,9 +686,7 @@ button {
 	color: var(--font);
 	transition: all 0.25s linear;
 	color:var(--light);
-	background-image: linear-gradient( 
-30deg
-, #60d5bf, #60d5bf, #60d5bf, #79f0da, #60d5bf, #60d5bf );
+	background:var(--dark);
     font-weight: bold;
 }
 #section6 input[type="submit"]:hover {
@@ -702,10 +700,7 @@ button {
 }
 #section6 textarea {
 	padding: 5px;
-	
-	background-image: linear-gradient( 
-30deg
-, #60d5bf, #60d5bf, #60d5bf, #79f0da, #60d5bf, #60d5bf );
+
 }
 #section6 .icons .fa {
 	color: var(--font);
