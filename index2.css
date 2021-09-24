@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Nunito:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
 :root {
-/*	--dark:#006989;
+	/*	--dark:#006989;
 	--primary:#3da1bf;
 	--secondary:#007090;
 	--light:#a3bac3;
 	--font:#003559;
 	--white:white;
 */
---dark: #60d5bf;
-    --primary: #19e7c0;
-    --secondary: #049a7e;
-    --light: #ddfff9;
-    --font: #000000;
-    --white: white;
+	--dark: #60d5bf;
+	--primary: #19e7c0;
+	--secondary: #049a7e;
+	--light: #ddfff9;
+	--font: #000000;
+	--white: white;
 }
 html {
 	scroll-behavior: smooth;
@@ -25,7 +25,7 @@ html {
 	border: none;
 	outline: none;
 	font-family: Nunito;
-	transition: all 0.0.25s linear;
+	transition: all 0.25s linear;
 
 	/*border: 1px solid rgba(0, 0, 0, 0.2);*/
 }
@@ -36,33 +36,31 @@ a {
 	text-decoration: none;
 	color: unset;
 }
-button
-{
+button {
 	cursor: pointer;
 }
 #nav span {
-    margin: 1rem 1rem;
-    font-size: 1.2rem;
+	margin: 1rem 1rem;
+	font-size: 1.2rem;
 }
-#nav
-{
-position: sticky;
-    left: 0px;
-    top: 0px;
-    color: var(--white);
-    display: flex;
-    background: var(--dark);
-    flex-direction: row;
-    justify-content: flex-end;
-    z-index: 5;
-    height: 3rem;
-    box-shadow: 0px 4px 10px var(--secondary),inset 1px 0px 10px var(--secondary);}
-#nav .close
-{
+#nav {
+	position: sticky;
+	left: 0px;
+	top: 0px;
+	color: var(--white);
+	display: flex;
+	background: var(--dark);
+	flex-direction: row;
+	justify-content: flex-end;
+	z-index: 5;
+	height: 3rem;
+	box-shadow: 0px 4px 10px var(--secondary),
+		inset 1px 0px 10px var(--secondary);
+}
+#nav .close {
 	display: none;
 }
-#nav span:hover
-{
+#nav span:hover {
 	font-weight: bolder;
 	text-decoration: underline;
 }
@@ -118,8 +116,7 @@ position: sticky;
 	font-size: 1.4rem;
 	color: var(--secondary);
 }
-#section1 #head .buttons
-{
+#section1 #head .buttons {
 	display: flex;
 }
 #section1 #head .about-btn {
@@ -138,9 +135,8 @@ position: sticky;
 	transition: all 0.25s linear;
 }
 
-#section1 #head button
-{
-	margin:0px 1rem;
+#section1 #head button {
+	margin: 0px 1rem;
 }
 #section1 #head ion-icon {
 	padding: 0px 0rem 0px 0.4rem;
@@ -162,12 +158,10 @@ position: sticky;
 	flex-direction: row-reverse;
 	justify-content: space-between;
 }
-.menu
-{
+.menu {
 	display: none;
 }
-#section2 .heading-mob
-{
+#section2 .heading-mob {
 	display: none;
 }
 #section2 .heading {
@@ -539,7 +533,9 @@ position: sticky;
 	border-radius: 1rem;
 	flex-direction: column;
 	border: 1px solid var(--dark);
-	box-shadow: inset 0rem 0rem 2rem rgb(0 0 0 / 40%), inset -0.1rem 0.1rem 1rem  rgb(144 144 144 / 40%), 0.1rem 0.1rem 0.5rem  rgb(255 255 255 / 40%);
+	box-shadow: inset 0rem 0rem 2rem rgb(0 0 0 / 40%),
+		inset -0.1rem 0.1rem 1rem rgb(144 144 144 / 40%),
+		0.1rem 0.1rem 0.5rem rgb(255 255 255 / 40%);
 }
 #section5 .work .content {
 	display: flex;
@@ -579,99 +575,81 @@ position: sticky;
 	padding: 1rem;
 	text-align: justify;
 }
-#section5 .work .desc .title
-{
+#section5 .work .desc .title {
 	font-weight: bolder;
 	font-size: 1.2rem;
-	margin-bottom:1rem;
+	margin-bottom: 1rem;
 	text-decoration: underline;
 }
-#section5 .work .date
-{
-	margin:1rem 0rem;
-	color:black;
+#section5 .work .date {
+	margin: 1rem 0rem;
+	color: black;
 	font-weight: bolder;
 	font-size: 0.8rem;
 }
 
-
-
-
-#section6
-{
+#section6 {
 	z-index: 2;
 	position: relative;
 	background: var(--light);
 	height: auto;
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
-#section6 .heading
-{
+#section6 .heading {
 	height: 10vh;
 	font-size: 2.5rem;
 	font-family: Calistoga;
 	color: var(--font);
 	top: 1rem;
 }
-#section6 .form
-{
+#section6 .form {
 	display: flex;
 	flex-direction: row;
 	width: 70vw;
 	justify-content: space-between;
 }
-#section6 .form .details
-{
+#section6 .form .details {
 	width: 50%;
-	margin:1rem;
+	margin: 1rem;
 	display: flex;
 	flex-direction: column;
 }
-#section6 .form .message-div
-{
+#section6 .form .message-div {
 	display: flex;
-	margin:1rem;
+	margin: 1rem;
 	width: 50%;
 	flex-direction: column;
 }
-#section6 .form input
-{
+#section6 .form input {
 	width: 100%;
 }
-#section6 .form .label
-{
-	font-size:1.2rem;
+#section6 .form .label {
+	font-size: 1.2rem;
 	font-weight: bold;
-	margin-top:1rem;
+	margin-top: 1rem;
 	margin-bottom: 0.5rem;
 }
-#section6 .form input
-{
+#section6 .form input {
 	background: transparent;
 	border: none;
 	outline: none;
-	border-bottom:1px solid;
-	border-radius: 0px;  
+	border-bottom: 1px solid;
+	border-radius: 0px;
 }
-#section6 .form textarea
-{
+#section6 .form textarea {
 	height: 100%;
 	resize: none;
 }
 
-
-#section6 .icons
-{
-	margin-top:1rem;
+#section6 .icons {
+	margin-top: 1rem;
 }
-#section6 .fa
-{
-	font-size:2rem;
-	margin:1rem;
+#section6 .fa {
+	font-size: 2rem;
+	margin: 1rem;
 }
-#section6 input[type='submit']
-{
+#section6 input[type="submit"] {
 	cursor: pointer;
 	display: flex;
 	flex-direction: row;
@@ -680,49 +658,39 @@ position: sticky;
 	margin: 0.5rem 0rem 0rem 0rem;
 	font-size: 1.25rem;
 	box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
-		border: 1px solid var(--white);
+	border: 1px solid var(--white);
 	background: var(--light);
 	color: var(--font);
 	transition: all 0.25s linear;
 }
-#section6 input[type='submit']:hover
-{
+#section6 input[type="submit"]:hover {
 	position: relative;
 	top: 2px;
 }
-#section6 input[type='submit']:active
-{
+#section6 input[type="submit"]:active {
 	position: relative;
 	top: 5px;
 	transform: scale(0.9);
 }
-#section6 textarea
-{
-	padding:5px;
+#section6 textarea {
+	padding: 5px;
 }
-#section6 .icons .fa
-{
-	color:var(--font);
+#section6 .icons .fa {
+	color: var(--font);
 }
-#section6 .icons .fa:hover
-{
-	filter:drop-shadow(0px 0px 5px white);
-
+#section6 .icons .fa:hover {
+	filter: drop-shadow(0px 0px 5px white);
 }
-@media (max-width: 768px)
-{
-	body
-	{
+@media (max-width: 768px) {
+	body {
 		overflow-x: hidden;
 	}
-	.section
-	{
+	.section {
 		min-height: 100vh;
 		height: auto;
 		padding: 1rem 0rem;
 	}
-	#nav
-	{
+	#nav {
 		position: fixed;
 		top: 0px;
 		left: 0px;
@@ -732,10 +700,9 @@ position: sticky;
 		justify-content: center;
 		height: 100vh;
 		transition: all 0.25s linear;
-		overflow:hidden;
+		overflow: hidden;
 	}
-	#nav .close
-	{
+	#nav .close {
 		display: block;
 		position: absolute;
 		top: 0px;
@@ -743,14 +710,12 @@ position: sticky;
 		font-size: 2rem;
 		margin: 1rem;
 	}
-	.menu .fa
-	{
+	.menu .fa {
 		font-size: 2rem;
 		margin: 1rem;
-		color:white;
+		color: white;
 	}
-	.menu
-	{
+	.menu {
 		display: block;
 		background: var(--primary);
 		z-index: 5;
@@ -761,151 +726,124 @@ position: sticky;
 		left: 0px;
 		top: 0px;
 	}
-	#section1 #head .about-btn
-	{
+	#section1 #head .about-btn {
 		font-size: 1rem;
 	}
-	#section1
-	{
+	#section1 {
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
 	}
-	#section1 #head
-	{
+	#section1 #head {
 		width: 100%;
 	}
-	#section1 .image img 
-	{
+	#section1 .image img {
 		height: 88vw;
 		width: 85vw;
 	}
-	#section2
-	{
+	#section2 {
 		flex-direction: column;
 		justify-content: space-around;
 	}
-	#section2 .heading
-	{
+	#section2 .heading {
 		display: none;
 	}
-	#section2 .heading-mob
-	{
+	#section2 .heading-mob {
 		display: block;
 		font-size: 3rem;
 		font-family: Calistoga;
-		border-bottom:2px solid var(--dark);
+		border-bottom: 2px solid var(--dark);
 		color: var(--dark);
 		padding-left: 2vw;
 	}
-	#section2 .aboutme
-	{
+	#section2 .aboutme {
 		width: 90vw;
 	}
-	#section3 .content
-	{
+	#section3 .content {
 		width: 90%;
 	}
-	#section3 .timeline-image
-	{
+	#section3 .timeline-image {
 		display: none;
 	}
-	#section3 #section3-content
-	{
+	#section3 #section3-content {
 		justify-content: center;
-		align-items: 	center;	
+		align-items: center;
 	}
 	#section3 .content .edu:hover .edu-content .lead-desc {
 		height: 12rem;
 	}
 
-	#section4 .spinner
-	{
+	#section4 .spinner {
 		height: 20vh;
 	}
-	#section4
-	{
+	#section4 {
 		display: flex;
-    justify-content: center;
-    align-items: center;
+		justify-content: center;
+		align-items: center;
 	}
-	.pre,.next
-	{
+	.pre,
+	.next {
 		position: relative;
 		bottom: -7rem;
 	}
-	.pre
-	{
-		left:0%;
+	.pre {
+		left: 0%;
 	}
-	.next
-	{
+	.next {
 		right: 0%;
 	}
-	#section5 .work-row
-	{
+	#section5 .work-row {
 		flex-direction: column;
 	}
-	#section5 .work-row .work
-	{
+	#section5 .work-row .work {
 		width: 98vw;
 		flex-direction: column;
 	}
-	#section5 .work .content
-	{
+	#section5 .work .content {
 		flex-direction: column;
 	}
-	#section5 .work .work-img-div
-	{
+	#section5 .work .work-img-div {
 		height: 60vh;
-     width: 98vw; 
-    overflow: hidden;
-    position: absolute;
+		width: 98vw;
+		overflow: hidden;
+		position: absolute;
 	}
-	#section5 .work .title
-	{
+	#section5 .work .title {
 		z-index: 4;
 		position: relative;
 	}
-	#section5 .work .work-img
-	{
+	#section5 .work .work-img {
 		width: 100%;
 		height: 100vh;
 	}
-	#section5 .work-row .work:nth-child(odd) .work-img
-	{
+	#section5 .work-row .work:nth-child(odd) .work-img {
 		clip-path: polygon(0% 40%, 0% 100%, 100% 100%, 100% 25%);
 	}
-	#section5 .work-row .work:nth-child(even) .work-img
-	{
+	#section5 .work-row .work:nth-child(even) .work-img {
 		clip-path: polygon(0% 20%, 0% 100%, 100% 100%, 100% 40%);
 	}
-	#section5 .work-row .work:nth-child(odd):hover .work-img
-	{
+	#section5 .work-row .work:nth-child(odd):hover .work-img {
 		transform: scale(1);
 		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
 	}
-	#section5 .work-row .work:nth-child(even):hover .work-img
-	{	
+	#section5 .work-row .work:nth-child(even):hover .work-img {
 		transform: scale(1);
-		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100%  5%);
+		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
 	}
 	#section6 .form {
-	    display: flex;
-	    flex-direction: column;
-	    width: 100vw;
-	    justify-content: center;
-	    align-items: center;
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		justify-content: center;
+		align-items: center;
 	}
-	#section6 .form .details
-	{
+	#section6 .form .details {
 		width: 75%;
 	}
 	#section6 .form .message-div {
-	    width: 75%;
+		width: 75%;
 	}
-	#section6 .heading
-	{
-		margin-top:2rem;
+	#section6 .heading {
+		margin-top: 2rem;
 	}
 }
