@@ -674,6 +674,7 @@ button {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	width:80%;
 	padding: 0.5rem 1rem;
 	margin: 0.5rem 0rem 0rem 0rem;
 	font-size: 1.25rem;
