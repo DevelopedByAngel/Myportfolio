@@ -248,6 +248,9 @@ button {
 #section3 .content .edu .edu-content .lead-desc {
 	height: 0rem;
 	overflow: hidden;
+		background: var(--black);
+	color: var(--light);
+
 	transition: all 0.5s cubic-bezier(1, 0.27, 0.2, 1.4);
 }
 #section3 .content .edu:nth-child(even) .edu-content,
@@ -312,8 +315,6 @@ button {
 }
 #section3 .content .edu:hover .edu-content .lead-desc {
 	height: 4rem;
-	background: var(--black);
-	color: var(--light);
 	padding: 10px;
 }
 #section3 .heading {
