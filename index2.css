@@ -840,6 +840,10 @@ button {
 		text-align:center;
 		width:100vw;
 	}
+	#skills #mobile ul
+	{
+		line-spacing:1rem;
+	}
 	#works .work-row {
 		flex-direction: column;
 	}
