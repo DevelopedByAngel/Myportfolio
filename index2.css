@@ -324,7 +324,7 @@ button {
 	font-family: Calistoga;
 	color: var(--black);
 	padding-left: 2vw;
-	position:fixed
+	position:fixed;
 }
 #section3 #section3-content {
 	margin-top: 3rem;
