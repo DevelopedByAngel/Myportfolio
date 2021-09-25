@@ -842,7 +842,7 @@ button {
 	}
 	#skills #mobile ul
 	{
-		line-height:1rem;
+		line-height:3rem;
 	}
 	#works .work-row {
 		flex-direction: column;
