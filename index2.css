@@ -832,6 +832,7 @@ button {
 		display:flex;
 		color:var(--font);
 		font-size:1.5rem;
+		justify-content:center;
 	}
 	#skills #mobile .heading
 	{
