@@ -247,7 +247,7 @@ button {
 	padding: 10px 10px 0px 10px;
 }
 #section3 .content .edu .edu-content .lead-desc {
-	height: 0rem;
+	height: 5rem;
 	overflow: hidden;
 	background: var(--secondary);
 	color: var(--light);
