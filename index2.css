@@ -853,6 +853,7 @@ button {
 	#works .work .work-img-div {
 		height: 60vh;
 		width: 90vw;
+		border-radius:1rem;
 		overflow: hidden;
 		position: absolute;
 	}
@@ -878,7 +879,7 @@ button {
 		transform:rotateY(180deg);
 		transition:all 0.25s linear;
 		transition-delay:0.125s;
-		
+
 	}
 	#works .work-row .work:nth-child(odd) .work-img {
 		/*clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);*/
