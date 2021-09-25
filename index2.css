@@ -254,7 +254,7 @@ button {
 #section3 .content .edu:nth-child(odd) .date {
 	display: flex;
 	justify-content: flex-end;
-	border-right: 2px dotted var(--white);
+	border-right: 2px dotted var(--black);
 }
 #section3 .content .edu:nth-child(odd) .edu-content,
 #section3 .content .edu:nth-child(even) .date {
