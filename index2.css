@@ -864,7 +864,7 @@ button {
 	#works .work .desc
 	{
 		padding: 1rem;
-		font-size:1.5rem;
+		font-size:1.2rem;
 		transition:all 0.25s linear;
 	    text-align: justify;
 	    color: var(--font);
