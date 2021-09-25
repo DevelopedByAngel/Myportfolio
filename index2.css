@@ -76,32 +76,32 @@ button {
 	justify-content: space-evenly;
 	align-items: center;
 }
-#section1 {
+#intro {
 	background: var(--dark);
 }
-#section1 .image {
+#intro .image {
 	position: relative;
 	margin: 0px 3rem;
 	background: rgba(0, 0, 0, 0.2);
 }
-#section1 .image img {
+#intro .image img {
 	height: 75vh;
 	width: 70vh;
 	transform-style: preserve-3d;
 }
-#section1 .image #pic-img {
+#intro .image #pic-img {
 	transform: translateZ(20px);
 	/*position: fixed;*/
 	z-index: 1;
 }
-#section1 .image #pic-img:hover {
+#intro .image #pic-img:hover {
 	border: 1px solid black;
 }
-#section1 .image #pic-parallax {
+#intro .image #pic-parallax {
 	position: relative;
 	z-index: -1;
 }
-#section1 #head {
+#intro #head {
 	width: 70%;
 	margin: 2rem;
 	padding-left: 5rem;
@@ -110,11 +110,11 @@ button {
 	align-items: flex-start;
 	justify-content: center;
 }
-#section1 #head .name {
+#intro #head .name {
 	font-family: "Calistoga";
 	font-size: 4rem;
 }
-#section1 #head .description {
+#intro #head .description {
 	font-family: Nunito;
 	letter-spacing: 0.1rem;
 	font-size: 1.4rem;
@@ -125,10 +125,10 @@ button {
 */
 	letter-spacing: 0.01px;
 }
-#section1 #head .buttons {
+#intro #head .buttons {
 	display: flex;
 }
-#section1 #head .about-btn {
+#intro #head .about-btn {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -154,19 +154,19 @@ button {
 	font-weight: bold;
 }
 
-#section1 #head button {
+#intro #head button {
 	margin: 0px 1rem;
 }
-#section1 #head ion-icon {
+#intro #head ion-icon {
 	padding: 0px 0rem 0px 0.4rem;
 }
-#section1 #head .about-btn:hover {
+#intro #head .about-btn:hover {
 	transform: scale(1.1);
 }
-#section1 #head .about-btn:active {
+#intro #head .about-btn:active {
 	transform: scale(1);
 }
-#section1 .intro {
+#intro .intro {
 	color: var(--light);
 }
 #section2 {
@@ -774,18 +774,18 @@ button {
 		box-shadow: 2px 2px 10px var(--secondary),
 			inset 1px 1px 10px 0px var(--light);
 	}
-	#section1 #head .about-btn {
+	#intro #head .about-btn {
 		font-size: 1rem;
 	}
-	#section1 {
+	#intro {
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
 	}
-	#section1 #head {
+	#intro #head {
 		width: 100%;
 	}
-	#section1 .image img {
+	#intro .image img {
 		height: 88vw;
 		width: 85vw;
 	}
