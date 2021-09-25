@@ -746,7 +746,7 @@ button {
 	.menu .fa {
 		font-size: 2rem;
 		margin: 1rem;
-		color: white;
+		color: var(--white);
 	}
 	.menu {
 		display: block;
