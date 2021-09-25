@@ -119,6 +119,7 @@ button {
 	letter-spacing: 0.1rem;
 	font-size: 1.4rem;
 	color: var(--white);
+	font-style:italic;
 }
 #section1 #head .buttons {
 	display: flex;
