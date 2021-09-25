@@ -850,6 +850,7 @@ button {
 	#section5 .work .content {
 		flex-direction: column;
 		z-index:3;
+		position:relative;
 	}
 	#section5 .work .work-img-div {
 		height: 60vh;
