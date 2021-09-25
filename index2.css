@@ -205,7 +205,7 @@ button {
 #about .aboutme .content span {
 	margin-bottom: 10px;
 }
-#section3 {
+#education {
 	background: var(--dark);
 	position: relative;
 	z-index: 2;
@@ -215,91 +215,91 @@ button {
 	align-items: flex-start;
 	height: 100vh;
 }
-#section3 .content {
+#education .content {
 	display: flex;
 	width: 70%;
 	flex-direction: column;
 }
-#section3 .content .edu {
+#education .content .edu {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
 	justify-content: center;
 }
-#section3 .content .edu .edu-content,
-#section3 .content .edu .date {
+#education .content .edu .edu-content,
+#education .content .edu .date {
 	width: 50%;
 
 	padding: 10px 0px;
 }
-#section3 .content .edu .date {
+#education .content .edu .date {
 	font-size: 1.3rem;
 }
-#section3 .content .edu .date .cover span {
+#education .content .edu .date .cover span {
 	border-bottom: 1px solid var(--black);
 }
-#section3 .content .edu .edu-content {
+#education .content .edu .edu-content {
 	/*height: 1.5rem;*/
 	overflow: hidden;
 }
-#section3 .content .edu .edu-content .lead {
+#education .content .edu .edu-content .lead {
 	font-size: 1.3rem;
 	padding: 10px 10px 0px 10px;
 }
-#section3 .content .edu .edu-content .lead-desc {
+#education .content .edu .edu-content .lead-desc {
 	height: 0rem;
 	overflow: hidden;
 	background: var(--black);
 	color: var(--light);
 	transition: all 0.5s cubic-bezier(1, 0.27, 0.2, 1.4);
 }
-#section3 .content .edu:nth-child(even) .edu-content,
-#section3 .content .edu:nth-child(odd) .date {
+#education .content .edu:nth-child(even) .edu-content,
+#education .content .edu:nth-child(odd) .date {
 	display: flex;
 	justify-content: flex-end;
 	border-right: 2px dotted var(--black);
 }
-#section3 .content .edu:nth-child(odd) .edu-content,
-#section3 .content .edu:nth-child(even) .date {
+#education .content .edu:nth-child(odd) .edu-content,
+#education .content .edu:nth-child(even) .date {
 	display: flex;
 	justify-content: flex-start;
 }
-#section3 .content .edu .edu-content,
-#section3 .content .edu .date {
+#education .content .edu .edu-content,
+#education .content .edu .date {
 	padding: 1rem 0px;
 }
-#section3 .content .edu-content .before {
+#education .content .edu-content .before {
 	width: 0px;
 	height: 0px;
 	border-bottom: 7px solid transparent;
 	display: block;
 	border-top: 7px solid transparent;
 }
-#section3 .content .edu-content:nth-child(odd) .before {
+#education .content .edu-content:nth-child(odd) .before {
 	border-left: 15px solid var(--black);
 	margin-right: 5px;
 }
-#section3 .content .edu-content:nth-child(even) .before {
+#education .content .edu-content:nth-child(even) .before {
 	border-right: 15px solid var(--black);
 	margin-left: 5px;
 }
-#section3 .content .edu .place {
+#education .content .edu .place {
 	width: 90%;
 	overflow: hidden;
 	border: 2px solid var(--black);
 }
-#section3 .content .edu-content:nth-child(odd) .place {
+#education .content .edu-content:nth-child(odd) .place {
 	border-top-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
 
-#section3 .content .edu-content:nth-child(even) .place {
+#education .content .edu-content:nth-child(even) .place {
 	border-top-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
-#section3 .content .date {
+#education .content .date {
 }
-#section3 .content .circle {
+#education .content .circle {
 	display: block;
 	width: 10px;
 	height: 10px;
@@ -310,14 +310,14 @@ button {
 	box-sizing: border-box;
 }
 
-#section3 .content .edu:nth-child(even) .circle {
+#education .content .edu:nth-child(even) .circle {
 	transform: translateX(-6px) translateY(2px);
 }
-#section3 .content .edu:hover .edu-content .lead-desc {
+#education .content .edu:hover .edu-content .lead-desc {
 	height: 4rem;
 	padding: 10px;
 }
-#section3 .heading {
+#education .heading {
 	margin: 10px 0px;
 	height: 10vh;
 	font-size: 2rem;
@@ -327,7 +327,7 @@ button {
 	position:absolute;
 	top:0px;
 }
-#section3 #section3-content {
+#education #education-content {
 	margin-top: 3rem;
 	height: 90vh;
 	width: 100%;
@@ -336,11 +336,11 @@ button {
 	justify-content: space-between;
 	height: fill;
 }
-#section3 .timeline-image {
+#education .timeline-image {
 	width: 40%;
 	overflow: hidden;
 }
-#section3 .timeline-image img {
+#education .timeline-image img {
 	width: 100%;
 }
 
@@ -807,17 +807,17 @@ button {
 	#about .aboutme {
 		width: 90vw;
 	}
-	#section3 .content {
+	#education .content {
 		width: 90%;
 	}
-	#section3 .timeline-image {
+	#education .timeline-image {
 		display: none;
 	}
-	#section3 #section3-content {
+	#education #education-content {
 		justify-content: center;
 		align-items: center;
 	}
-	#section3 .content .edu:hover .edu-content .lead-desc {
+	#education .content .edu:hover .edu-content .lead-desc {
 		height: 12rem;
 	}
 
