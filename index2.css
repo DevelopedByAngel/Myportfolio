@@ -305,7 +305,7 @@ button {
 #section3 .content .edu:hover .edu-content .lead-desc {
 	height: 5rem;
 	background: var(--white);
-	color: black;
+	color: var(--font);
 	padding: 10px;
 }
 #section3 .heading {
