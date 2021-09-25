@@ -831,6 +831,7 @@ button {
 	{
 		display:flex;
 		color:var(--font);
+		font-size:1.5rem;
 	}
 	.pre,
 	.next {
