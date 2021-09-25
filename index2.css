@@ -118,7 +118,7 @@ button {
 	font-family: Nunito;
 	letter-spacing: 0.1rem;
 	font-size: 1.4rem;
-	color: var(--light);
+	color: var(--font);
 }
 #section1 #head .buttons {
 	display: flex;
