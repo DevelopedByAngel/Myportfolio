@@ -824,12 +824,12 @@ button {
 	#education .content .edu:hover .edu-content .lead-desc {
 		height: 12rem;
 	}
-
-	#skills .spinner {
-		height: 20vh;
-	}
 	#skills #desktop{
 		display: none;
+	}
+	#skills #mobile
+	{
+		display:flex;
 	}
 	.pre,
 	.next {
