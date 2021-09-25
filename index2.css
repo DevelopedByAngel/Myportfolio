@@ -849,13 +849,10 @@ button {
 	}
 	#section5 .work .content {
 		flex-direction: column;
-		z-index:3;
-		position:relative;
 	}
 	#section5 .work .work-img-div {
 		height: 60vh;
 		width: 90vw;
-		z-index:1;
 		overflow: hidden;
 		position: absolute;
 	}
