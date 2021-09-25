@@ -249,7 +249,7 @@ button {
 #section3 .content .edu .edu-content .lead-desc {
 	height: 0rem;
 	overflow: hidden;
-	background: #7f8f8c;
+	background: var(--secondary);
 	color: var(--light);
 	transition: all 0.5s cubic-bezier(1, 0.27, 0.2, 1.4);
 }
