@@ -301,7 +301,7 @@ button {
 	width: 10px;
 	height: 10px;
 	border-radius: 10px;
-	background: var(--white);
+	background: var(--black);
 	transform: translateX(6px) translateY(2px);
 	border: 3px double var(--dark);
 	box-sizing: border-box;
@@ -312,7 +312,7 @@ button {
 }
 #section3 .content .edu:hover .edu-content .lead-desc {
 	height: 5rem;
-	background: var(--white);
+	background: var(--black);
 	color: var(--font);
 	padding: 10px;
 }
