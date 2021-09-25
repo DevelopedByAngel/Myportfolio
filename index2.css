@@ -830,6 +830,7 @@ button {
 	#skills #mobile
 	{
 		display:flex;
+		color:var(--font);
 	}
 	.pre,
 	.next {
