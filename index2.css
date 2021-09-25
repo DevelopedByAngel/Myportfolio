@@ -301,7 +301,7 @@ button {
 	width: 10px;
 	height: 10px;
 	border-radius: 10px;
-	background: var(--black);
+	background: var(--white);
 	transform: translateX(6px) translateY(2px);
 	border: 3px double var(--dark);
 	box-sizing: border-box;
