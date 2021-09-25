@@ -838,7 +838,7 @@ button {
 	#skills #mobile .heading
 	{
 		text-align:center;
-			}
+		width:100vw;	}
 	#works .work-row {
 		flex-direction: column;
 	}
