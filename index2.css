@@ -641,6 +641,7 @@ button {
 	font-size: 1.2rem;
 	font-weight: bold;
 	margin-top: 1rem;
+	color:var(--font);
 	margin-bottom: 0.5rem;
 }
 #section6 .form input {
