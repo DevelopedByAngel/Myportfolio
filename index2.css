@@ -844,8 +844,7 @@ button {
 	{
 		position:relative;
 		text-align:center;
-		width:100vw;
-		margin-bottom:1rem;
+		margin-bottom:rem;
 	}
 	#skills #mobile ul
 	{
