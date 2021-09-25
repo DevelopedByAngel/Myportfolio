@@ -311,7 +311,7 @@ button {
 	transform: translateX(-6px) translateY(2px);
 }
 #section3 .content .edu:hover .edu-content .lead-desc {
-	height: 5rem;
+	height: 4.5rem;
 	background: var(--black);
 	color: var(--light);
 	padding: 10px;
