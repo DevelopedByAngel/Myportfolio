@@ -14,7 +14,7 @@
 	--light: #ddfff9;
 	--font: blue;
 	--white: white;
-	--black:black;
+	--black: black;
 }
 html {
 	scroll-behavior: smooth;
@@ -43,21 +43,24 @@ button {
 #nav span {
 	margin: 1rem 1rem;
 	font-size: 1.2rem;
+	text-shadow: 1px 1px 2px var(--black);
 }
 #nav {
 	position: sticky;
 	left: 0px;
-    top: 0px;
-    color: var(--white);
-    display: flex;
-    text-shadow: 1px 1px 0px var(--black);
-    background: var(--dark);
-    flex-direction: row;
-    justify-content: flex-end;
-    z-index: 5;
-    height: 3rem;
-    box-shadow: 0px 4px 10px var(--secondary), inset 4px 0px 10px var(--secondary);
-    transition: all 0.25s linear;}
+	top: 0px;
+	color: var(--white);
+	display: flex;
+	text-shadow: 1px 1px 0px var(--black);
+	background: var(--dark);
+	flex-direction: row;
+	justify-content: flex-end;
+	z-index: 5;
+	height: 3rem;
+	box-shadow: 0px 4px 10px var(--secondary),
+		inset 4px 0px 10px var(--secondary);
+	transition: all 0.25s linear;
+}
 #nav .close {
 	display: none;
 }
@@ -587,7 +590,7 @@ button {
 #section5 .work .desc {
 	padding: 1rem;
 	text-align: justify;
-	color:var(--font);
+	color: var(--font);
 }
 #section5 .work .desc .title {
 	font-weight: bolder;
@@ -642,7 +645,7 @@ button {
 	font-size: 1.2rem;
 	font-weight: bold;
 	margin-top: 1rem;
-	color:var(--font);
+	color: var(--font);
 	margin-bottom: 0.5rem;
 }
 #section6 .form input {
@@ -761,7 +764,7 @@ button {
 		border-bottom-left-radius: 50%;
 		left: 0px;
 		top: 0px;
-		    box-shadow: 2px 2px 10px var(--secondary);
+		box-shadow: 2px 2px 10px var(--secondary);
 	}
 	#section1 #head .about-btn {
 		font-size: 1rem;
