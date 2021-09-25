@@ -870,14 +870,14 @@ button {
 	#works .work-row .work:nth-child(even) .work-img {
 		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
 	}
-	/*#works .work-row .work:nth-child(odd):hover .work-img {
+	#works .work-row .work:nth-child(odd):hover .work-img {
 		transform: scale(1);
-		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
+		/*clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);*/
 	}
 	#works .work-row .work:nth-child(even):hover .work-img {
 		transform: scale(1);
-		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
-	}*/
+		/*clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);*/
+	}
 	#contact .form {
 		display: flex;
 		flex-direction: column;
