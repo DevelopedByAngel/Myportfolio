@@ -14,7 +14,7 @@
 	--light: #ddfff9;
 	--font: #1d1d1d;
 	--white: white;
-	--black: black;
+	--black: #535454;
 }
 html {
 	scroll-behavior: smooth;
