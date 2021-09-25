@@ -842,7 +842,7 @@ button {
 	}
 	#skills #mobile .heading
 	{
-		position:relative
+		position:relative;
 		text-align:center;
 		width:100vw;
 	}
