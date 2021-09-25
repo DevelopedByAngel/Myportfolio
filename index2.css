@@ -612,7 +612,7 @@ button {
 	font-size: 0.8rem;
 }
 
-#section6 {
+#contact {
 	z-index: 2;
 	position: relative;
 	background: var(--light);
@@ -620,57 +620,57 @@ button {
 	display: flex;
 	flex-direction: column;
 }
-#section6 .heading {
+#contact .heading {
 	height: 10vh;
 	font-size: 2.5rem;
 	font-family: Calistoga;
 	color: var(--font);
 	top: 1rem;
 }
-#section6 .form {
+#contact .form {
 	display: flex;
 	flex-direction: row;
 	width: 70vw;
 	justify-content: space-between;
 }
-#section6 .form .details {
+#contact .form .details {
 	width: 50%;
 	margin: 1rem;
 	display: flex;
 	flex-direction: column;
 }
-#section6 .form .message-div {
+#contact .form .message-div {
 	display: flex;
 	margin: 1rem;
 	width: 50%;
 	flex-direction: column;
 }
-#section6 .form input {
+#contact .form input {
 	width: 100%;
 }
-#section6 .form .label {
+#contact .form .label {
 	font-size: 1.2rem;
 	font-weight: bold;
 	margin-top: 1rem;
 	color: var(--font);
 	margin-bottom: 0.5rem;
 }
-#section6 .form input {
+#contact .form input {
 	background: transparent;
 	border: none;
 	outline: none;
 	border-bottom: 1px solid;
 	border-radius: 0px;
 }
-#section6 .form textarea {
+#contact .form textarea {
 	height: 100%;
 	resize: none;
 }
 
-#section6 .icons {
+#contact .icons {
 	margin-top: 1rem;
 }
-#section6 .icons a i {
+#contact .icons a i {
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -685,11 +685,11 @@ button {
 		#60d5bf
 	);
 }
-#section6 .fa {
+#contact .fa {
 	font-size: 2rem;
 	margin: 1rem;
 }
-#section6 input[type="submit"] {
+#contact input[type="submit"] {
 	cursor: pointer;
 	display: flex;
 	flex-direction: row;
@@ -709,22 +709,22 @@ button {
 	background: var(--dark);
 	font-weight: bold;
 }
-#section6 input[type="submit"]:hover {
+#contact input[type="submit"]:hover {
 	position: relative;
 	top: 2px;
 }
-#section6 input[type="submit"]:active {
+#contact input[type="submit"]:active {
 	position: relative;
 	top: 5px;
 	transform: scale(0.9);
 }
-#section6 textarea {
+#contact textarea {
 	padding: 5px;
 }
-#section6 .icons .fa {
+#contact .icons .fa {
 	color: var(--font);
 }
-#section6 .icons .fa:hover {
+#contact .icons .fa:hover {
 	filter: drop-shadow(0px 0px 5px white);
 }
 @media (max-width: 768px) {
@@ -878,20 +878,20 @@ button {
 		transform: scale(1);
 		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
 	}
-	#section6 .form {
+	#contact .form {
 		display: flex;
 		flex-direction: column;
 		width: 100vw;
 		justify-content: center;
 		align-items: center;
 	}
-	#section6 .form .details {
+	#contact .form .details {
 		width: 75%;
 	}
-	#section6 .form .message-div {
+	#contact .form .message-div {
 		width: 75%;
 	}
-	#section6 .heading {
+	#contact .heading {
 		margin-top: 2rem;
 	}
 }
