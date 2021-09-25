@@ -344,13 +344,13 @@ button {
 	width: 100%;
 }
 
-#section4 {
+#skills {
 	background: var(--light);
 	position: relative;
 	z-index: 2;
 	color: var(--white);
 }
-#section4 .heading {
+#skills .heading {
 	margin: 10px 0px;
 	height: 10vh;
 	font-size: 3rem;
@@ -361,7 +361,7 @@ button {
 	left: 0px;
 	top: 1rem;
 }
-#section4 .cover {
+#skills .cover {
 	position: absolute;
 	top: 5rem;
 	left: 0px;
@@ -370,7 +370,7 @@ button {
 	width: 100vw;
 	perspective: 100rem;
 }
-#section4 .spinner {
+#skills .spinner {
 	width: 0px;
 	/*border-left: 5px dotted var(--white);*/
 	box-sizing: content-box;
@@ -383,7 +383,7 @@ button {
 	position: relative;
 	top: 10rem;
 }
-#section4 .skill {
+#skills .skill {
 	height: 100px;
 	width: 200px;
 	display: flex;
@@ -394,46 +394,46 @@ button {
 	left: -100px;
 	right: -100px;
 }
-#section4 .skill img {
+#skills .skill img {
 	height: 100%;
 }
-#section4 .skill:nth-child(1) {
+#skills .skill:nth-child(1) {
 	transform: rotateY(0deg) translateZ(430px);
 }
-#section4 .skill:nth-child(2) {
+#skills .skill:nth-child(2) {
 	transform: rotateY(36deg) translateZ(430px);
 }
-#section4 .skill:nth-child(3) {
+#skills .skill:nth-child(3) {
 	transform: rotateY(72deg) translateZ(430px);
 }
-#section4 .skill:nth-child(4) {
+#skills .skill:nth-child(4) {
 	transform: rotateY(108deg) translateZ(430px);
 }
-#section4 .skill:nth-child(5) {
+#skills .skill:nth-child(5) {
 	transform: rotateY(144deg) translateZ(430px);
 }
-#section4 .skill:nth-child(6) {
+#skills .skill:nth-child(6) {
 	transform: rotateY(180deg) translateZ(430px);
 }
-#section4 .skill:nth-child(7) {
+#skills .skill:nth-child(7) {
 	transform: rotateY(216deg) translateZ(430px);
 }
-#section4 .skill:nth-child(8) {
+#skills .skill:nth-child(8) {
 	transform: rotateY(252deg) translateZ(430px);
 }
-#section4 .skill:nth-child(9) {
+#skills .skill:nth-child(9) {
 	transform: rotateY(288deg) translateZ(430px);
 }
-#section4 .skill:nth-child(10) {
+#skills .skill:nth-child(10) {
 	transform: rotateY(324deg) translateZ(430px);
 }
-#section4 .container {
+#skills .container {
 	position: relative;
 	width: 320px;
 	perspective: 1000px;
 }
 
-#section4 .carousel {
+#skills .carousel {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -442,7 +442,7 @@ button {
 	transform: rotateY(0deg);
 	transform-origin: center center;
 }
-#section4 .carousel__face {
+#skills .carousel__face {
 	position: absolute;
 	width: 200px;
 	height: 100px;
@@ -455,7 +455,7 @@ button {
 	justify-content: center;
 }
 
-#section4 .carousel__face img {
+#skills .carousel__face img {
 	width: auto;
 	height: 100%;
 }
@@ -821,10 +821,10 @@ button {
 		height: 12rem;
 	}
 
-	#section4 .spinner {
+	#skills .spinner {
 		height: 20vh;
 	}
-	#section4 {
+	#skills {
 		display: flex;
 		justify-content: center;
 		align-items: center;
