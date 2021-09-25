@@ -251,6 +251,7 @@ button {
 	overflow: hidden;
 	background: var(--secondary);
 	color: var(--light);
+	border-bottom:2px solid var(--secondary);
 	transition: all 0.5s cubic-bezier(1, 0.27, 0.2, 1.4);
 }
 #section3 .content .edu:nth-child(even) .edu-content,
