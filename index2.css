@@ -854,7 +854,7 @@ button {
 		line-height:3rem;
 		list-style:square;
 	}
-	::maker
+	::marker
 	{
 		color:var(--secondary);
 		transform:scale(1.2);
