@@ -854,7 +854,7 @@ button {
 		line-height:3rem;
 		list-style:square;
 	}
-	#skills #mobile li::maker
+	::maker
 	{
 		color:var(--secondary);
 		transform:scale(1.2);
