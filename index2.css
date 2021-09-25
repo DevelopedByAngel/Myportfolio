@@ -325,6 +325,7 @@ button {
 	color: var(--black);
 	padding-left: 2vw;
 	position:absolute;
+	top:0px;
 }
 #section3 #section3-content {
 	margin-top: 3rem;
