@@ -838,6 +838,7 @@ button {
 	#skills #mobile .heading
 	{
 		align-self:center;
+		color:red;
 	}
 	#works .work-row {
 		flex-direction: column;
