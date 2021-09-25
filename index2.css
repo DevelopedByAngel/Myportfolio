@@ -120,7 +120,7 @@ button {
 	font-size: 1.4rem;
 	color: var(--white);
 	font-style:italic;
-	transform:skewX(1deg);
+	transform:skewX(10deg);
 }
 #section1 #head .buttons {
 	display: flex;
