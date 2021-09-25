@@ -313,7 +313,7 @@ button {
 #section3 .content .edu:hover .edu-content .lead-desc {
 	height: 5rem;
 	background: var(--black);
-	color: var(--white);
+	color: var(--light);
 	padding: 10px;
 }
 #section3 .heading {
