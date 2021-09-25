@@ -852,6 +852,12 @@ button {
 	#skills #mobile ul
 	{
 		line-height:3rem;
+		list-style:square;
+	}
+	#skills #mobile li::maker
+	{
+		color:var(--secondary);
+		transform:scale(1.2)
 	}
 	#works .work-row {
 		flex-direction: column;
