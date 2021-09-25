@@ -828,7 +828,9 @@ button {
 		display: none;
 	}
 	#skills
-	{}
+	{
+		
+	}
 	#skills #mobile
 	{
 		display:flex;
