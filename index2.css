@@ -121,7 +121,7 @@ button {
 	color: var(--white);
 	font-style:italic;
 	transform:skewX(-10deg);
-	/*letter-spacing:0.01px;*/
+	letter-spacing:0.01px;
 }
 #section1 #head .buttons {
 	display: flex;
