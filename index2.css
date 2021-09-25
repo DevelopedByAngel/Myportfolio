@@ -511,7 +511,7 @@ button {
 	right: 45%;
 }
 
-#section5 {
+#works {
 	background: var(--dark);
 	position: relative;
 	z-index: 2;
@@ -519,20 +519,20 @@ button {
 	flex-direction: column;
 	height: auto;
 }
-#section5 .rotate {
+#works .rotate {
 	width: 22vw;
 	height: 70vh;
 	background: var(--white);
 	transition: all 0.25s ease;
 }
-#section5 .work:nth-child(even) .rotate {
+#works .work:nth-child(even) .rotate {
 	transform: rotateZ(7deg) translate(-25px, -5px);
 }
-#section5 .work:nth-child(odd) .rotate {
+#works .work:nth-child(odd) .rotate {
 	z-index: 2;
 	transform: rotateZ(-7deg) translate(25px, -5px);
 }
-#section5 .heading {
+#works .heading {
 	margin: 0px 50%;
 	height: 10vh;
 	font-size: 3rem;
@@ -541,12 +541,12 @@ button {
 	padding-left: 2vw;
 	top: 1rem;
 }
-#section5 .work-row {
+#works .work-row {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
-#section5 .work {
+#works .work {
 	display: flex;
 	width: 40vw;
 	margin: 1rem;
@@ -560,52 +560,52 @@ button {
 		inset -0.1rem 0.1rem 1rem rgb(144 144 144 / 40%),
 		0.1rem 0.1rem 0.5rem rgb(255 255 255 / 40%);
 }
-#section5 .work .content {
+#works .work .content {
 	display: flex;
 	height: 60vh;
 	overflow: hidden;
 	flex-direction: row;
 }
-#section5 .work-img-div {
+#works .work-img-div {
 	height: 60vh;
 	width: 15vw;
 	overflow-y: revert;
 }
-#section5 .work-img {
+#works .work-img {
 	height: 60vh;
 	filter: contrast(70%);
 	transition: all 0.25s linear;
 }
-#section5 .work-row .work:nth-child(even) .work-img {
+#works .work-row .work:nth-child(even) .work-img {
 	clip-path: polygon(0% 0%, 0% 100%, 40% 100%, 80% 0%);
 }
-#section5 .work-row .work:nth-child(odd) .work-img {
+#works .work-row .work:nth-child(odd) .work-img {
 	clip-path: polygon(20% 0%, 60% 100%, 100% 100%, 100% 0%);
 }
-#section5 .work:hover .work-img {
+#works .work:hover .work-img {
 	filter: contrast(100%);
 	clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
-#section5 .work:hover .rotate {
+#works .work:hover .rotate {
 	transform: rotateZ(0deg) translate(0px, 0px);
 }
-#section5 .work:hover .work-img-div .work-img {
+#works .work:hover .work-img-div .work-img {
 	transform: scale(1.1);
 	clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
 }
 
-#section5 .work .desc {
+#works .work .desc {
 	padding: 1rem;
 	text-align: justify;
 	color: var(--font);
 }
-#section5 .work .desc .title {
+#works .work .desc .title {
 	font-weight: bolder;
 	font-size: 1.2rem;
 	margin-bottom: 1rem;
 	text-decoration: underline;
 }
-#section5 .work .date {
+#works .work .date {
 	margin: 1rem 0rem;
 	color: var(--font);
 	font-weight: bolder;
@@ -840,41 +840,41 @@ button {
 	.next {
 		right: 0%;
 	}
-	#section5 .work-row {
+	#works .work-row {
 		flex-direction: column;
 	}
-	#section5 .work-row .work {
+	#works .work-row .work {
 		width: 90vw;
 		flex-direction: column;
 	}
-	#section5 .work .content {
+	#works .work .content {
 		flex-direction: column;
 	}
-	#section5 .work .work-img-div {
+	#works .work .work-img-div {
 		height: 60vh;
 		width: 90vw;
 		overflow: hidden;
 		position: absolute;
 	}
-	#section5 .work .title {
+	#works .work .title {
 		z-index: 4;
 		position: relative;
 	}
-	#section5 .work .work-img {
+	#works .work .work-img {
 		width: 100%;
 		height: 100vh;
 	}
-	#section5 .work-row .work:nth-child(odd) .work-img {
+	#works .work-row .work:nth-child(odd) .work-img {
 		clip-path: polygon(0% 40%, 0% 100%, 100% 100%, 100% 25%);
 	}
-	#section5 .work-row .work:nth-child(even) .work-img {
+	#works .work-row .work:nth-child(even) .work-img {
 		clip-path: polygon(0% 20%, 0% 100%, 100% 100%, 100% 40%);
 	}
-	#section5 .work-row .work:nth-child(odd):hover .work-img {
+	#works .work-row .work:nth-child(odd):hover .work-img {
 		transform: scale(1);
 		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
 	}
-	#section5 .work-row .work:nth-child(even):hover .work-img {
+	#works .work-row .work:nth-child(even):hover .work-img {
 		transform: scale(1);
 		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
 	}
