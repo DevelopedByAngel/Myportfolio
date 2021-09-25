@@ -878,6 +878,17 @@ button {
 		transform: scale(1);
 		/*clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);*/
 	}
+	#works .work .desc
+	{
+		padding: 1rem;
+    text-align: justify;
+    color: var(--font);
+    z-index: 2;
+    height: 100%;
+    background: white;
+    border: 1px solid var(--light);
+    box-shadow: inset 0rem 0rem 2rem rgb(121 121 121 / 40%), inset -0.1rem 0.1rem 1rem rgb(144 144 144 / 40%), 0.1rem 0.1rem 0.5rem rgb(255 255 255 / 40%);
+	}
 	#contact .form {
 		display: flex;
 		flex-direction: column;
