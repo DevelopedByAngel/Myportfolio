@@ -827,7 +827,8 @@ button {
 	#skills #desktop{
 		display: none;
 	}
-	#sk
+	#skills
+	{}
 	#skills #mobile
 	{
 		display:flex;
