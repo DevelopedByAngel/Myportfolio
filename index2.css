@@ -48,7 +48,7 @@ button {
 	position: sticky;
 	left: 0px;
 	top: 0px;
-	color: var(--white);
+	color: var(--black);
 	display: flex;
 	background: var(--dark);
 	flex-direction: row;
