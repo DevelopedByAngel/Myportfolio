@@ -350,6 +350,10 @@ button {
 	z-index: 2;
 	color: var(--white);
 }
+#skills #mobile
+{
+	display: none;
+}
 #skills .heading {
 	margin: 10px 0px;
 	height: 10vh;
