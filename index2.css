@@ -877,6 +877,7 @@ button {
 		height: 100vh;
 		transform:rotateY(180deg);
 		transition:all 0.5s linear;
+		transition-delay:0.25s;
 	}
 	#works .work-row .work:nth-child(odd) .work-img {
 		clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);
