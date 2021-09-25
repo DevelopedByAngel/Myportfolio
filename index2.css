@@ -829,7 +829,7 @@ button {
 	}
 	#skills
 	{
-		height
+		height:auto;
 	}
 	#skills #mobile
 	{
