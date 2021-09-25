@@ -235,7 +235,7 @@ button {
 	font-size: 1.3rem;
 }
 #section3 .content .edu .date .cover span {
-	border-bottom: 1px solid var(--white);
+	border-bottom: 1px solid var(--black);
 }
 #section3 .content .edu .edu-content {
 	/*height: 1.5rem;*/
@@ -273,11 +273,11 @@ button {
 	border-top: 7px solid transparent;
 }
 #section3 .content .edu-content:nth-child(odd) .before {
-	border-left: 15px solid var(--white);
+	border-left: 15px solid var(--black);
 	margin-right: 5px;
 }
 #section3 .content .edu-content:nth-child(even) .before {
-	border-right: 15px solid var(--white);
+	border-right: 15px solid var(--black);
 	margin-left: 5px;
 }
 #section3 .content .edu .place {
