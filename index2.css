@@ -169,7 +169,7 @@ button {
 #intro .intro {
 	color: var(--light);
 }
-#section2 {
+#about {
 	background: var(--light);
 	position: relative;
 	z-index: 2;
@@ -180,10 +180,10 @@ button {
 .menu {
 	display: none;
 }
-#section2 .heading-mob {
+#about .heading-mob {
 	display: none;
 }
-#section2 .heading {
+#about .heading {
 	display: block;
 	width: 30vw;
 	font-size: 5rem;
@@ -193,7 +193,7 @@ button {
 	line-height: 7rem;
 	padding-left: 2vw;
 }
-#section2 .aboutme {
+#about .aboutme {
 	width: 60vw;
 	margin: 0px 2vw;
 	font-family: Nunito;
@@ -202,7 +202,7 @@ button {
 	color: var(--font);
 	text-align: justify;
 }
-#section2 .aboutme .content span {
+#about .aboutme .content span {
 	margin-bottom: 10px;
 }
 #section3 {
@@ -789,14 +789,14 @@ button {
 		height: 88vw;
 		width: 85vw;
 	}
-	#section2 {
+	#about {
 		flex-direction: column;
 		justify-content: space-around;
 	}
-	#section2 .heading {
+	#about .heading {
 		display: none;
 	}
-	#section2 .heading-mob {
+	#about .heading-mob {
 		display: block;
 		font-size: 3rem;
 		font-family: Calistoga;
@@ -804,7 +804,7 @@ button {
 		color: var(--dark);
 		padding-left: 2vw;
 	}
-	#section2 .aboutme {
+	#about .aboutme {
 		width: 90vw;
 	}
 	#section3 .content {
