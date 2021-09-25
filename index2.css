@@ -121,8 +121,8 @@ button {
 	color: var(--black);
 	opacity:0.5;
 	font-style:italic;
-	transform:skewX(-10deg);
-	letter-spacing:0.01px;
+/*	transform:skewX(-10deg);
+*/	letter-spacing:0.01px;
 }
 #section1 #head .buttons {
 	display: flex;
