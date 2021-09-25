@@ -208,7 +208,7 @@ button {
 	background: var(--dark);
 	position: relative;
 	z-index: 2;
-	color: var(--white);
+	color: var(--black);
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
