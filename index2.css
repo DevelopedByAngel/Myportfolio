@@ -824,10 +824,8 @@ button {
 	#skills .spinner {
 		height: 20vh;
 	}
-	#skills {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	#skills #desktop{
+		display: none;
 	}
 	.pre,
 	.next {
