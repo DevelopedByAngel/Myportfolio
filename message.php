@@ -1,5 +1,5 @@
 <?php     
-ini_set('SMTP', "gmail.com");
+ini_set('SMTP', "localhost");
 ini_set('smtp_port', "25");
 ini_set('sendmail_from', "remainderevent@gmail.com");
 $to_email = 'angelfrancis1111@gmail.com';
