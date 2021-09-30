@@ -15,6 +15,6 @@ $mail->Port="587";
 $mail->Username="remainderevent@gmail.com";
 $mail->Password="remainder111";
 $mail->Subject="hello";
-$mail->setFrom()
+$mail->setFrom("remainderevent@gmail.com")
 
 ?>
