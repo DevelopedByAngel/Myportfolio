@@ -17,5 +17,7 @@ $mail->Password="remainder111";
 $mail->Subject="hello";
 $mail->setFrom("remainderevent@gmail.com");
 $mail->Body="message";
+$mail->addAddress("angelfrancis1806@gmail.com");
+
 
 ?>
