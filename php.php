@@ -21,6 +21,6 @@ $mail->addAddress("angelfrancis1806@gmail.com");
 if($mail->Send())
 echo "sent";
 else
-echo "er"
+echo "error";
 $mail->smtpClose();
 ?>
