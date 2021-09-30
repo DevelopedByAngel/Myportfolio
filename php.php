@@ -9,4 +9,5 @@ use PHPMailer\PHPMailer\Exception;
 $mail=new PHPMailer();
 $mail->isSMTP();
 $mail->Host="smtp.gmail.com";
+$
 ?>
