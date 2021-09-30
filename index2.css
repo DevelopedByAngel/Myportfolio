@@ -52,7 +52,7 @@ button {
 	color: var(--white);
 	display: flex;
 	text-shadow: 1px 1px 0px var(--black);
-	background: var(--dark);
+	background: #60d5bf;
 	flex-direction: row;
 	justify-content: flex-end;
 	z-index: 5;
