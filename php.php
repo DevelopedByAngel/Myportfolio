@@ -1,6 +1,6 @@
 <?php
 require 'php/includes/PHPMailer.php'; 
-re
+requir
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
