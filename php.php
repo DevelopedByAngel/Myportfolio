@@ -7,5 +7,5 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 $mail=new PHPMailer();
-$mail.is
+$mail.isD
 ?>
