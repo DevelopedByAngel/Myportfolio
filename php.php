@@ -19,6 +19,7 @@ $mail->setFrom("remainderevent@gmail.com");
 $mail->Body="message";
 $mail->addAddress("angelfrancis1806@gmail.com");
 if($mail->Send())
-echo "s"
+echo "sent";
+
 $mail->smtpClose();
 ?>
