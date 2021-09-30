@@ -16,6 +16,6 @@ $mail->Username="remainderevent@gmail.com";
 $mail->Password="remainder111";
 $mail->Subject="hello";
 $mail->setFrom("remainderevent@gmail.com");
-$mail->Body=
+$mail->Body="message";
 
 ?>
