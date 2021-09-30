@@ -8,5 +8,5 @@ use PHPMailer\PHPMailer\Exception;
 
 $mail=new PHPMailer();
 $mail.isSMTP();
-$mail.
+$mail.-
 ?>
