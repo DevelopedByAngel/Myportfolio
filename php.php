@@ -12,5 +12,5 @@ $mail->Host="smtp.gmail.com";
 $mail->SMTPAuth=true;
 $mail->SMTPSecure="tls";
 $mail->Port="587";
-$mail->username="remainderevent@gmail.com";
+$mail->Username="remainderevent@gmail.com";
 ?>
