@@ -20,6 +20,6 @@ $mail->Body="message";
 $mail->addAddress("angelfrancis1806@gmail.com");
 if($mail->Send())
 echo "sent";
-
+el
 $mail->smtpClose();
 ?>
