@@ -1,15 +1,16 @@
 <?php
-if (isset($_POST['submitmessage'])) 
-{
-    $message = $_POST['message'];
-    $name = $_POST['name'];
-    $email = $_POST['email'];
 require 'php/includes/PHPMailer.php'; 
 require 'php/includes/SMTP.php';
 require 'php/includes/Exception.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+if (isset($_POST['submitmessage'])) 
+{
+    $message = $_POST['message'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+
 
 $mail=new PHPMailer();
 $mail->isSMTP();
