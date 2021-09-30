@@ -1,5 +1,5 @@
 <?php
-require  PHPMailer\PHPMailer\PHPMailer;
+require 'php/includes/' PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 ?>
