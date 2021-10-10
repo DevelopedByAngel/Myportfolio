@@ -30,7 +30,7 @@ html {
 
 	/*border: 1px solid rgba(0, 0, 0, 0.2);*/
 }
-*::selection {
+*::selection {r5
 	background: var(--primary);
 }
 a {
