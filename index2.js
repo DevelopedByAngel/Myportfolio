@@ -55,6 +55,6 @@ const submit=(name,mail,contact,message)=>
 		false
 	); //getting the last status
 	xmlHttp.send();
-	equip = xmlHttp.responseText.split(",");
+	equip = xmlHttp.responseText;
 	console.log(equip);
 }
