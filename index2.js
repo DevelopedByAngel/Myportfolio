@@ -46,6 +46,10 @@ $("#nav>span a").on("click", () => {
 	}
 });
 
+$("#contactform").on("submit",(e)=>
+	{
+		console.log(e.target);
+	});
 const submit=(name,mail,contact,message)=>
 {
 	var xmlHttp = new XMLHttpRequest();
