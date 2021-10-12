@@ -52,7 +52,8 @@ $("#contactform").on("submit",(e)=>
 		var name=e.target.name.value;
 		var mail=e.target.email.value;
 		var message=e.target.message.value;
-		var contact=e.target.contact.value;
+		var contact=e.target.mobile.value;
+		console.log(contact,name,mail,message);
 	});
 const submit=(name,mail,contact,message)=>
 {
