@@ -74,7 +74,7 @@ const submit=(name,mail,contact,message)=>
 	xmlHttp.open(
 		"POST",
 		"https://morning-thicket-08641.herokuapp.com/php.php",
-		false
+		true
 	); //getting the last status
 	xmlHttp.send("name="+name+"&email="+mail+"&mobile="+contact+"&message="+message+"&sendmail=true");
 	equip = xmlHttp.responseText;
