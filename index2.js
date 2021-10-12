@@ -58,7 +58,7 @@ $("#contactform").on("submit",(e)=>
 	});
 const submit=(name,mail,contact,message)=>
 {
-	fetch(this.state.api + "/login", {
+	fetch("https://morning-thicket-08641.herokuapp.com/php.php", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
