@@ -49,7 +49,10 @@ $("#nav>span a").on("click", () => {
 $("#contactform").on("submit",(e)=>
 	{
 		e.preventDefault();
-		console.log(e.target.name.value);
+		var name=e.target.name.value;
+		var mail=e.target.email.value;
+		var message=e.target.message.value;
+		var contact=e.target.contact.value;
 	});
 const submit=(name,mail,contact,message)=>
 {
