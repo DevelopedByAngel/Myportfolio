@@ -57,4 +57,5 @@ const submit=(name,mail,contact,message)=>
 	xmlHttp.send();
 	equip = xmlHttp.responseText;
 	console.log(equip);
+	console.log(xmlHttp.status);
 }
