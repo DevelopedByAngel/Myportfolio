@@ -54,6 +54,7 @@ $("#contactform").on("submit",(e)=>
 		var message=e.target.message.value;
 		var contact=e.target.mobile.value;
 		console.log(contact,name,mail,message);
+		submit(name,mail,contact,message);
 	});
 const submit=(name,mail,contact,message)=>
 {
