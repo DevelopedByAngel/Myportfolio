@@ -48,13 +48,13 @@ $("#nav>span a").on("click", () => {
 
 const submit=(name,mail,contact,message)=>
 {
-	fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        id: id,
-        password: password,
-      }),
-    })
-      .then((res) => res.json())
+	var xmlHttp = new XMLHttpRequest();
+	xmlHttp.open(
+		"GET",
+		"",
+		false
+	); //getting the last status
+	xmlHttp.send();
+	equip = xmlHttp.responseText.split(",");
+	console.log(equip);
 }
