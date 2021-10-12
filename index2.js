@@ -50,7 +50,7 @@ const submit=(name,mail,contact,message)=>
 {
 	var xmlHttp = new XMLHttpRequest();
 	xmlHttp.open(
-		"GET",
+		"POST",
 		"",
 		false
 	); //getting the last status
