@@ -45,3 +45,11 @@ $("#nav>span a").on("click", () => {
 		$("#nav").css("width", "0rem");
 	}
 });
+
+const submit=(name,mail,contact,message)=>
+{
+	fetch(url,
+		{
+			
+		})
+}
