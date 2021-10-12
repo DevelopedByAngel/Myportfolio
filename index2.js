@@ -48,6 +48,7 @@ $("#nav>span a").on("click", () => {
 
 $("#contactform").on("submit",(e)=>
 	{
+		e.preventDefault();
 		console.log(e.target);
 	});
 const submit=(name,mail,contact,message)=>
