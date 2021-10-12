@@ -51,7 +51,7 @@ const submit=(name,mail,contact,message)=>
 	var xmlHttp = new XMLHttpRequest();
 	xmlHttp.open(
 		"POST",
-		"",
+		"https://morning-thicket-08641.herokuapp.com/php.php",
 		false
 	); //getting the last status
 	xmlHttp.send();
