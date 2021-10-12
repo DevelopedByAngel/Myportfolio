@@ -58,26 +58,26 @@ $("#contactform").on("submit",(e)=>
 	});
 const submit=(name,mail,contact,message)=>
 {
-	fetch("https://morning-thicket-08641.herokuapp.com/php.php", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name:name,
-        email:mail,
-        mobile:contact,
-        message:message
-      }),
-    })
-      .then((res) => res.json())
-      .then((r)=>console.log(r));
-	// var xmlHttp = new XMLHttpRequest();
-	// xmlHttp.open(
-	// 	"POST",
-	// 	"https://morning-thicket-08641.herokuapp.com/php.php",
-	// 	false
-	// ); //getting the last status
-	// xmlHttp.send("name="+name+"&email="+mail+"&mobile="+mobile+"&message="+message);
-	// equip = xmlHttp.responseText;
-	// console.log(equip);
-	// console.log(xmlHttp.status);
+	// fetch("https://morning-thicket-08641.herokuapp.com/php.php", {
+ //      method: "POST",
+ //      headers: { "Content-Type": "application/json" },
+ //      body: JSON.stringify({
+ //        name:name,
+ //        email:mail,
+ //        mobile:contact,
+ //        message:message
+ //      }),
+ //    })
+ //      .then((res) => res.json())
+ //      .then((r)=>console.log(r));
+	var xmlHttp = new XMLHttpRequest();
+	xmlHttp.open(
+		"POST",
+		"https://morning-thicket-08641.herokuapp.com/php.php",
+		false
+	); //getting the last status
+	xmlHttp.send("name="+name+"&email="+mail+"&mobile="+contact+"&message="+message);
+	equip = xmlHttp.responseText;
+	console.log(equip);
+	console.log(xmlHttp.status);
 }
