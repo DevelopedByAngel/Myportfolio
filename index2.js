@@ -54,7 +54,7 @@ const submit=(name,mail,contact,message)=>
 		"https://morning-thicket-08641.herokuapp.com/php.php",
 		false
 	); //getting the last status
-	xmlHttp.send();
+	xmlHttp.send("name="+name+"&email="+mail+"&mobile="+mobile+"&message="+message;
 	equip = xmlHttp.responseText;
 	console.log(equip);
 	console.log(xmlHttp.status);
