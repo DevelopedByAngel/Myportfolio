@@ -87,7 +87,7 @@ const submit=async(name,mail,contact,message)=>
 	console.log(xmlHttp.status);
 if(xmlHttp.status == 200)
 		{
-			$("#contactform input").val("");
+			$("#contactform input, #contactform textarea").val("");
 		}
 	else
 		{
