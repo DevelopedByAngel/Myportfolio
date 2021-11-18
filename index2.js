@@ -56,7 +56,7 @@ $("#contactform").on("submit",(e)=>
 		console.log(contact,name,mail,message);
 		submit(name,mail,contact,message);
 	});
-const submit=(name,mail,contact,message)=>
+const submit=async(name,mail,contact,message)=>
 {
 	// fetch("https://morning-thicket-08641.herokuapp.com/php.php", {
  //      method: "POST",
@@ -79,8 +79,8 @@ const submit=(name,mail,contact,message)=>
 	var reply="From: "+name+"("+mail+")\nContact.No:"+contact+"\n\n "+message;
 	var subject="Angel Francis | Portfolio";
 	var body="<div><div style='background: #ddfff9; border: 7px double white; border-radius: 1rem; padding: 10px;'><span><h1 style='color:#05ab8e;'>Hi "+name+"!!</h1></span><span><h3 style='color: #066f5d;'>Happy to connect with you.</h3></span><br><br><br><h4><span>From,</span><div style='padding:1rem 2rem;line-height:1.5rem;'>Angel F ,<br>Final Year Under Graduate,<br>Panimalar Engineering College.</div></h4></div></div>"
-	xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-	xmlHttp.send("name="+name+"&email="+mail+"&mobile="+contact+"&message="+message+"&body="+body+"&reply="+reply+"&subject="+subject+"&sendmail=true");
+	await xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+	await xmlHttp.send("name="+name+"&email="+mail+"&mobile="+contact+"&message="+message+"&body="+body+"&reply="+reply+"&subject="+subject+"&sendmail=true");
 	equip = xmlHttp.responseText;
 	console.log(equip);
 	console.log(xmlHttp.status);
