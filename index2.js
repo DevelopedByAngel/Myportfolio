@@ -84,4 +84,8 @@ const submit=(name,mail,contact,message)=>
 	equip = xmlHttp.responseText;
 	console.log(equip);
 	console.log(xmlHttp.status);
+	if(xmlHttp.status == 200)
+		{
+			
+		}
 }
