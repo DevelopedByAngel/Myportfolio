@@ -84,7 +84,6 @@ const submit=async(name,mail,contact,message)=>
 	xmlHttp.onload=()=>{
 		
 	};
-	equip = xmlHttp.responseText;
 	console.log(equip);
 	console.log(xmlHttp.status);
 	if(xmlHttp.status == 200)
