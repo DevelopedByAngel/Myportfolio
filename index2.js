@@ -86,6 +86,6 @@ const submit=(name,mail,contact,message)=>
 	console.log(xmlHttp.status);
 	if(xmlHttp.status == 200)
 		{
-			
+			$("#contactform input").val("");
 		}
 }
