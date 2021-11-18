@@ -88,4 +88,8 @@ const submit=(name,mail,contact,message)=>
 		{
 			$("#contactform input").val("");
 		}
+	else
+		{
+			alert("Not able to send Message. Try again later");
+		}
 }
