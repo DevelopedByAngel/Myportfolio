@@ -85,9 +85,7 @@ const submit=async(name,mail,contact,message)=>
 			equip = xmlHttp.responseText;
 	console.log(equip);
 	console.log(xmlHttp.status);
-
-	};
-	if(xmlHttp.status == 200)
+if(xmlHttp.status == 200)
 		{
 			$("#contactform input").val("");
 		}
@@ -95,4 +93,6 @@ const submit=async(name,mail,contact,message)=>
 		{
 			alert("Not able to send Message. Try again later");
 		}
+	};
+	
 }
