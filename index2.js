@@ -82,7 +82,8 @@ const submit=async(name,mail,contact,message)=>
 	await xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
 	await xmlHttp.send("name="+name+"&email="+mail+"&mobile="+contact+"&message="+message+"&body="+body+"&reply="+reply+"&subject="+subject+"&sendmail=true");
 	xmlHttp.onload=()=>{
-		
+			equip = xmlHttp.responseText;
+
 	};
 	console.log(equip);
 	console.log(xmlHttp.status);
