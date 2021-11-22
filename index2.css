@@ -324,8 +324,8 @@ button {
 	font-family: Calistoga;
 	color: var(--black);
 	padding-left: 2vw;
-	position:absolute;
-	top:0px;
+	position: absolute;
+	top: 0px;
 }
 #education #section3-content {
 	margin-top: 3rem;
@@ -350,8 +350,7 @@ button {
 	z-index: 2;
 	color: var(--white);
 }
-#skills #mobile
-{
+#skills #mobile {
 	display: none;
 }
 #skills .heading {
@@ -824,40 +823,35 @@ button {
 	#education .content .edu:hover .edu-content .lead-desc {
 		height: 12rem;
 	}
-	#skills #desktop{
+	#skills #desktop {
 		display: none;
 	}
-	#skills
-	{
-		min-height:0px;
+	#skills {
+		min-height: 0px;
 	}
-	#skills #mobile
-	{
-		display:flex;
-		color:var(--font);
-		font-size:1.5rem;
-		justify-content:center;
-		align-items:center;
-		flex-direction:column;
-		padding:0px 0px 5rem 0px;
+	#skills #mobile {
+		display: flex;
+		color: var(--font);
+		font-size: 1.5rem;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 0px 0px 5rem 0px;
 	}
-	#skills #mobile .heading
-	{
-		position:relative;
-		text-align:center;
-		padding:0px 50px;
-		border-bottom:4px solid var(--font);
-		margin-bottom:2rem;
+	#skills #mobile .heading {
+		position: relative;
+		text-align: center;
+		padding: 0px 50px;
+		border-bottom: 4px solid var(--font);
+		margin-bottom: 2rem;
 	}
-	#skills #mobile ul
-	{
-		line-height:3rem;
-		list-style:square;
+	#skills #mobile ul {
+		line-height: 3rem;
+		list-style: square;
 	}
-	#skills #mobile li::marker
-	{
-		color:var(--secondary);
-		transform:scale(1.2);
+	#skills #mobile li::marker {
+		color: var(--secondary);
+		transform: scale(1.2);
 	}
 	#works .work-row {
 		flex-direction: column;
@@ -872,42 +866,41 @@ button {
 	#works .work .work-img-div {
 		height: 60vh;
 		width: 90vw;
-		border-radius:1rem;
+		border-radius: 1rem;
 		overflow: hidden;
 		position: absolute;
 	}
 	#works .work .title {
 		padding: 1rem 0.5rem;
-    z-index: 4;
-    background: var(--black);
-    position: relative;
-    border-radius: 1rem 1rem 0rem 0rem;
-    color: var(--white);
-    text-decoration: underline;
-    font-size: 1.2rem;
-    font-weight: bolder;
-    margin:0.75rem;
+		z-index: 4;
+		background: var(--black);
+		position: relative;
+		border-radius: 1rem 1rem 0rem 0rem;
+		color: var(--white);
+		text-decoration: underline;
+		font-size: 1.2rem;
+		font-weight: bolder;
 	}
-	#works .work .desc
-	{
+	#works .work .desc {
 		padding: 1rem;
-		font-size:1.2rem;
-		transition:all 0.25s linear;
-	    text-align: justify;
-	    color: var(--font);
-	    z-index: 2;
-	    height: 100%;
-	    background: white;
-	    border: 1px solid var(--light);
-	    box-shadow: inset 0rem 0rem 2rem rgb(121 121 121 / 40%), inset -0.1rem 0.1rem 1rem rgb(144 144 144 / 40%), 0.1rem 0.1rem 0.5rem rgb(255 255 255 / 40%);
+		font-size: 1.2rem;
+		transition: all 0.25s linear;
+		text-align: justify;
+		color: var(--font);
+		z-index: 2;
+		height: 100%;
+		background: white;
+		border: 1px solid var(--light);
+		box-shadow: inset 0rem 0rem 2rem rgb(121 121 121 / 40%),
+			inset -0.1rem 0.1rem 1rem rgb(144 144 144 / 40%),
+			0.1rem 0.1rem 0.5rem rgb(255 255 255 / 40%);
 	}
 	#works .work .work-img {
 		width: 100%;
 		height: 100vh;
-		transform:rotateY(180deg);
-		transition:all 0.25s linear;
-		transition-delay:0.125s;
-
+		transform: rotateY(180deg);
+		transition: all 0.25s linear;
+		transition-delay: 0.125s;
 	}
 	#works .work-row .work:nth-child(odd) .work-img {
 		/*clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);*/
@@ -923,25 +916,23 @@ button {
 		/*transform: scale(1);*/
 		/*clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);*/
 	}
-	#works .work-row .work:hover .desc
-	{
+	#works .work-row .work:hover .desc {
 		/*transform: rotateY(90deg);*/
-		background:transparent;
-		color:transparent;
+		background: transparent;
+		color: transparent;
 	}
-	#works .work-row .work:hover .desc .date
-	{
+	#works .work-row .work:hover .desc .date {
 		/*transform: rotateY(90deg);*/
-		color:transparent;
+		color: transparent;
 	}
-	#works .work-row .work:hover .desc .title
-	{
+	#works .work-row .work:hover .desc .title {
 		/*transform: rotateY(90deg);*/
-		background:white;
-		color:black;
+		background: white;
+		color: black;
+		box-shadow: 3px 3px 14px 3px black, 1px 1px 5px 1px white;
 	}
-	#works .work-row .work:hover .work-img
-	{
+
+	#works .work-row .work:hover .work-img {
 		transform: rotateY(0deg);
 	}
 
