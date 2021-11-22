@@ -886,6 +886,7 @@ button {
     text-decoration: underline;
     font-size: 1.2rem;
     font-weight: bolder;
+    margin:0.75rem;
 	}
 	#works .work .desc
 	{
