@@ -877,8 +877,15 @@ button {
 		position: absolute;
 	}
 	#works .work .title {
-		z-index: 4;
-		position: relative;
+		padding: 1rem 0.5rem;
+    z-index: 4;
+    background: var(--black);
+    position: relative;
+    border-radius: 1rem 1rem 0rem 0rem;
+    color: var(--white);
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: bolder;
 	}
 	#works .work .desc
 	{
