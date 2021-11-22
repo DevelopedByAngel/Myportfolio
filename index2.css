@@ -937,7 +937,7 @@ button {
 	#works .work-row .work:hover .desc .title
 	{
 		/*transform: rotateY(90deg);*/
-		background:var(--primary);
+		background:white;
 		color:black;
 	}
 	#works .work-row .work:hover .work-img
