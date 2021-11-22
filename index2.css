@@ -917,7 +917,7 @@ button {
 		/*transform: scale(1);*/
 		/*clip-path: polygon(0% 5%, 0% 100%, 100% 100%, 100% 5%);*/
 	}
-	#works .work-row .work:hover .desc {
+	#works .work-row .work:hover .desc div{
 		transform: rotateY(90deg);
 	}
 	#works .work-row .work:hover .work-img {
