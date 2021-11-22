@@ -929,10 +929,9 @@ button {
 		background:transparent;
 		color:transparent;
 	}
-	#works .work-row .work:hover .desc
+	#works .work-row .work:hover .desc .date
 	{
 		/*transform: rotateY(90deg);*/
-		background:transparent;
 		color:transparent;
 	}
 	#works .work-row .work:hover .work-img
