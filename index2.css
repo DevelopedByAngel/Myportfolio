@@ -929,7 +929,7 @@ button {
 		/*transform: rotateY(90deg);*/
 		background: white;
 		color: black;
-		box-shadow: 3px 3px 14px 3px black, 1px 1px 5px 1px white;
+		box-shadow: 3px 3px 14px 3px black, 1px 1px 1px 1px white;
 	}
 
 	#works .work-row .work:hover .work-img {
