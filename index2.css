@@ -927,6 +927,7 @@ button {
 	{
 		/*transform: rotateY(90deg);*/
 		background:transparent;
+		color:transparent;
 	}
 	#works .work-row .work:hover .work-img
 	{
