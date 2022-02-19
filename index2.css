@@ -805,7 +805,7 @@ button {
 		font-size: 3rem;
 		font-family: Calistoga;
 		border-bottom: 2px solid var(--dark);
-		color: var(--dark);
+		color: var(--darktext);
 		padding-left: 2vw;
 	}
 	#about .aboutme {
