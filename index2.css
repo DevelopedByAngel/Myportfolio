@@ -710,7 +710,7 @@ button {
 	color: var(--font);
 	transition: all 0.25s linear;
 	color: var(--light);
-	background: var(--dark);
+	background: var(--darktext);
 	font-weight: bold;
 }
 #contact input[type="submit"]:hover {
