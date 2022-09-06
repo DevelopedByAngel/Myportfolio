@@ -8,14 +8,14 @@
 	--font:#003559;
 	--white:white;
 */
-	--dark: #b4f0e4;
-	--darktext:#89e7d5;
-	--primary: #19e7c0;
+	--dark: #54BAB9;
+	--darktext:#002B5B;
+	--primary: #8FE3CF;
 	--secondary: #03cda7;
-	--light: #ddfff9;
-	--font: #1d1d1d;
-	--white: white;
-	--black: #535454;
+	--light: #8FE3CF;
+	--font: #2B4865;
+	--white: #F7ECDE;
+	--black: #002B5B;
 }
 html {
 	scroll-behavior: smooth;
@@ -118,11 +118,12 @@ button {
 	font-family: Nunito;
 	letter-spacing: 0.1rem;
 	font-size: 1.4rem;
-	color: var(--black);
+	color: var(--font);
 	opacity: 0.5;
 	font-style: italic;
 	/*	transform:skewX(-10deg);
 */
+text-shadow: 1px 0px 1px rgba(255,255,255,0.5);
 	letter-spacing: 0.01px;
 }
 #intro #head .buttons {
@@ -130,28 +131,20 @@ button {
 }
 #intro #head .about-btn {
 	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 0.5rem 1rem;
-	margin: 1.5rem 1rem 1.5rem 0rem;
-	font-size: 1.25rem;
-	box-shadow: 3px 3px 8px rgb(4 154 126 / 50%),
-		-3px -3px 8px rgb(221 255 249 / 80%);
-	border: 1px solid var(--white);
-	border-radius: 1rem;
-	background: var(--light);
-	color: var(--light);
-	transition: all 0.25s linear;
-	background-image: linear-gradient(
-		30deg,
-		#60d5bf,
-		#60d5bf,
-		#60d5bf,
-		#79f0da,
-		#60d5bf,
-		#60d5bf
-	);
-	font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 1rem 1.5rem 0rem;
+    font-size: 1.25rem;
+    box-shadow: 3px 3px 8px rgb(252 244 235 / 50%), -3px -3px 8px rgb(247 236 222 / 50%);
+    border: 1px solid var(--white);
+    border-radius: 1rem;
+    background: var(--light);
+    color: white;
+	text-shadow: 1px 1px rgb(0 0 0 / 30%);
+    transition: all 0.25s linear;
+    background-image: linear-gradient( 30deg, #E9DAC1, #E9DAC1, #E9DAC1, #fff9f2, #E9DAC1, #E9DAC1 );
+    font-weight: bold;
 }
 
 #intro #head button {
