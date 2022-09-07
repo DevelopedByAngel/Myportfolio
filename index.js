@@ -45,7 +45,9 @@ $("#nav>span a").on("click", () => {
 		$("#nav").css("width", "0rem");
 	}
 });
-
+window.onload=()=>{
+	alert("");
+}
 $("#contactform").on("submit",(e)=>
 	{
 		e.preventDefault();
