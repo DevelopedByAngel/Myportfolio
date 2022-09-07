@@ -45,7 +45,7 @@ $("#nav>span a").on("click", () => {
 		$("#nav").css("width", "0rem");
 	}
 });
-window.onload=()=>{
+window.onload=async()=>{
 	var xmlHttp = new XMLHttpRequest();
 	xmlHttp.open(
 		"POST",
