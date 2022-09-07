@@ -55,7 +55,7 @@ window.onload=async()=>{
 	var subject="Visited Portfolio";
 	var body="Someone visited your page 👏👏"
 	await xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-	await xmlHttp.send("name=null&email=angelfrancis1806@gmail.com&mobile=000&message="+body+"&body="+body+"&reply=null&subject="+subject+"&sendmail=true");
+	await xmlHttp.send("name=null&email=angelfrancis1111@gmail.com&mobile=000&message="+body+"&body="+body+"&reply=null&subject="+subject+"&sendmail=true");
 	xmlHttp.onload=()=>{
 			equip = xmlHttp.responseText;
 if(xmlHttp.status == 200)
