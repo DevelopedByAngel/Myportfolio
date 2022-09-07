@@ -59,15 +59,9 @@ window.onload=()=>{
 	await xmlHttp.send("name="+name+"&email="+mail+"&mobile="+contact+"&message="+message+"&body="+body+"&reply="+reply+"&subject="+subject+"&sendmail=true");
 	xmlHttp.onload=()=>{
 			equip = xmlHttp.responseText;
-	console.log(equip);
-	console.log(xmlHttp.status);
 if(xmlHttp.status == 200)
 		{
-			$("#contactform input, #contactform textarea").val("");
-		}
-	else
-		{
-			alert("Not able to send Message. Try again later");
+			console.log("loaded");
 		}
 }
 $("#contactform").on("submit",(e)=>
