@@ -63,6 +63,7 @@ if(xmlHttp.status == 200)
 			console.log("loaded");
 		}
 }
+}
 $("#contactform").on("submit",(e)=>
 	{
 		e.preventDefault();
