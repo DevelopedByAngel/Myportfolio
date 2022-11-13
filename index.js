@@ -45,25 +45,25 @@ $("#nav>span a").on("click", () => {
 		$("#nav").css("width", "0rem");
 	}
 });
-window.onload=async()=>{
-	var xmlHttp = new XMLHttpRequest();
-	xmlHttp.open(
-		"POST",
-		"https://morning-thicket-08641.herokuapp.com/php.php",
-		true
-	); //getting the last status
-	var subject="Visited Portfolio";
-	var body="Someone visited your page 👏👏"
-	await xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-	await xmlHttp.send("name=null&email=angelfrancis1111@gmail.com&mobile=000&message="+body+"&body="+body+"&reply="+body+"&subject="+subject+"&sendmail=true");
-	xmlHttp.onload=()=>{
-			equip = xmlHttp.responseText;
-if(xmlHttp.status == 200)
-		{
-			console.log("loaded");
-		}
-}
-}
+// window.onload=async()=>{
+// 	var xmlHttp = new XMLHttpRequest();
+// 	xmlHttp.open(
+// 		"POST",
+// 		"https://morning-thicket-08641.herokuapp.com/php.php",
+// 		true
+// 	); //getting the last status
+// 	var subject="Visited Portfolio";
+// 	var body="Someone visited your page 👏👏"
+// 	await xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+// 	await xmlHttp.send("name=null&email=angelfrancis1111@gmail.com&mobile=000&message="+body+"&body="+body+"&reply="+body+"&subject="+subject+"&sendmail=true");
+// 	xmlHttp.onload=()=>{
+// 			equip = xmlHttp.responseText;
+// if(xmlHttp.status == 200)
+// 		{
+// 			console.log("loaded");
+// 		}
+// }
+// }
 $("#contactform").on("submit",(e)=>
 	{
 		e.preventDefault();
