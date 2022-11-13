@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Nunito:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
 :root {
-  /*	--dark:#006989;
-	--primary:#3da1bf;
-	--secondary:#007090;
-	--light:#a3bac3;
-	--font:#003559;
-	--white:white;
+  /*  --dark:#006989;
+  --primary:#3da1bf;
+  --secondary:#007090;
+  --light:#a3bac3;
+  --font:#003559;
+  --white:white;
 */
 
-  --dark: #B2B2B2;
+  --dark: #b2b2b2;
   --darktext: #002b5b;
-  --primary: #00ABB3;
-  --secondary: #00ABB3;
-  --light: #EAEAEA;
-  --font: #3C4048;
-  --white: #EAEAEA;
-  --black: #3C4048;
+  --primary: #00abb3;
+  --secondary: #00abb3;
+  --light: #eaeaea;
+  --font: #3c4048;
+  --white: #eaeaea;
+  --black: #3c4048;
 }
 html {
   scroll-behavior: smooth;
@@ -122,7 +122,7 @@ button {
   color: var(--font);
   opacity: 0.5;
   font-style: italic;
-  /*	transform:skewX(-10deg);
+  /*  transform:skewX(-10deg);
 */
   text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.5);
   letter-spacing: 0.01px;
@@ -137,8 +137,8 @@ button {
   padding: 0.5rem 1rem;
   margin: 1.5rem 1rem 1.5rem 0rem;
   font-size: 1.25rem;
-  box-shadow: 3px 3px 8px rgb(252 244 235 / 50%),
-    -3px -3px 8px rgb(247 236 222 / 50%);
+  box-shadow: 3px 3px 8px rgb(234 234 234 / 50%),
+    -3px -3px 8px rgb(234 234 234 / 50%);
   border: 1px solid var(--white);
   border-radius: 1rem;
   background: var(--light);
@@ -147,12 +147,12 @@ button {
   transition: all 0.25s linear;
   background-image: linear-gradient(
     30deg,
-    #00ABB3,
-    #00ABB3,
-    #00ABB3,
-    #fff9f2,
-    #00ABB3,
-    #00ABB3
+    #00abb3,
+    #00abb3,
+    #00abb3,
+    #5fd7dd,
+    #00abb3,
+    #00abb3
   );
   font-weight: bold;
 }
