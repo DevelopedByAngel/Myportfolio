@@ -623,7 +623,7 @@ button {
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-top:0.2rem;
+  padding-top:1rem;
 }
 #contact .heading {
   height: 10vh;
