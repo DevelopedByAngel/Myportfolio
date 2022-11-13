@@ -54,7 +54,7 @@ button {
   color: var(--white);
   display: flex;
   text-shadow: 1px 1px 0px var(--black);
-  background: var(--black);
+  background: var(--primary);
   flex-direction: row;
   justify-content: flex-end;
   z-index: 5;
