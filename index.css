@@ -59,7 +59,7 @@ button {
   justify-content: flex-end;
   z-index: 5;
   height: 3rem;
-  box-shadow: 0px 4px 10px #000000cc, inset 0px 0px 5px #ddfff9;
+  box-shadow: 0px 4px 10px rgb(142 142 142 / 50%), inset 0px 0px 5px #ddfff9;
   transition: all 0.25s linear;
 }
 #nav .close {
