@@ -500,7 +500,7 @@ button {
 .pre,
 .next {
   position: absolute;
-  bottom: 7rem;
+  bottom: 10rem;
   font-size: 3rem;
   cursor: pointer;
   font-weight: bolder;
