@@ -682,12 +682,12 @@ button {
   -moz-text-fill-color: transparent;
   background-image: linear-gradient(
     30deg,
-    #2b4865,
-    #2b4865,
-    #2b4865,
-    #407cb8,
-    #2b4865,
-    #2b4865
+    #00abb3,
+    #00abb3,
+    #00abb3,
+    #5fd7dd,
+    #00abb3,
+    #00abb3
   );
 }
 #contact .fa {
