@@ -505,7 +505,7 @@ button {
   cursor: pointer;
   font-weight: bolder;
   color: var(--black);
-  fill:var(--primary);
+  fill:linear-gradient( 30deg, #00abb3, #00abb3, #00abb3, #5fd7dd, #00abb3, #00abb3 );
   height:3rem;
   width:3rem;
   -webkit-background-clip: text;
