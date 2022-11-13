@@ -524,6 +524,7 @@ button {
   display: flex;
   flex-direction: column;
   height: auto;
+  padding-top:1rem
 }
 #works .rotate {
   width: 22vw;
