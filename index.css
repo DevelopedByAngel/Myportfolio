@@ -507,6 +507,15 @@ button {
   color: var(--black);
   height:3rem;
   width:3rem;
+  background-image: linear-gradient(
+    30deg,
+    #00abb3,
+    #00abb3,
+    #00abb3,
+    #5fd7dd,
+    #00abb3,
+    #00abb3
+  );
 }
 .pre::selection,
 .next::selection {
