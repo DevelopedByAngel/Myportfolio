@@ -507,6 +507,11 @@ button {
   /*color: var(--black);*/
   height:3rem;
   width:3rem;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
   background-image: linear-gradient(
     30deg,
     #00abb3,
