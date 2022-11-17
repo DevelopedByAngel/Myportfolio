@@ -217,7 +217,7 @@ button {
   flex-direction: column;
   align-items: flex-start;
   height: 100vh;
-  padding-top:1rem;
+  padding-top: 1rem;
 }
 #education .content {
   display: flex;
@@ -350,7 +350,7 @@ button {
   background: var(--light);
   position: relative;
   z-index: 2;
-  padding-top:1rem;
+  padding-top: 1rem;
   color: var(--white);
 }
 #skills #mobile {
@@ -505,16 +505,17 @@ button {
   cursor: pointer;
   font-weight: bolder;
   color: var(--black);
-  fill:var(--black);
-  height:3rem;
-  width:3rem;
-/*  -webkit-background-clip: text;
+  fill: var(--black);
+  height: 3rem;
+  width: 3rem;
+  /*  -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     background-image: linear-gradient( 30deg, #00abb3, #00abb3, #00abb3, #5fd7dd, #00abb3, #00abb3 );
-*/}
+*/
+}
 .pre::selection,
 .next::selection {
   background: none;
@@ -533,7 +534,7 @@ button {
   display: flex;
   flex-direction: column;
   height: auto;
-  padding-top:1rem
+  padding-top: 1rem;
 }
 #works .rotate {
   width: 22vw;
@@ -635,7 +636,7 @@ button {
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-top:1rem;
+  padding-top: 1rem;
 }
 #contact .heading {
   height: 10vh;
