@@ -316,7 +316,7 @@ button {
   transform: translateX(-6px) translateY(2px);
 }
 #education .content .edu:hover .edu-content .lead-desc {
-  height: 4rem;
+  height: auto;
   padding: 10px;
 }
 #education .heading {
