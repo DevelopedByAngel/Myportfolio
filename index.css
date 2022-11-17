@@ -331,12 +331,12 @@ button {
 }
 #education #section3-content {
   margin-top: 3rem;
-  height: 90vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: fill;
+  /*height: fill;*/
 }
 #education .timeline-image {
   width: 40%;
