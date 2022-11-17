@@ -330,7 +330,7 @@ button {
   top: 0px;
 }
 #education #section3-content {
-  margin-top: 3rem;
+  margin: 3rem 0;
   height: auto;
   width: 100%;
   display: flex;
