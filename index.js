@@ -80,18 +80,17 @@ const mailO=()=>{
         Host: "smtp.elasticemail.com",
         Username: "ang311806@gmail.com",
         Password: "76CA546695B9792DDC89D31EF1DB1132E26D",
-        // SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
         To: 'angelfrancis1111@gmail.com',
         From: "ang311806@gmail.com",
         Subject: "Thanks for getting in touch",
-        Body: "Hi name,"+"\n"+"Happy to connect with you.\n\n"+"Regards,\nAngel F",
+        Body: "Hi name,\nHappy to connect with you.\n\nRegards,\nAngel F",
       })
         .then(function (message) {
         	console.log(message)
           alert("mail sent successfully")
         });
 }
-	mailO();
+mailO();
 
 const submit=async(name,mail,contact,message)=>
 {
