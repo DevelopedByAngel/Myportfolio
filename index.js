@@ -57,7 +57,10 @@ const mailTo = async (mail, subject, body) => {
 		Body: body,
 	}).then(function (message) {
 		console.log(message);
-		return message;
+		if (message == "OK")
+		$("#contactform input, #contactform textarea").val("");
+	else alert("Not able to send Message. Try again later");
+
 	});
 };
 
@@ -78,20 +81,16 @@ $("#contactform").on("submit", (e) => {
 });
 
 const submitContactInfo = async (name, mail, contact, message) => {
-	var infoMail = await mailTo(
+	await mailTo(
 		"angelfrancis1111@gmail.com",
 		"Angel Francis | Portfolio",
 		"Hi " +
 			name +
 			",<br>Happy to connect with you.<br>Regards,<br>Angel F<br>angelfrancis1111@gmail.com",
 	);
-	var contactMail = await mailTo(
+	await mailTo(
 		mail,
 		"Thanks for getting in touch",
 		name + "<br>" + mail + "<br>" + message + "<br>" + contact,
 	);
-	console.log(infoMail,contactMail);
-	if (infoMail == "OK" && contactMail == "OK")
-		$("#contactform input, #contactform textarea").val("");
-	else alert("Not able to send Message. Try again later");
 };
