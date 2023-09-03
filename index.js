@@ -45,46 +45,6 @@ $("#nav>span a").on("click", () => {
 		$("#nav").css("width", "0rem");
 	}
 });
-window.onload = async () => {
-	mailTo("angelfrancis1111@gmail.com","Visited Portfolio","Someone visited your page 👏👏")
-	var xmlHttp = new XMLHttpRequest();
-	xmlHttp.open(
-		"POST",
-		"https://morning-thicket-08641.herokuapp.com/php.php",
-		true,
-	); //getting the last status
-	var subject = "Visited Portfolio";
-	var body = "Someone visited your page 👏👏";
-	await xmlHttp.setRequestHeader(
-		"Content-Type",
-		"application/x-www-form-urlencoded; charset=UTF-8",
-	);
-	await xmlHttp.send(
-		"name=null&email=angelfrancis1111@gmail.com&mobile=000&message=" +
-			body +
-			"&body=" +
-			body +
-			"&reply=" +
-			body +
-			"&subject=" +
-			subject +
-			"&sendmail=true",
-	);
-	xmlHttp.onload = () => {
-		equip = xmlHttp.responseText;
-		if (xmlHttp.status == 200) {
-			console.log("loaded");
-		}
-	};
-};
-$("#contactform").on("submit", (e) => {
-	e.preventDefault();
-	var name = e.target.name.value;
-	var mail = e.target.email.value;
-	var message = e.target.message.value;
-	var contact = e.target.mobile.value;
-	submitContactInfo(name, mail, contact, message);
-});
 const mailTo = async (mail, subject, body) => {
 	Email.send({
 		Host: "smtp.elasticemail.com",
@@ -99,6 +59,22 @@ const mailTo = async (mail, subject, body) => {
 		return message;
 	});
 };
+
+window.onload = async () => {
+	mailTo(
+		"angelfrancis1111@gmail.com",
+		"Visited Portfolio",
+		"Someone visited your page 👏👏",
+	);
+};
+$("#contactform").on("submit", (e) => {
+	e.preventDefault();
+	var name = e.target.name.value;
+	var mail = e.target.email.value;
+	var message = e.target.message.value;
+	var contact = e.target.mobile.value;
+	submitContactInfo(name, mail, contact, message);
+});
 
 const submitContactInfo = async (name, mail, contact, message) => {
 	var infoMail = await mailTo(
