@@ -112,18 +112,7 @@ const submit=async(name,mail,contact,message)=>
         .then(function (message) {
         	console.log(message)
         });
-	// fetch("https://morning-thicket-08641.herokuapp.com/php.php", {
- //      method: "POST",
- //      headers: { "Content-Type": "application/json" },
- //      body: JSON.stringify({
- //        name:name,
- //        email:mail,
- //        mobile:contact,
- //        message:message
- //      }),
- //    })
- //      .then((res) => res.json())
- //      .then((r)=>console.log(r));
+
 	var xmlHttp = new XMLHttpRequest();
 	xmlHttp.open(
 		"POST",
