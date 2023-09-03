@@ -115,7 +115,23 @@ const submit=async(name,mail,contact,message)=>
         	else
         		alert("Not able to send Message. Try again later");
         });
-      
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "ang311806@gmail.com",
+        Password: "76CA546695B9792DDC89D31EF1DB1132E26D",
+        To: mail,
+        From: "ang311806@gmail.com",
+        Subject: "Thanks for getting in touch",
+        Body: "Hi "+name+",<br>Happy to connect with you.<br>Regards,<br>Angel F<br>angelfrancis1111@gmail.com",
+      })
+        .then(function (message) {
+        	console.log(message);
+        	if(message==="OK")
+        		$("#contactform input, #contactform textarea").val("");	
+        	else
+        		alert("Not able to send Message. Try again later");
+        });
+
 
 	}
 
