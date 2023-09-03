@@ -89,7 +89,7 @@ const mailO=()=>{
         .then(function (message) {
         	console.log(message)
           alert("mail sent successfully")
-        });
+        }).catch(err=>console.log(err))
 }
 	mailO();
 
