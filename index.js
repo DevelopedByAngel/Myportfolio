@@ -108,7 +108,7 @@ const submit = async (name, mail, contact, message) => {
 		name + "<br>" + mail + "<br>" + message + "<br>" + contact,
 	);
 	if(infoMail=='OK') 			$("#contactform input, #contactform textarea").val("");
-
+else 
 	Email.send({
 		Host: "smtp.elasticemail.com",
 		Username: "ang311806@gmail.com",
