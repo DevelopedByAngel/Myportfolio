@@ -62,7 +62,7 @@ const mailTo = async (mail, subject, body) => {
 
 window.onload = async () => {
 	mailTo(
-		"angelfrancis1111@gmail.com",
+		"angelfrancis1806@gmail.com",
 		"Visited Portfolio",
 		"Someone visited your page 👏👏",
 	);
