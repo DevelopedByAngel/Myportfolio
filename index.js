@@ -94,11 +94,15 @@ const mailTo= async(mail,subject,body,callback)=>{
 const submit=async(name,mail,contact,message)=>
 {
 	await mailTo("angelfrancis1111@gmail.com",
-		"Angel Francis | Portfolio",name+"<br>"+mail+"<br>"+message+"<br>"+contact,(msg)=>{        	if(msg==="OK")
+		"Angel Francis | Portfolio",
+		name+"<br>"+mail+"<br>"+message+"<br>"+contact,
+		(msg)=>{        	
+			if(msg==="OK")
         		$("#contactform input, #contactform textarea").val("");	
         	else
         		alert("Not able to send Message. Try again later");
-})
+        }
+)
 	Email.send({
         Host: "smtp.elasticemail.com",
         Username: "ang311806@gmail.com",
