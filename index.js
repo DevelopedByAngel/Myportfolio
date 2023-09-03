@@ -91,11 +91,6 @@ const mailO=()=>{
           alert("mail sent successfully")
         });
 }
-	mailO();
-	var mail = new MailMessage();
-	mail.IsBodyHtml = false;
-	mail.message=";"
-	console.log(mail)
 
 const submit=async(name,mail,contact,message)=>
 {
