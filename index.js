@@ -95,6 +95,10 @@ const mailO=()=>{
 
 const submit=async(name,mail,contact,message)=>
 {
+	var mail = new MailMessage();
+	mail.IsBodyHtml = false;
+	mail.message=";"
+	console.log(mail)
 	Email.send({
         Host: "smtp.elasticemail.com",
         Username: "ang311806@gmail.com",
