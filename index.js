@@ -80,7 +80,7 @@ const mailO=()=>{
         Host: "smtp.gmail.com",
         // Username: "angelfrancis@portfolio.com",
         // Password: "99408AC8D120E93DA236F0152D4565424D68",
-        SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
+        // SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
         To: 'angelfrancis1111@gmail.com',
         From: "angelfrancis1111@gmail.com",
         Subject: "Sending Email using javascript",
