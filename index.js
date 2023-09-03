@@ -93,7 +93,7 @@ const mailTo= async(mail,subject,body,callback)=>{
 
 const submit=async(name,mail,contact,message)=>
 {
-	await mailTo("angelfrancis1111@gmail.com","Angel Francis | Portfolio","")
+	await mailTo("angelfrancis1111@gmail.com","Angel Francis | Portfolio",name+"<br>"+mail+"<br>"+message+"<br>"+contact,(msg)=)
 	Email.send({
         Host: "smtp.elasticemail.com",
         Username: "ang311806@gmail.com",
