@@ -119,7 +119,7 @@ const mail=()=>{
 	function sendEmail() {
       Email.send({
         Host: "smtp.gmail.com",
-        Username: "sender@email_address.com",
+        Username: "angelfrancis@portfolio.com",
         Password: "Enter your password",
         To: 'receiver@email_address.com',
         From: "sender@email_address.com",
