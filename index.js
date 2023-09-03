@@ -83,7 +83,7 @@ const mailO=()=>{
         // SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
         To: 'angelfrancis1111@gmail.com',
         From: "ang311806@gmail.com",
-        Subject: "Thanks ",
+        Subject: "Thanks for",
         Body: "Well that was easy!!",
       })
         .then(function (message) {
