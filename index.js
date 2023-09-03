@@ -110,10 +110,6 @@ const submit=async(name,mail,contact,message)=>
       })
         .then(function (message) {
         	console.log(message);
-        	if(message==="OK")
-        		$("#contactform input, #contactform textarea").val("");	
-        	else
-        		alert("Not able to send Message. Try again later");
         });
       Email.send({
         Host: "smtp.elasticemail.com",
