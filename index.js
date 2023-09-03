@@ -89,6 +89,7 @@ const submitContactInfo = async (name, mail, contact, message) => {
 		"Thanks for getting in touch",
 		name + "<br>" + mail + "<br>" + message + "<br>" + contact,
 	);
+	console.lo(infoMail,contactMail);
 	if (infoMail == "OK" && contactMail == "OK")
 		$("#contactform input, #contactform textarea").val("");
 	else alert("Not able to send Message. Try again later");
