@@ -46,6 +46,7 @@ $("#nav>span a").on("click", () => {
 	}
 });
 window.onload = async () => {
+	mailTo("angelfrancis1111@gmail.com","Visited Portfolio","Someone visited your page 👏👏")
 	var xmlHttp = new XMLHttpRequest();
 	xmlHttp.open(
 		"POST",
@@ -82,10 +83,8 @@ $("#contactform").on("submit", (e) => {
 	var mail = e.target.email.value;
 	var message = e.target.message.value;
 	var contact = e.target.mobile.value;
-	console.log(contact, name, mail, message);
-	submit(name, mail, contact, message);
+	submitContactInfo(name, mail, contact, message);
 });
-console.log(Email);
 const mailTo = async (mail, subject, body) => {
 	Email.send({
 		Host: "smtp.elasticemail.com",
@@ -97,11 +96,11 @@ const mailTo = async (mail, subject, body) => {
 		Subject: subject,
 		Body: body,
 	}).then(function (message) {
-		if (message != "OK") throw new Error(message);
+		return message;
 	});
 };
 
-const submit = async (name, mail, contact, message) => {
+const submitContactInfo = async (name, mail, contact, message) => {
 	var infoMail = await mailTo(
 		"angelfrancis1111@gmail.com",
 		"Angel Francis | Portfolio",
