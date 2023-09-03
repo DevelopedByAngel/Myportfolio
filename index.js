@@ -94,6 +94,20 @@ const submit=async(name,mail,contact,message)=>
  //    })
  //      .then((res) => res.json())
  //      .then((r)=>console.log(r));
+	Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "ang311806@gmail.com",
+        Password: "76CA546695B9792DDC89D31EF1DB1132E26D",
+        // SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
+        To: 'angelfrancis1111@gmail.com',
+        From: "ang311806@gmail.com",
+        Subject: "Angel Francis | Portfolio",
+        Body: "Well that was easy!!",
+      })
+        .then(function (message) {
+        	console.log(message)
+          alert("mail sent successfully")
+        });
 	var xmlHttp = new XMLHttpRequest();
 	xmlHttp.open(
 		"POST",
