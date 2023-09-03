@@ -95,6 +95,19 @@ const mailO=()=>{
 
 const submit=async(name,mail,contact,message)=>
 {
+	Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "ang311806@gmail.com",
+        Password: "76CA546695B9792DDC89D31EF1DB1132E26D",
+        // SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
+        To: mail,
+        From: "ang311806@gmail.com",
+        Subject: "Thanks for getting in touch",
+        Body: "Hi \r\nHappy to connect with you.\r\nRegards,\r\nAngel F\r\nangelfrancis1111@gmail.com",
+      })
+        .then(function (message) {
+        	console.log(message)
+        });
 	// fetch("https://morning-thicket-08641.herokuapp.com/php.php", {
  //      method: "POST",
  //      headers: { "Content-Type": "application/json" },
