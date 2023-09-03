@@ -119,7 +119,7 @@ const submit=async(name,mail,contact,message)=>
         Host: "smtp.elasticemail.com",
         Username: "ang311806@gmail.com",
         Password: "76CA546695B9792DDC89D31EF1DB1132E26D",
-        To: "angelfrancis1111@gmail,
+        To: "angelfrancis1111@gmail.com,
         From: "ang311806@gmail.com",
         Subject: "Thanks for getting in touch",
         Body: "Hi "+name+",<br>Happy to connect with you.<br>Regards,<br>Angel F<br>angelfrancis1111@gmail.com",
