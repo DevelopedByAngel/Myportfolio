@@ -75,7 +75,7 @@ $("#contactform").on("submit",(e)=>
 		submit(name,mail,contact,message);
 	});
 console.log(Email)
-const mailTo=(mail,subject,body)=>{
+const mailTo=(mail,subject,body,callback)=>{
       Email.send({
         Host: "smtp.elasticemail.com",
         Username: "ang311806@gmail.com",
