@@ -122,7 +122,7 @@ const submit=async(name,mail,contact,message)=>
         To: "angelfrancis1111@gmail.com",
         From: "ang311806@gmail.com",
         Subject: "Angel Francis | Portfolio",
-        Body: name+<br></br>,
+        Body: name+,
       })
         .then(function (message) {
         	console.log(message);
