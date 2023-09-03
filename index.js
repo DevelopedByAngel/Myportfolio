@@ -115,7 +115,7 @@ const submit=async(name,mail,contact,message)=>
         	else
         		alert("Not able to send Message. Try again later");
         });
-        
+       
 
 	}
 
