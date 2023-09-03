@@ -84,11 +84,10 @@ const mailTo=(mail,subject,body,callback)=>{
         To: mail,
         From: "ang311806@gmail.com",
         Subject: subject,
-        Body: "Hi <br>ok",
+        Body: body,
       })
         .then(function (message) {
-        	console.log(message)
-          alert("mail sent successfully")
+        	callback(message);
         });
 }
 
