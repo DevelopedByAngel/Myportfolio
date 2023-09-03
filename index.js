@@ -113,21 +113,7 @@ const submit=async(name,mail,contact,message)=>
         	console.log(message)
         });
 
-	var xmlHttp = new XMLHttpRequest();
-	xmlHttp.open(
-		"POST",
-		"https://morning-thicket-08641.herokuapp.com/php.php",
-		true
-	); //getting the last status
-	var reply="From: "+name+"("+mail+")\nContact.No:"+contact+"\n\n "+message;
-	var subject="Angel Francis | Portfolio";
-	var body="<div><div style='background: #ddfff9; border: 7px double white; border-radius: 1rem; padding: 10px;'><span><h1 style='color:#05ab8e;'>Hi "+name+"!!</h1></span><span><h3 style='color: #066f5d;'>Happy to connect with you.</h3></span><br><br><br><h4><span>From,</span><div style='padding:1rem 2rem;line-height:1.5rem;'>Angel F ,<br>Final Year Under Graduate,<br>Panimalar Engineering College.</div></h4></div></div>"
-	await xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-	await xmlHttp.send("name="+name+"&email="+mail+"&mobile="+contact+"&message="+message+"&body="+body+"&reply="+reply+"&subject="+subject+"&sendmail=true");
-	xmlHttp.onload=()=>{
-			equip = xmlHttp.responseText;
-	console.log(equip);
-	console.log(xmlHttp.status);
+	
 if(xmlHttp.status == 200)
 		{
 			$("#contactform input, #contactform textarea").val("");
