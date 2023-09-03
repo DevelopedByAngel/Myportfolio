@@ -2,12 +2,7 @@
 <html>
 	<head>
 		<title>Angel Francis | Portfolio</title>
-		<link rel="stylesheet" href="index.css" type="text/css" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
-		<link rel="icon" href="wings.png" />
+		<!-- Website information -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="Angel Francis Portfolio" />
@@ -33,6 +28,14 @@
 		<meta property="og:image:width" content="256" />
 		<meta property="og:image:height" content="256" />
 		<meta property="og:image:alt" content="Angel Francis" />
+
+		<!-- icon and css files -->
+		<link rel="icon" href="wings.png" />
+		<link rel="stylesheet" href="index.css" type="text/css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 	</head>
 	<body itemscope itemtype="http://schema.org/Person">
 		<noscript>You need to enable JavaScript to view this website</noscript>
@@ -40,12 +43,12 @@
 		<div class="menu"><i class="fa fa-bars"></i></div>
 		<div id="nav">
 			<i class="fa fa-times close"></i>
-			<span><a href="#intro">Home</a></span>
-			<span><a href="#about">About</a></span>
-			<span><a href="#education">Education & experience</a></span>
-			<span><a href="#skills">Skills</a></span>
-			<span><a href="#works">Works</a></span>
-			<span><a href="#contact">Contact me</a></span>
+			<span class="nav-item"><a class="nav-link" href="#intro">Home</a></span>
+			<span class="nav-item"><a class="nav-link" href="#about">About</a></span>
+			<span class="nav-item"><a class="nav-link" href="#education">Education & experience</a></span>
+			<span class="nav-item"><a class="nav-link" href="#skills">Skills</a></span>
+			<span class="nav-item"><a class="nav-link" href="#works">Works</a></span>
+			<span class="nav-item"><a class="nav-link" href="#contact">Contact me</a></span>
 		</div>
 		<div id="main" class="main">
 			<div id="intro" class="section intro-section">
@@ -256,14 +259,18 @@
 								<div class="place">
 									<span class="lead">Cognizant</span>
 									<p class="lead-desc">
-										Currently working as Software Engineering trainee in ADM service line in Healthcare services.
+										Currently working as Software
+										Engineering trainee in ADM service line
+										in Healthcare services.
 									</p>
 								</div>
 								<span class="before"></span>
 							</div>
 							<div class="date">
 								<span class="circle"></span>
-								<div class="cover"><span>November, 2022</span></div>
+								<div class="cover">
+									<span>November, 2022</span>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -633,9 +640,7 @@
 		<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 		<!--for icons-->
 		<script type="text/javascript" src="js/tilt.js"></script>
-		<script src=
-    "https://smtpjs.com/v3/smtp.js">
-  </script>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
 		<script type="text/javascript" src="index.js"></script>
 	</body>
 </html>
