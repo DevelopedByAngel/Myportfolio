@@ -94,7 +94,7 @@ const mailTo= async(mail,subject,body,callback)=>{
 const submit=async(name,mail,contact,message)=>
 {
 	await mailTo("angelfrancis1111@gmail.com",
-		"Angel Francis | Portfolio",
+		   "Angel Francis | Portfolio",
 		name+"<br>"+mail+"<br>"+message+"<br>"+contact,
 		(msg)=>{        	
 			if(msg==="OK")
@@ -111,18 +111,6 @@ const submit=async(name,mail,contact,message)=>
         From: "ang311806@gmail.com",
         Subject: "Thanks for getting in touch",
         Body: "Hi "+name+",<br>Happy to connect with you.<br>Regards,<br>Angel F<br>angelfrancis1111@gmail.com",
-      })
-        .then(function (message) {
-        	console.log(message);
-        });
-      Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "ang311806@gmail.com",
-        Password: "76CA546695B9792DDC89D31EF1DB1132E26D",
-        To: "angelfrancis1111@gmail.com",
-        From: "ang311806@gmail.com",
-        Subject: "",
-        Body: ,
       })
         .then(function (message) {
         	console.log(message);
