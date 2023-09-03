@@ -75,7 +75,6 @@ $("#contactform").on("submit",(e)=>
 		submit(name,mail,contact,message);
 	});
 const mail=()=>{
-	function sendEmail() {
       Email.send({
         Host: "smtp.gmail.com",
         // Username: "angelfrancis@portfolio.com",
@@ -89,7 +88,6 @@ const mail=()=>{
         .then(function (message) {
           alert("mail sent successfully")
         });
-    }
 }
 const submit=async(name,mail,contact,message)=>
 {
