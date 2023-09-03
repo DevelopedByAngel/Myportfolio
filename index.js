@@ -103,7 +103,7 @@ const submit=async(name,mail,contact,message)=>
         To: mail,
         From: "ang311806@gmail.com",
         Subject: "Thanks for getting in touch",
-        Body: "Hi \r\nHappy to connect with you.\r\nRegards,\r\nAngel F\r\nangelfrancis1111@gmail.com",
+        Body: "Hi "+name+"\r\nHappy to connect with you.\r\nRegards,\r\nAngel F\r\nangelfrancis1111@gmail.com",
       })
         .then(function (message) {
         	console.log(message)
