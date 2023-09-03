@@ -75,7 +75,7 @@ $("#contactform").on("submit",(e)=>
 		submit(name,mail,contact,message);
 	});
 console.log(Email)
-const mailTo=(mail,subject,body,callback)=>{
+const mailTo= async(mail,subject,body,callback)=>{
       Email.send({
         Host: "smtp.elasticemail.com",
         Username: "ang311806@gmail.com",
@@ -93,6 +93,7 @@ const mailTo=(mail,subject,body,callback)=>{
 
 const submit=async(name,mail,contact,message)=>
 {
+	awamailTo
 	Email.send({
         Host: "smtp.elasticemail.com",
         Username: "ang311806@gmail.com",
