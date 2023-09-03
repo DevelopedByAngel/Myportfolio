@@ -87,6 +87,7 @@ const mailO=()=>{
         Body: "Well that was easy!!",
       })
         .then(function (message) {
+        	console.log(message)
           alert("mail sent successfully")
         });
 }
