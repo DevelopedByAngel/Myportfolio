@@ -110,7 +110,9 @@ const submit=async(name,mail,contact,message)=>
         Body: "Hi "+name+",<br>Happy to connect with you.<br>Regards,<br>Angel F<br>angelfrancis1111@gmail.com",
       })
         .then(function (message) {
-        	console.log(message)
+        	console.log(message);
+        	if(mess
+        		)
         });
 
 	
