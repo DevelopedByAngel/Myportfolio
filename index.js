@@ -105,22 +105,16 @@ const submit = async (name, mail, contact, message) => {
 	var infoMail = await mailTo(
 		"angelfrancis1111@gmail.com",
 		"Angel Francis | Portfolio",
-		name + "<br>" + mail + "<br>" + message + "<br>" + contact,
-	);
-	if(infoMail=='OK') 			$("#contactform input, #contactform textarea").val("");
-else 
-	Email.send({
-		Host: "smtp.elasticemail.com",
-		Username: "ang311806@gmail.com",
-		Password: "76CA546695B9792DDC89D31EF1DB1132E26D",
-		To: mail,
-		From: "ang311806@gmail.com",
-		Subject: "Thanks for getting in touch",
-		Body:
-			"Hi " +
+		"Hi " +
 			name +
 			",<br>Happy to connect with you.<br>Regards,<br>Angel F<br>angelfrancis1111@gmail.com",
-	}).then(function (message) {
-		console.log(message);
-	});
+	);
+	var contactMail = await mailTo(
+		mail,
+		"Thanks for getting in touch",
+		name + "<br>" + mail + "<br>" + message + "<br>" + contact,
+	);
+	if (infoMail == "OK" && contactMail == "OK")
+		$("#contactform input, #contactform textarea").val("");
+	else alert("Not able to send Message. Try again later");
 };
