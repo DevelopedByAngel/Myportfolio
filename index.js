@@ -77,10 +77,10 @@ $("#contactform").on("submit",(e)=>
 console.log(Email)
 const mailO=()=>{
       Email.send({
-        // Host: "smtp.gmail.com",
-        // Username: "angelfrancis@portfolio.com",
-        // Password: "99408AC8D120E93DA236F0152D4565424D68",
-        SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
+        Host: "smtp.gmail.com",
+        Username: "angelfrancis@portfolio.com",
+        Password: "99408AC8D120E93DA236F0152D4565424D68",
+        // SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
         To: 'angelfrancis1111@gmail.com',
         From: "ang311806@gmail.com",
         Subject: "Sending Email using javascript",
