@@ -74,8 +74,26 @@ $("#contactform").on("submit",(e)=>
 		console.log(contact,name,mail,message);
 		submit(name,mail,contact,message);
 	});
+const mail=()=>{
+	function sendEmail() {
+      Email.send({
+        Host: "smtp.gmail.com",
+        // Username: "angelfrancis@portfolio.com",
+        // Password: "99408AC8D120E93DA236F0152D4565424D68",
+        SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
+        To: 'angelfrancis111@gmail.com',
+        From: "angelfrancis111@gmail.com",
+        Subject: "Sending Email using javascript",
+        Body: "Well that was easy!!",
+      })
+        .then(function (message) {
+          alert("mail sent successfully")
+        });
+    }
+}
 const submit=async(name,mail,contact,message)=>
 {
+	mail();
 	// fetch("https://morning-thicket-08641.herokuapp.com/php.php", {
  //      method: "POST",
  //      headers: { "Content-Type": "application/json" },
@@ -115,20 +133,3 @@ if(xmlHttp.status == 200)
 	
 }
 
-const mail=()=>{
-	function sendEmail() {
-      Email.send({
-        Host: "smtp.gmail.com",
-        // Username: "angelfrancis@portfolio.com",
-        // Password: "99408AC8D120E93DA236F0152D4565424D68",
-        SecureToken:"994268e4-5260-4d15-abe5-004c6ceb37c1",
-        To: 'angelfrancis111@gmail.com',
-        From: "angelfrancis111@gmail.com",
-        Subject: "Sending Email using javascript",
-        Body: "Well that was easy!!",
-      })
-        .then(function (message) {
-          alert("mail sent successfully")
-        });
-    }
-}
