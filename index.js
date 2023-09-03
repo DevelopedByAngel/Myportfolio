@@ -74,6 +74,7 @@ $("#contactform").on("submit",(e)=>
 		console.log(contact,name,mail,message);
 		submit(name,mail,contact,message);
 	});
+console.log(Email)
 const mail=()=>{
       Email.send({
         Host: "smtp.gmail.com",
