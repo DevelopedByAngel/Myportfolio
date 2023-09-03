@@ -91,9 +91,10 @@ const mailO=()=>{
           alert("mail sent successfully")
         });
 }
+	mailO();
+
 const submit=async(name,mail,contact,message)=>
 {
-	mailO();
 	// fetch("https://morning-thicket-08641.herokuapp.com/php.php", {
  //      method: "POST",
  //      headers: { "Content-Type": "application/json" },
