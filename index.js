@@ -84,7 +84,8 @@ const mailO=()=>{
         To: 'angelfrancis1111@gmail.com',
         From: "ang311806@gmail.com",
         Subject: "Thanks for getting in touch",
-        Body: "<span>Hi name</span></br>Regards",
+        Body: ```<span>Hi name</span></br>
+        Regards```,
       })
         .then(function (message) {
         	console.log(message)
