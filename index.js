@@ -56,6 +56,7 @@ const mailTo = async (mail, subject, body) => {
 		Subject: subject,
 		Body: body,
 	}).then(function (message) {
+		console.log(message);
 		return message;
 	});
 };
