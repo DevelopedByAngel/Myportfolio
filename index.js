@@ -75,7 +75,7 @@ $("#contactform").on("submit",(e)=>
 		submit(name,mail,contact,message);
 	});
 console.log(Email)
-const mail=()=>{
+const mailO=()=>{
       Email.send({
         Host: "smtp.gmail.com",
         // Username: "angelfrancis@portfolio.com",
@@ -92,7 +92,7 @@ const mail=()=>{
 }
 const submit=async(name,mail,contact,message)=>
 {
-	mail();
+	mailO();
 	// fetch("https://morning-thicket-08641.herokuapp.com/php.php", {
  //      method: "POST",
  //      headers: { "Content-Type": "application/json" },
