@@ -111,8 +111,7 @@ const submit=async(name,mail,contact,message)=>
       })
         .then(function (message) {
         	console.log(message);
-        	if(mess
-   )
+        	if(message)
         });
 
 	
