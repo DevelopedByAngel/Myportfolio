@@ -114,3 +114,7 @@ if(xmlHttp.status == 200)
 	};
 	
 }
+
+const mail=()=>{
+	
+}
