@@ -843,7 +843,7 @@ button {
     align-items: center;
   }
   #education .content .edu:hover .edu-content .lead-desc {
-    height: fit-content;
+    max-height:100rem;
   }
   #skills #desktop {
     display: none;
