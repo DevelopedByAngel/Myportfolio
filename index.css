@@ -750,7 +750,7 @@ button {
 {
       align-self: flex-start;
     margin-left: 1rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: var(--light);
 }
 @media (max-width: 768px) {
