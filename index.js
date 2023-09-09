@@ -64,11 +64,11 @@ const mailTo = async (mail, subject, body) => {
 };
 
 window.onload = async () => {
-	mailTo(
-		"angelfrancis1806@gmail.com",
-		"Visited Portfolio",
-		"Someone visited your page 👏👏",
-	);
+	// mailTo(
+	// 	"angelfrancis1806@gmail.com",
+	// 	"Visited Portfolio",
+	// 	"Someone visited your page 👏👏",
+	// );
 };
 $("#contactform").on("submit", (e) => {
 	e.preventDefault();
