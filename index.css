@@ -253,7 +253,7 @@ button {
 }
 #education .content .edu .edu-content .lead-desc {
   height: fit-content;
-  max-hei
+  max-height:0rem;
   overflow: hidden;
   background: var(--black);
   color: var(--light);
