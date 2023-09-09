@@ -83,7 +83,7 @@ const submitContactInfo = async (name, mail, contact, message) => {
 	await mailTo(
 		"angelfrancis1111@gmail.com",
 		"Angel Francis | Portfolio",
-		"Name: "name + "<br>" + mail + "<br>" + message + "<br>" + contact,
+		"Name: "+name + "<br>" + mail + "<br>" + message + "<br>" + contact,
 	);
 	await mailTo(
 		mail,
