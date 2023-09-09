@@ -914,6 +914,7 @@ button {
     box-shadow: inset 0rem 0rem 2rem rgb(121 121 121 / 40%),
       inset -0.1rem 0.1rem 1rem rgb(144 144 144 / 40%),
       0.1rem 0.1rem 0.5rem rgb(255 255 255 / 40%);
+      overflow:scroll;
   }
   #works .work .work-img {
     width: 100%;
