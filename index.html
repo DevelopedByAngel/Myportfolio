@@ -39,39 +39,47 @@
 	</head>
 	<body itemscope itemtype="http://schema.org/Person">
 		<noscript>You need to enable JavaScript to view this website</noscript>
-		<div id="svg"></div>
-		<div class="menu"><i class="fa fa-bars"></i></div>
+		<div id="nav-mobile-icon"><i class="fa fa-bars"></i></div>
 		<div id="nav">
 			<i class="fa fa-times close"></i>
-			<span class="nav-item"><a class="nav-link" href="#intro">Home</a></span>
-			<span class="nav-item"><a class="nav-link" href="#about">About</a></span>
-			<span class="nav-item"><a class="nav-link" href="#education">Education & experience</a></span>
-			<span class="nav-item"><a class="nav-link" href="#skills">Skills</a></span>
-			<span class="nav-item"><a class="nav-link" href="#works">Works</a></span>
-			<span class="nav-item"><a class="nav-link" href="#contact">Contact me</a></span>
+			<span class="nav-item"
+				><a class="nav-link" href="#intro">Home</a></span
+			>
+			<span class="nav-item"
+				><a class="nav-link" href="#about">About</a></span
+			>
+			<span class="nav-item"
+				><a class="nav-link" href="#education"
+					>Education & experience</a
+				></span
+			>
+			<span class="nav-item"
+				><a class="nav-link" href="#skills">Skills</a></span
+			>
+			<span class="nav-item"
+				><a class="nav-link" href="#works">Works</a></span
+			>
+			<span class="nav-item"
+				><a class="nav-link" href="#contact">Contact me</a></span
+			>
 		</div>
 		<div id="main" class="main">
 			<div id="intro" class="section intro-section">
-				<div
-					id="pic"
-					class="image"
-					onmousemove="imageEnter(event);"
-					onmouseleave="imageLeave(event);"
-				>
+				<div id="pic" class="intro-image" data-tilt>
 					<img
 						itemprop="image"
 						src="portfolio.png"
-						data-tilt
-						id="pic-img"
+						id="intro-image-img"
 						alt="Angel"
 					/>
+					<!-- data-tilt marked for tilting image. tilt.js -->
 				</div>
 				<div id="head" class="heading">
-					<span class="name" itemprop="name">Angel F</span>
-					<span class="description" itemprop="jobTitle"
+					<span class="head-name" itemprop="name">Angel F</span>
+					<span class="head-description" itemprop="jobTitle"
 						>Web developer</span
 					>
-					<div class="buttons">
+					<div class="head-buttons">
 						<button
 							class="about-btn"
 							onclick="window.scrollTo(0,document.getElementById('about').offsetTop);"
@@ -93,20 +101,29 @@
 					<span class="content" itemprop="description">
 						<span>
 							I am an undergraduate of Bachelor of Engineering in
-							the stream of Computer Science from Panimalar Engineering College. Until
-							now I have found myself successful in accomplishing
-							some of my goals. Until You spread your wings you
-							will have no idea how far you fly. And I am putting
-							in a little more effort each day to know how far I
-							can go.
+							the stream of Computer Science from Panimalar
+							Engineering College. Until now I have found myself
+							successful in accomplishing some of my goals. Until
+							You spread your wings you will have no idea how far
+							you fly. And I am putting in a little more effort
+							each day to know how far I can go.
 						</span>
 						<br />
 						<br />
 						<span>
-							I am a passionate full-stack web developer. Currently working at Cognizant as Software Engineer Trainee in Web production Support team. I have
-							created websites for my own learning and experience which you can find below and also projects done as part of my graduate degree. I have experience working on Web development including React and NodeJS. Also worked on Python for image recognition and Java.
-							<a href="" target="_blank">Also apart 
-							from work I love sketching and art & craft works.</a>
+							I am a passionate full-stack web developer.
+							Currently working at Cognizant as Software Engineer
+							Trainee in Web production Support team. I have
+							created websites for my own learning and experience
+							which you can find below and also projects done as
+							part of my graduate degree. I have experience
+							working on Web development including React and
+							NodeJS. Also worked on Python for image recognition
+							and Java.
+							<a href="" target="_blank"
+								>Also apart from work I love sketching and art &
+								craft works.</a
+							>
 						</span>
 					</span>
 				</div>
@@ -115,10 +132,12 @@
 				<span class="heading">Education <br />& Experience</span>
 				<div id="section3-content">
 					<div class="content">
-						<div class="edu">
-							<div class="date">
-								<div class="cover"><span>May, 2016</span></div>
-								<span class="circle"></span>
+						<div class="edu-container">
+							<div class="edu-date">
+								<div class="date-cover">
+									<span>May, 2016</span>
+								</div>
+								<span class="date-line-circle"></span>
 							</div>
 							<div class="edu-content">
 								<span class="before"></span>
@@ -132,7 +151,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="edu">
+						<div class="edu-container">
 							<div class="edu-content">
 								<div class="place">
 									<span class="lead">12th - HSC</span>
@@ -144,15 +163,19 @@
 								</div>
 								<span class="before"></span>
 							</div>
-							<div class="date">
-								<span class="circle"></span>
-								<div class="cover"><span>May, 2018</span></div>
+							<div class="edu-date">
+								<span class="date-line-circle"></span>
+								<div class="date-cover">
+									<span>May, 2018</span>
+								</div>
 							</div>
 						</div>
-						<div class="edu">
-							<div class="date">
-								<div class="cover"><span>June, 2020</span></div>
-								<span class="circle"></span>
+						<div class="edu-container">
+							<div class="edu-date">
+								<div class="date-cover">
+									<span>June, 2020</span>
+								</div>
+								<span class="date-line-circle"></span>
 							</div>
 							<div class="edu-content">
 								<span class="before"></span>
@@ -166,7 +189,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="edu">
+						<div class="edu-container">
 							<div class="edu-content">
 								<div class="place">
 									<span class="lead">Sparks Foundation</span>
@@ -178,19 +201,19 @@
 								</div>
 								<span class="before"></span>
 							</div>
-							<div class="date">
-								<span class="circle"></span>
-								<div class="cover">
+							<div class="edu-date">
+								<span class="date-line-circle"></span>
+								<div class="date-cover">
 									<span>September, 2020</span>
 								</div>
 							</div>
 						</div>
-						<div class="edu">
-							<div class="date">
-								<div class="cover">
+						<div class="edu-container">
+							<div class="edu-date">
+								<div class="date-cover">
 									<span>April, 2021</span>
 								</div>
-								<span class="circle"></span>
+								<span class="date-line-circle"></span>
 							</div>
 							<div class="edu-content">
 								<span class="before"></span>
@@ -214,7 +237,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="edu">
+						<div class="edu-container">
 							<div class="edu-content">
 								<div class="place">
 									<span class="lead">Zoho - ZLabs</span>
@@ -225,17 +248,19 @@
 								</div>
 								<span class="before"></span>
 							</div>
-							<div class="date">
-								<span class="circle"></span>
-								<div class="cover"><span>May, 2021</span></div>
+							<div class="edu-date">
+								<span class="date-line-circle"></span>
+								<div class="date-cover">
+									<span>May, 2021</span>
+								</div>
 							</div>
 						</div>
-						<div class="edu">
-							<div class="date">
-								<div class="cover">
+						<div class="edu-container">
+							<div class="edu-date">
+								<div class="date-cover">
 									<span>Feburary, 2022</span>
 								</div>
-								<span class="circle"></span>
+								<span class="date-line-circle"></span>
 							</div>
 							<div class="edu-content">
 								<span class="before"></span>
@@ -249,22 +274,22 @@
 								</div>
 							</div>
 						</div>
-						<div class="edu">
+						<div class="edu-container">
 							<div class="edu-content">
 								<div class="place">
-									<span class="lead">Cognizant - FTE
-									</span>
+									<span class="lead">Cognizant - FTE </span>
 									<p class="lead-desc">
 										Currently working as Software
 										Engineering trainee in ADM service line
-										in Healthcare services as part of Web L2/L3 Production Support Team.
+										in Healthcare services as part of Web
+										L2/L3 Production Support Team.
 									</p>
 								</div>
 								<span class="before"></span>
 							</div>
-							<div class="date">
-								<span class="circle"></span>
-								<div class="cover">
+							<div class="edu-date">
+								<span class="date-line-circle"></span>
+								<div class="date-cover">
 									<span>November, 2022</span>
 								</div>
 							</div>
@@ -276,23 +301,22 @@
 				</div>
 			</div>
 			<div id="skills" class="section skils-section">
-				<div id="mobile">
+				<div id="skills-mobile">
 					<span class="heading">Skills</span>
-
 					<ul>
-						<li>HTML & CSS</li>
-						<li>Java Script</li>
-						<li>Python</li>
-						<li>Java</li>
-						<li>JQuery</li>
-						<li>OpenCV</li>
-						<li>MySql</li>
-						<li>React JS</li>
+						<li class="skills-list-item">HTML & CSS</li>
+						<li class="skills-list-item">Java Script</li>
+						<li class="skills-list-item">Python</li>
+						<li class="skills-list-item">Java</li>
+						<li class="skills-list-item">JQuery</li>
+						<li class="skills-list-item">OpenCV</li>
+						<li class="skills-list-item">MySql</li>
+						<li class="skills-list-item">React JS</li>
 					</ul>
 				</div>
-				<div id="desktop">
+				<div id="skills-desktop">
 					<span class="heading">Skills</span>
-					<div class="cover">
+					<div class="skills-cover">
 						<div class="spinner">
 							<div class="skill">
 								<span><img src="s/1.png" /></span>
@@ -353,9 +377,9 @@
 				<div class="section5-content">
 					<div class="work-row">
 						<div class="work" id="work9">
-							<div class="content">
-								<div class="desc">
-									<div class="title">
+							<div class="work-content">
+								<div class="work-desc">
+									<div class="work-title">
 										A-yo<a
 											href="https://a-yo.netlify.app/"
 											target="_blank"
@@ -365,7 +389,7 @@
 									Messaging app to send direct and group
 									messages. The UI of this app is a cloning of
 									whatsapp.
-									<p class="date">
+									<p class="work-date">
 										<span>November, 2022</span>
 									</p>
 								</div>
@@ -375,13 +399,13 @@
 							</div>
 						</div>
 						<div class="work" id="work8">
-							<div class="content">
+							<div class="work-content">
 								<div class="work-img-div">
 									<img class="work-img" src="works/8.jpg" />
 								</div>
 
-								<div class="desc">
-									<div class="title">
+								<div class="work-desc">
+									<div class="work-title">
 										ZyoFiSik<a
 											href="https://zyofisik.herokuapp.com/"
 											target="_blank"
@@ -403,10 +427,10 @@
 					</div>
 					<!-- <div class="work-row">
 						<div class="work" id="work4">
-							<div class="content">
+							<div class="work-content">
 								
-								<div class="desc">
-									<div class="title">
+								<div class="work-desc">
+									<div class="work-title">
 										Smart Star
 										<a
 											href="https://smartstar.herokuapp.com/"
@@ -430,12 +454,12 @@
 							</div>
 						</div>
 						<div class="work" id="work5">
-							<div class="content">
+							<div class="work-content">
 								<div class="work-img-div">
 									<img class="work-img" src="works/5.PNG" />
 								</div>
-								<div class="desc">
-									<div class="title">
+								<div class="work-desc">
+									<div class="work-title">
 										Black Sheep<a
 											href="https://blacksheeptamil.herokuapp.com/"
 											target="_blank"
@@ -461,9 +485,9 @@
 					</div> -->
 					<div class="work-row">
 						<div class="work" id="work7">
-							<div class="content">
-								<div class="desc">
-									<div class="title">
+							<div class="work-content">
+								<div class="work-desc">
+									<div class="work-title">
 										Agro Pro's
 										<a
 											href="https://agro-pros.netlify.app/"
@@ -486,12 +510,12 @@
 							</div>
 						</div>
 						<div class="work" id="work1">
-							<div class="content">
+							<div class="work-content">
 								<div class="work-img-div">
 									<img class="work-img" src="works/1.jpg" />
 								</div>
-								<div class="desc">
-									<div class="title">
+								<div class="work-desc">
+									<div class="work-title">
 										The Sugar Sage<a
 											href="https://developedbyangel.github.io/TheSugarSage/"
 											target="_blank"
@@ -509,9 +533,9 @@
 					</div>
 					<div class="work-row">
 						<div class="work" id="work2">
-							<div class="content">
-								<div class="desc">
-									<div class="title">
+							<div class="work-content">
+								<div class="work-desc">
+									<div class="work-title">
 										Remainder<a
 											href="https://angelfrancis.pythonanywhere.com/"
 											target="_blank"
@@ -533,12 +557,12 @@
 							</div>
 						</div>
 						<div class="work" id="work3">
-							<div class="content">
+							<div class="work-content">
 								<div class="work-img-div">
 									<img class="work-img" src="works/4.jpg" />
 								</div>
-								<div class="desc">
-									<div class="title">
+								<div class="work-desc">
+									<div class="work-title">
 										Smart Irrigation System
 										<a
 											href="https://developedbyangel.github.io/Smart-Agro-System/"
@@ -564,7 +588,18 @@
 						</div>
 					</div>
 				</div>
-				<span id="warning-unavailable"><span style="color: #ff0050;font-weight:bold;font-size: 1.2rem;">*</span> Few projects are not available due to changes within services used for deployment.</span>
+				<span id="warning-unavailable"
+					><span
+						style="
+							color: #ff0050;
+							font-weight: bold;
+							font-size: 1.2rem;
+						"
+						>*</span
+					>
+					Few projects are not available due to changes within
+					services used for deployment.</span
+				>
 			</div>
 			<div id="contact" class="section contact-section">
 				<span class="heading">Contact Me</span>
