@@ -318,7 +318,7 @@ button {
   transform: translateX(-6px) translateY(2px);
 }
 #education .content .edu:hover .edu-content .lead-desc {
-  max-height
+  max-height:
   padding: 10px;
 }
 #education .heading {
