@@ -252,7 +252,7 @@ button {
   padding: 10px 10px 0px 10px;
 }
 #education .content .edu .edu-content .lead-desc {
-  height: 0rem;
+  height: fit-content;
   overflow: hidden;
   background: var(--black);
   color: var(--light);
