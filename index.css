@@ -318,6 +318,7 @@ button {
   transform: translateX(-6px) translateY(2px);
 }
 #education .content .edu:hover .edu-content .lead-desc {
+  
   padding: 10px;
 }
 #education .heading {
