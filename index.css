@@ -216,7 +216,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 100vh;
+  height: fit-content;
   padding-top: 1rem;
 }
 #education .content {
