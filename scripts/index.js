@@ -30,17 +30,18 @@ const mailTo = async (mail, subject, body) => {
 		console.log(message);
 		if (message == "OK")
 			$("#contactform input, #contactform textarea").val("");
-		else alert("Not able to send Message. Try again later");
+		else console.error("Error occurred. Not able to connect to service.")
+		// else alert("Not able to send Message. Try again later");
 	});
 };
 
-window.onload = async () => {
-	mailTo(
-		"angelfrancis1806@gmail.com",
-		"Visited Portfolio",
-		"Someone visited your page 👏👏",
-	);
-};
+// window.onload = async () => {
+// 	mailTo(
+// 		"angelfrancis1806@gmail.com",
+// 		"Visited Portfolio",
+// 		"Someone visited your page 👏👏",
+// 	);
+// };
 $("#contactform").on("submit", (e) => {
 	e.preventDefault();
 	var name = e.target.name.value;
